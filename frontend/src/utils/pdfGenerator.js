@@ -2,12 +2,16 @@
 // SCHEME PDF GENERATOR
 // =====================================================================
 //
-// Uses html2pdf loaded from CDN.
+// Uses html2pdf.js installed through npm.
+// No CDN script injection.
+// No window.html2pdf dependency.
 //
-// IMPORTANT:
-// We create a temporary visible DOM element instead of rendering from
-// a container positioned at -9999px with a negative z-index.
-// That avoids blank/white PDFs produced by html2canvas.
+// =====================================================================
+
+import html2pdf from "html2pdf.js";
+
+// =====================================================================
+// HTML ESCAPE
 // =====================================================================
 
 function escapeHtml(value) {
@@ -15,20 +19,24 @@ function escapeHtml(value) {
     value === null ||
     value === undefined
   ) {
-    return '';
+    return "";
   }
 
   return String(value)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
+
+// =====================================================================
+// BUILD PDF HTML
+// =====================================================================
 
 export function buildSchemePdfHtml(scheme) {
   if (!scheme) {
-    return '';
+    return "";
   }
 
   const {
@@ -46,18 +54,18 @@ export function buildSchemePdfHtml(scheme) {
     description.summary ||
     description.short ||
     description.full ||
-    'No description available.';
+    "No description available.";
 
   const benefitText =
     benefit.benefit_description ||
     (
       benefit.amount
-        ? `${benefit.currency || '₹'}${benefit.amount}${
+        ? `${benefit.currency || "₹"}${benefit.amount}${
             benefit.frequency
               ? ` (${benefit.frequency})`
-              : ''
+              : ""
           }`
-        : 'Not specified.'
+        : "Not specified."
     );
 
   const eligibilityLines = [
@@ -96,11 +104,6 @@ export function buildSchemePdfHtml(scheme) {
       ? application.steps
       : [];
 
-  const pdfFileId =
-    scheme.scheme_id ||
-    scheme.id ||
-    'scheme';
-
   return `
     <div
       style="
@@ -114,8 +117,6 @@ export function buildSchemePdfHtml(scheme) {
         font-size: 12px;
       "
     >
-
-      <!-- HEADER -->
 
       <div
         style="
@@ -143,12 +144,10 @@ export function buildSchemePdfHtml(scheme) {
         >
           Government Scheme Reference Sheet
           • Generated ${escapeHtml(
-            new Date().toLocaleDateString('en-IN')
+            new Date().toLocaleDateString("en-IN")
           )}
         </p>
       </div>
-
-      <!-- SCHEME HEADER -->
 
       <div
         style="
@@ -180,7 +179,7 @@ export function buildSchemePdfHtml(scheme) {
                 )}
               </div>
             `
-            : ''
+            : ""
         }
 
         <h2
@@ -192,7 +191,7 @@ export function buildSchemePdfHtml(scheme) {
         >
           ${escapeHtml(
             scheme.scheme_name ||
-            'Unnamed Scheme'
+            "Unnamed Scheme"
           )}
         </h2>
 
@@ -211,7 +210,7 @@ export function buildSchemePdfHtml(scheme) {
                 )}
               </p>
             `
-            : ''
+            : ""
         }
 
         <p
@@ -225,13 +224,7 @@ export function buildSchemePdfHtml(scheme) {
         </p>
       </div>
 
-      <!-- KEY BENEFIT -->
-
-      <div
-        style="
-          margin-bottom: 15px;
-        "
-      >
+      <div style="margin-bottom: 15px;">
         <strong
           style="
             color: #1e3a8a;
@@ -251,19 +244,11 @@ export function buildSchemePdfHtml(scheme) {
             color: #065f46;
           "
         >
-          ${escapeHtml(
-            benefitText
-          )}
+          ${escapeHtml(benefitText)}
         </div>
       </div>
 
-      <!-- ELIGIBILITY -->
-
-      <div
-        style="
-          margin-bottom: 15px;
-        "
-      >
+      <div style="margin-bottom: 15px;">
         <strong
           style="
             color: #1e3a8a;
@@ -286,16 +271,12 @@ export function buildSchemePdfHtml(scheme) {
                 ${eligibilityLines
                   .map(
                     (line) => `
-                      <li
-                        style="
-                          margin-bottom: 3px;
-                        "
-                      >
+                      <li style="margin-bottom: 3px;">
                         ${escapeHtml(line)}
                       </li>
                     `
                   )
-                  .join('')}
+                  .join("")}
               </ul>
             `
             : `
@@ -311,13 +292,7 @@ export function buildSchemePdfHtml(scheme) {
         }
       </div>
 
-      <!-- DOCUMENTS -->
-
-      <div
-        style="
-          margin-bottom: 15px;
-        "
-      >
+      <div style="margin-bottom: 15px;">
         <strong
           style="
             color: #1e3a8a;
@@ -340,18 +315,14 @@ export function buildSchemePdfHtml(scheme) {
                 ${documents
                   .map(
                     (doc) => `
-                      <li
-                        style="
-                          margin-bottom: 3px;
-                        "
-                      >
+                      <li style="margin-bottom: 3px;">
                         ${escapeHtml(
                           formatPdfValue(doc)
                         )}
                       </li>
                     `
                   )
-                  .join('')}
+                  .join("")}
               </ul>
             `
             : `
@@ -367,13 +338,7 @@ export function buildSchemePdfHtml(scheme) {
         }
       </div>
 
-      <!-- HOW TO APPLY -->
-
-      <div
-        style="
-          margin-bottom: 15px;
-        "
-      >
+      <div style="margin-bottom: 15px;">
         <strong
           style="
             color: #1e3a8a;
@@ -396,18 +361,14 @@ export function buildSchemePdfHtml(scheme) {
                 ${steps
                   .map(
                     (step) => `
-                      <li
-                        style="
-                          margin-bottom: 4px;
-                        "
-                      >
+                      <li style="margin-bottom: 4px;">
                         ${escapeHtml(
                           formatPdfValue(step)
                         )}
                       </li>
                     `
                   )
-                  .join('')}
+                  .join("")}
               </ol>
             `
             : `
@@ -422,8 +383,6 @@ export function buildSchemePdfHtml(scheme) {
             `
         }
       </div>
-
-      <!-- AUTHORITY -->
 
       <div
         style="
@@ -442,7 +401,7 @@ export function buildSchemePdfHtml(scheme) {
 
         ${escapeHtml(
           authority.ministry_department ||
-          'Not specified'
+          "Not specified"
         )}
 
         <br />
@@ -453,7 +412,7 @@ export function buildSchemePdfHtml(scheme) {
 
         ${escapeHtml(
           identifiers.category ||
-          'Not specified'
+          "Not specified"
         )}
 
         ${
@@ -469,11 +428,9 @@ export function buildSchemePdfHtml(scheme) {
                 source.official_website
               )}
             `
-            : ''
+            : ""
         }
       </div>
-
-      <!-- FOOTER -->
 
       <div
         style="
@@ -493,39 +450,46 @@ export function buildSchemePdfHtml(scheme) {
   `;
 }
 
+// =====================================================================
+// FORMAT PDF VALUE
+// =====================================================================
+
 function formatPdfValue(value) {
   if (
     value === null ||
     value === undefined
   ) {
-    return '';
+    return "";
   }
 
   if (
-    typeof value === 'string' ||
-    typeof value === 'number'
+    typeof value === "string" ||
+    typeof value === "number"
   ) {
     return String(value);
   }
 
-  if (typeof value === 'boolean') {
-    return value ? 'Yes' : 'No';
+  if (typeof value === "boolean") {
+    return value ? "Yes" : "No";
   }
 
   if (Array.isArray(value)) {
     return value
       .map(formatPdfValue)
       .filter(Boolean)
-      .join(', ');
+      .join(", ");
   }
 
-  if (typeof value === 'object') {
+  if (typeof value === "object") {
     return Object.entries(value)
       .map(
         ([key, val]) =>
-          `${key.replace(/_/g, ' ')}: ${formatPdfValue(val)}`
+          `${key.replace(
+            /_/g,
+            " "
+          )}: ${formatPdfValue(val)}`
       )
-      .join(' • ');
+      .join(" • ");
   }
 
   return String(value);
@@ -535,84 +499,257 @@ function formatPdfValue(value) {
 // DOWNLOAD PDF
 // =====================================================================
 
-export async function downloadSchemePdf(scheme, pdfPrintContainerRef, showToast) {
-  if (!scheme) return;
-
-  if (typeof window === 'undefined' || typeof window.html2pdf !== 'function') {
-    showToast('PDF module is loading. Please try again in a few seconds.');
+export async function downloadSchemePdf(
+  scheme,
+  pdfPrintContainerRef,
+  showToast
+) {
+  if (!scheme) {
     return;
   }
 
-  if (!pdfPrintContainerRef || !pdfPrintContainerRef.current) {
-    console.error('[PDF] Missing PDF container ref.');
-    showToast('Unable to prepare PDF.');
+  if (
+    !pdfPrintContainerRef ||
+    !pdfPrintContainerRef.current
+  ) {
+    console.error(
+      "[PDF] Missing PDF container ref."
+    );
+
+    showToast(
+      "Unable to prepare PDF."
+    );
+
     return;
   }
 
-  const container = pdfPrintContainerRef.current;
-  const fileName = `Sarkaari-Saathi-${scheme.scheme_id || scheme.id || 'scheme'}.pdf`;
+  const container =
+    pdfPrintContainerRef.current;
 
-  // --- NEW: neutralize the host page's scroll/scrollbar state ---
-  const prevScrollX = window.scrollX;
-  const prevScrollY = window.scrollY;
-  const prevHtmlOverflow = document.documentElement.style.overflow;
-  const prevBodyOverflow = document.body.style.overflow;
+  const fileName =
+    `Sarkaari-Saathi-${
+      scheme.scheme_id ||
+      scheme.id ||
+      "scheme"
+    }.pdf`;
+
+  // ---------------------------------------------------------------
+  // Save page state
+  // ---------------------------------------------------------------
+
+  const prevScrollX =
+    window.scrollX;
+
+  const prevScrollY =
+    window.scrollY;
+
+  const prevHtmlOverflow =
+    document.documentElement.style.overflow;
+
+  const prevBodyOverflow =
+    document.body.style.overflow;
 
   window.scrollTo(0, 0);
-  document.documentElement.style.overflow = 'hidden';
-  document.body.style.overflow = 'hidden';
+
+  document.documentElement.style.overflow =
+    "hidden";
+
+  document.body.style.overflow =
+    "hidden";
 
   try {
-    container.innerHTML = buildSchemePdfHtml(scheme);
-    container.style.width = '750px';
-    container.style.background = '#ffffff';
-    container.style.color = '#0f172a';
+    // -------------------------------------------------------------
+    // Build temporary PDF content
+    // -------------------------------------------------------------
 
-    await new Promise((resolve) => {
-      requestAnimationFrame(() => requestAnimationFrame(resolve));
-    });
+    container.innerHTML =
+      buildSchemePdfHtml(
+        scheme
+      );
 
-    const width = Math.ceil(container.getBoundingClientRect().width) || container.scrollWidth;
-    const height = Math.ceil(container.scrollHeight);
+    container.style.width =
+      "750px";
 
-    if (!width || !height) {
-      throw new Error('PDF container has zero dimensions.');
+    container.style.background =
+      "#ffffff";
+
+    container.style.color =
+      "#0f172a";
+
+    container.style.display =
+      "block";
+
+    container.style.position =
+      "fixed";
+
+    container.style.left =
+      "0";
+
+    container.style.top =
+      "0";
+
+    container.style.zIndex =
+      "-1";
+
+    // -------------------------------------------------------------
+    // Allow browser to render
+    // -------------------------------------------------------------
+
+    await new Promise(
+      (resolve) => {
+        requestAnimationFrame(() => {
+          requestAnimationFrame(
+            resolve
+          );
+        });
+      }
+    );
+
+    const width =
+      Math.ceil(
+        container.getBoundingClientRect()
+          .width
+      ) ||
+      container.scrollWidth;
+
+    const height =
+      Math.ceil(
+        container.scrollHeight
+      );
+
+    if (
+      !width ||
+      !height
+    ) {
+      throw new Error(
+        "PDF container has zero dimensions."
+      );
     }
 
-    showToast('📄 Generating PDF...');
+    showToast(
+      "📄 Generating PDF..."
+    );
+
+    // -------------------------------------------------------------
+    // PDF OPTIONS
+    // -------------------------------------------------------------
 
     const options = {
       margin: 0.4,
+
       filename: fileName,
-      image: { type: 'jpeg', quality: 0.98 },
+
+      image: {
+        type: "jpeg",
+        quality: 0.98,
+      },
+
       html2canvas: {
         scale: 2,
-        backgroundColor: '#ffffff',
+
+        backgroundColor:
+          "#ffffff",
+
         useCORS: true,
+
         allowTaint: false,
-        logging: true,
+
+        logging: false,
+
         width,
+
         height,
-        windowWidth: width,
-        windowHeight: height,
-        x: 0,          // NEW: pin crop origin explicitly
-        y: 0,           // NEW
+
+        windowWidth:
+          width,
+
+        windowHeight:
+          height,
+
+        x: 0,
+
+        y: 0,
+
         scrollX: 0,
-        scrollY: 0
+
+        scrollY: 0,
       },
-      jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait', compress: true },
-      pagebreak: { mode: ['css', 'legacy'] }
+
+      jsPDF: {
+        unit: "in",
+
+        format: "letter",
+
+        orientation:
+          "portrait",
+
+        compress: true,
+      },
+
+      pagebreak: {
+        mode: [
+          "css",
+          "legacy",
+        ],
+      },
     };
 
-    await window.html2pdf().set(options).from(container).save();
-    showToast('✅ Scheme PDF downloaded.');
+    // -------------------------------------------------------------
+    // GENERATE
+    // -------------------------------------------------------------
+
+    await html2pdf()
+      .set(options)
+      .from(container)
+      .save();
+
+    showToast(
+      "✅ Scheme PDF downloaded."
+    );
+
   } catch (error) {
-    console.error('[PDF] Generation failed:', error);
-    showToast('Unable to generate the PDF. Please try again.');
+
+    console.error(
+      "[PDF] Generation failed:",
+      error
+    );
+
+    showToast(
+      "Unable to generate the PDF. Please try again."
+    );
+
   } finally {
-    container.innerHTML = '';
-    document.documentElement.style.overflow = prevHtmlOverflow;
-    document.body.style.overflow = prevBodyOverflow;
-    window.scrollTo(prevScrollX, prevScrollY);
+
+    // -------------------------------------------------------------
+    // Cleanup
+    // -------------------------------------------------------------
+
+    container.innerHTML = "";
+
+    container.style.display =
+      "";
+
+    container.style.position =
+      "";
+
+    container.style.left =
+      "";
+
+    container.style.top =
+      "";
+
+    container.style.zIndex =
+      "";
+
+    document.documentElement.style.overflow =
+      prevHtmlOverflow;
+
+    document.body.style.overflow =
+      prevBodyOverflow;
+
+    window.scrollTo(
+      prevScrollX,
+      prevScrollY
+    );
   }
 }
