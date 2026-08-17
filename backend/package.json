@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
-    "build": "npm --prefix ../frontend run build"
+    "build": "npm --prefix ../frontend install && npm --prefix ../frontend run build"
   },
   "keywords": [],
   "author": "",
