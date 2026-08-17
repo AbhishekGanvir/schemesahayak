@@ -1,0 +1,2027 @@
+[
+{
+"scheme_id": "PM-KISAN",
+"scheme_name": "Pradhan Mantri Kisan Samman Nidhi",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Farmer",
+"sub_category": "Farmer Income Support",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"social_welfare"
+],
+"target_group": "Landholding farmer families",
+"benefit_type": "Cash Transfer",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Kisan Samman Nidhi",
+"scheme_id": "PM-KISAN",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Farmer",
+"sub_category": "Farmer Income Support",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"social_welfare"
+],
+"target_group": "Landholding farmer families",
+"benefit_type": "Cash Transfer",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 6000,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": 6000,
+"benefit_description": "Income support of Rs. 6,000 per year is provided to eligible landholding farmer families in three equal installments."
+},
+"description": {
+"summary": "Provides annual income support to eligible landholding farmer families through three equal installments.",
+"short": "Annual income support for eligible landholding farmer families.",
+"full": "PM-KISAN provides income support of Rs. 6,000 per year to eligible landholding farmer families, subject to the scheme's eligibility and exclusion criteria."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": true,
+"aadhaar_linked": null
+},
+"conditions": [
+"The beneficiary must be an eligible landholding farmer family under the scheme guidelines.",
+"State Government and UT administrations identify eligible farmer families.",
+"The scheme contains specified exclusion categories."
+],
+"exclusions": [
+"Institutional land holders",
+"Specified higher economic status categories listed in the PM-KISAN guidelines"
+]
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"CSC"
+],
+"steps": []
+},
+"payment": {
+"method": "Direct Benefit Transfer",
+"dbt": true,
+"bank_account_required": true,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "How much financial support is provided under PM-KISAN?",
+"answer": "Eligible landholding farmer families receive Rs. 6,000 per year in three equal installments."
+},
+{
+"question": "How is the PM-KISAN benefit transferred?",
+"answer": "The benefit is directly transferred to the bank accounts of beneficiaries."
+}
+],
+"tags": [
+"farmer",
+"agriculture",
+"income_support",
+"dbt"
+],
+"identification_keywords": [
+"farmer income support",
+"PM Kisan",
+"6000 farmer scheme",
+"farmer financial assistance"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": true,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": true,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://www.pmkisan.gov.in/](https://www.pmkisan.gov.in/)",
+"official_notification": null,
+"source_reference": "PM-KISAN official scheme information and operational guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the official PM-KISAN Government of India portal, including current 2026 scheme information and installment data."
+}
+},
+{
+"scheme_id": "PMFBY",
+"scheme_name": "Pradhan Mantri Fasal Bima Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Farmer",
+"sub_category": "Crop Insurance",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"insurance"
+],
+"target_group": "Farmers",
+"benefit_type": "Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Fasal Bima Yojana",
+"scheme_id": "PMFBY",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Farmer",
+"sub_category": "Crop Insurance",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"insurance"
+],
+"target_group": "Farmers",
+"benefit_type": "Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides crop insurance protection against specified crop losses, with farmer premium rates capped according to crop and season."
+},
+"description": {
+"summary": "Provides crop insurance protection to farmers against covered crop losses and helps stabilize farm income.",
+"short": "Crop insurance scheme for farmers.",
+"full": "PMFBY provides comprehensive crop insurance coverage for notified crops and areas against specified risks. The maximum farmer premium is 2% for Kharif foodgrain and oilseed crops, 1.5% for Rabi foodgrain and oilseed crops, and 5% for annual commercial and horticultural crops."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Coverage applies to notified crops and notified areas under the scheme.",
+"Non-loanee farmers with insurable interest may participate voluntarily.",
+"Loanee farmers obtaining crop loans or KCC for notified crops are covered according to applicable scheme provisions."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Bank"
+],
+"steps": []
+},
+"payment": {
+"method": "Insurance Claim",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the maximum farmer premium under PMFBY?",
+"answer": "The maximum farmer premium is 2% of the sum insured for Kharif foodgrain and oilseed crops, 1.5% for Rabi foodgrain and oilseed crops, and 5% for annual commercial and horticultural crops."
+}
+],
+"tags": [
+"farmer",
+"agriculture",
+"crop_insurance",
+"insurance"
+],
+"identification_keywords": [
+"crop insurance",
+"farmer insurance",
+"PMFBY",
+"crop loss protection"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": true,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": true,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://www.pmfby.gov.in/](https://www.pmfby.gov.in/)",
+"official_notification": null,
+"source_reference": "PMFBY official portal, FAQ and operational guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current official PMFBY Government of India portal, including 2026 portal activity and operational guidelines."
+}
+},
+{
+"scheme_id": "PMAY-G",
+"scheme_name": "Pradhan Mantri Awaas Yojana-Gramin",
+"scheme_name_local": "प्रधान मंत्री आवास योजना-ग्रामीण",
+"identifiers": {
+"category": "Housing",
+"sub_category": "Rural Housing",
+"gender": "All",
+"state": "India",
+"sector": "Rural Development",
+"domains": [
+"housing",
+"rural_development",
+"social_welfare"
+],
+"target_group": "Eligible rural houseless households and households living in kutcha or dilapidated houses",
+"benefit_type": "Housing Assistance",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Awaas Yojana-Gramin",
+"scheme_id": "PMAY-G",
+"ministry_department": "Ministry of Rural Development, Department of Rural Development",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Housing",
+"sub_category": "Rural Housing",
+"sector": "Rural Development",
+"domains": [
+"housing",
+"rural_development",
+"social_welfare"
+],
+"target_group": "Eligible rural houseless households and households living in kutcha or dilapidated houses",
+"benefit_type": "Housing Assistance",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial assistance for construction of pucca houses with basic amenities to eligible rural households. Assistance varies by area and applicable scheme provisions."
+},
+"description": {
+"summary": "Supports eligible rural households in constructing pucca houses with basic amenities.",
+"short": "Rural housing assistance for eligible households.",
+"full": "PMAY-G aims to provide pucca houses with basic amenities to eligible houseless rural households and households living in kutcha or dilapidated houses. The Union Cabinet approved continuation of the scheme for FY 2024-25 to 2028-29."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"The household must fall within the eligibility framework of PMAY-G.",
+"The scheme targets houseless rural households and households living in kutcha or dilapidated houses."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office",
+"Portal"
+],
+"steps": []
+},
+"payment": {
+"method": "Financial Assistance",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does PMAY-G provide?",
+"answer": "The scheme provides assistance for eligible rural households to construct pucca houses with basic amenities."
+},
+{
+"question": "Is PMAY-G currently continuing?",
+"answer": "Yes. The Union Cabinet approved continuation of PMAY-G for FY 2024-25 to 2028-29."
+}
+],
+"tags": [
+"housing",
+"rural_housing",
+"rural_development",
+"pucca_house"
+],
+"identification_keywords": [
+"rural housing",
+"PMAY Gramin",
+"house construction assistance",
+"government house scheme"
+],
+"related_domains": {
+"health": false,
+"housing": true,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://pmayg.dord.gov.in/](https://pmayg.dord.gov.in/)",
+"official_notification": null,
+"source_reference": "PMAY-G official portal and Cabinet continuation documentation for FY 2024-25 to 2028-29",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the Ministry of Rural Development's current PMAY-G portal and official continuation documentation."
+}
+},
+{
+"scheme_id": "PMAY-U-2.0",
+"scheme_name": "Pradhan Mantri Awas Yojana-Urban 2.0",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Housing",
+"sub_category": "Urban Housing",
+"gender": "All",
+"state": "India",
+"sector": "Housing & Urban Affairs",
+"domains": [
+"housing",
+"urban_development",
+"social_welfare"
+],
+"target_group": "Eligible urban EWS, LIG and MIG families",
+"benefit_type": "Housing Assistance",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Awas Yojana-Urban 2.0",
+"scheme_id": "PMAY-U-2.0",
+"ministry_department": "Ministry of Housing and Urban Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Housing",
+"sub_category": "Urban Housing",
+"sector": "Housing & Urban Affairs",
+"domains": [
+"housing",
+"urban_development",
+"social_welfare"
+],
+"target_group": "Eligible urban EWS, LIG and MIG families",
+"benefit_type": "Housing Assistance",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 250000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Government assistance under PMAY-U 2.0 can be up to Rs. 2.50 lakh per unit, depending on the applicable vertical and eligibility."
+},
+"description": {
+"summary": "Provides Central Assistance to eligible urban families to construct, purchase or rent affordable houses.",
+"short": "Affordable urban housing assistance.",
+"full": "PMAY-U 2.0 is a five-year urban housing mission running from 2024 to 2029. It covers Beneficiary Led Construction, Affordable Housing in Partnership, Affordable Rental Housing and an Interest Subsidy Scheme."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligible families must live in urban areas.",
+"Eligible families must not own a pucca house in the name of the applicant or any family member anywhere in the country.",
+"Income limits differ by EWS, LIG and MIG classification."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Housing Assistance / Interest Subsidy",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the implementation period of PMAY-U 2.0?",
+"answer": "The scheme is implemented for five years from 2024 to 2029."
+},
+{
+"question": "Who can generally benefit from PMAY-U 2.0?",
+"answer": "Eligible EWS, LIG and MIG families living in urban areas who meet the scheme conditions can seek benefits."
+}
+],
+"tags": [
+"housing",
+"urban_housing",
+"EWS",
+"LIG",
+"MIG"
+],
+"identification_keywords": [
+"urban housing",
+"PMAY Urban 2.0",
+"home assistance",
+"housing subsidy"
+],
+"related_domains": {
+"health": false,
+"housing": true,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": true,
+"senior_citizen": true,
+"tribal_welfare": true,
+"minority_welfare": true,
+"rural_development": false,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://pmaymis.gov.in/PMAYMIS2_2024/](https://pmaymis.gov.in/PMAYMIS2_2024/)",
+"official_notification": null,
+"source_reference": "PMAY-U 2.0 official scheme portal and scheme guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Ministry of Housing and Urban Affairs PMAY-U 2.0 portal and scheme guidelines."
+}
+},
+{
+"scheme_id": "PMJDY",
+"scheme_name": "Pradhan Mantri Jan-Dhan Yojana",
+"scheme_name_local": "प्रधानमंत्री जन धन योजना",
+"identifiers": {
+"category": "Banking",
+"sub_category": "Financial Inclusion",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": [
+"banking",
+"social_welfare",
+"insurance",
+"pension"
+],
+"target_group": "People without access to basic banking services",
+"benefit_type": "Financial Inclusion",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Jan-Dhan Yojana",
+"scheme_id": "PMJDY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Banking",
+"sub_category": "Financial Inclusion",
+"sector": "Financial Services",
+"domains": [
+"banking",
+"social_welfare",
+"insurance",
+"pension"
+],
+"target_group": "People without access to basic banking services",
+"benefit_type": "Financial Inclusion",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides access to basic savings bank accounts and associated financial services including remittance, credit, insurance and pension access."
+},
+"description": {
+"summary": "Promotes financial inclusion by providing access to basic bank accounts and related financial services.",
+"short": "Basic banking and financial inclusion scheme.",
+"full": "PMJDY is a national financial inclusion mission providing access to basic savings bank deposit accounts, remittance, credit, insurance and pension services. PMJDY accounts can also receive eligible government Direct Benefit Transfers."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": null
+},
+"conditions": [
+"A basic savings bank deposit account can be opened by a person who does not have another account, according to the official scheme information."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Bank",
+"Banking Correspondent"
+],
+"steps": []
+},
+"payment": {
+"method": "Banking Services",
+"dbt": true,
+"bank_account_required": true,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Is there a minimum balance requirement?",
+"answer": "The official PMJDY scheme information states that there is no requirement to maintain a minimum balance in PMJDY accounts."
+},
+{
+"question": "Can PMJDY accounts receive government benefits?",
+"answer": "PMJDY accounts are eligible to receive Direct Benefit Transfers from government schemes."
+}
+],
+"tags": [
+"banking",
+"financial_inclusion",
+"zero_balance",
+"DBT"
+],
+"identification_keywords": [
+"Jan Dhan account",
+"zero balance bank account",
+"financial inclusion",
+"government DBT account"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": true,
+"insurance": true,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": true,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://www.pmjdy.gov.in/scheme](https://www.pmjdy.gov.in/scheme)",
+"official_notification": null,
+"source_reference": "Department of Financial Services PMJDY scheme details",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Financial Services PMJDY portal, including July 2026 beneficiary statistics."
+}
+},
+{
+"scheme_id": "PMJJBY",
+"scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Insurance",
+"sub_category": "Life Insurance",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": [
+"insurance",
+"banking",
+"social_welfare"
+],
+"target_group": "Eligible individual bank or post office account holders aged 18 to 50 years",
+"benefit_type": "Life Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+"scheme_id": "PMJJBY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Insurance",
+"sub_category": "Life Insurance",
+"sector": "Financial Services",
+"domains": [
+"insurance",
+"banking",
+"social_welfare"
+],
+"target_group": "Eligible individual bank or post office account holders aged 18 to 50 years",
+"benefit_type": "Life Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 200000,
+"currency": "INR",
+"frequency": "Annual Cover",
+"annual_amount": null,
+"benefit_description": "Provides Rs. 2 lakh life insurance cover for death due to any cause, subject to scheme terms."
+},
+"description": {
+"summary": "Provides renewable one-year life insurance cover of Rs. 2 lakh for eligible subscribers.",
+"short": "Affordable renewable life insurance cover.",
+"full": "PMJJBY is a one-year renewable term life insurance scheme offering Rs. 2 lakh cover on death due to any cause. The official premium is Rs. 436 per subscriber per year."
+},
+"eligibility": {
+"age": {
+"minimum": 18,
+"maximum": 50
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": true,
+"aadhaar_linked": null
+},
+"conditions": [
+"Subscriber must hold an eligible individual bank or post office account.",
+"Premium is paid through auto-debit.",
+"The insurance cover runs from 1 June to 31 May."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Bank",
+"Post Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Auto-debit from Bank or Post Office Account",
+"dbt": false,
+"bank_account_required": true,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "How much life insurance cover does PMJJBY provide?",
+"answer": "Rs. 2 lakh is payable on the subscriber's death due to any cause, subject to the scheme terms."
+},
+{
+"question": "What is the annual premium?",
+"answer": "The official annual premium is Rs. 436 per subscriber."
+},
+{
+"question": "Who can join PMJJBY?",
+"answer": "Individual account holders of participating banks or post offices aged 18 to 50 years can join, subject to the scheme conditions."
+}
+],
+"tags": [
+"insurance",
+"life_insurance",
+"banking",
+"social_security"
+],
+"identification_keywords": [
+"life insurance government scheme",
+"PMJJBY",
+"2 lakh life insurance",
+"affordable life insurance"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": true,
+"post_office": true,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://financialservices.gov.in/pmjjby](https://financialservices.gov.in/pmjjby)",
+"official_notification": null,
+"source_reference": "Department of Financial Services PMJJBY FAQ",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Financial Services PMJJBY information updated in January 2026."
+}
+},
+{
+"scheme_id": "PMSBY",
+"scheme_name": "Pradhan Mantri Suraksha Bima Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Insurance",
+"sub_category": "Accident Insurance",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": [
+"insurance",
+"banking",
+"social_welfare"
+],
+"target_group": "Eligible individual bank or post office account holders aged 18 to 70 years",
+"benefit_type": "Personal Accident Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Suraksha Bima Yojana",
+"scheme_id": "PMSBY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Insurance",
+"sub_category": "Accident Insurance",
+"sector": "Financial Services",
+"domains": [
+"insurance",
+"banking",
+"social_welfare"
+],
+"target_group": "Eligible individual bank or post office account holders aged 18 to 70 years",
+"benefit_type": "Personal Accident Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 200000,
+"currency": "INR",
+"frequency": "Annual Cover",
+"annual_amount": null,
+"benefit_description": "Provides Rs. 2 lakh for death or permanent total disability due to accident and Rs. 1 lakh for specified partial disability."
+},
+"description": {
+"summary": "Provides affordable personal accident insurance cover against accidental death and disability.",
+"short": "Low-cost accident insurance.",
+"full": "PMSBY is a one-year renewable personal accident insurance scheme. It provides Rs. 2 lakh for accidental death or permanent total disability and Rs. 1 lakh for specified partial disability."
+},
+"eligibility": {
+"age": {
+"minimum": 18,
+"maximum": 70
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": true,
+"aadhaar_linked": null
+},
+"conditions": [
+"Subscriber must have an eligible bank or post office account.",
+"Premium is paid through auto-debit.",
+"The cover period is from 1 June to 31 May."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Bank",
+"Post Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Auto-debit from Bank or Post Office Account",
+"dbt": false,
+"bank_account_required": true,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "How much does PMSBY cost?",
+"answer": "The official annual premium is Rs. 20 per member."
+},
+{
+"question": "What is the maximum accident cover?",
+"answer": "Rs. 2 lakh is payable for accidental death or permanent total disability, with Rs. 1 lakh payable for specified partial disability."
+},
+{
+"question": "Who can join PMSBY?",
+"answer": "Eligible individual bank or post office account holders aged 18 to 70 years can join subject to scheme conditions."
+}
+],
+"tags": [
+"insurance",
+"accident_insurance",
+"banking",
+"social_security"
+],
+"identification_keywords": [
+"accident insurance",
+"PMSBY",
+"2 lakh accident cover",
+"government insurance"
+],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": true,
+"post_office": true,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": true,
+"senior_citizen": true,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://financialservices.gov.in/pradhan-mantri-suraksha-bima-yojana-pmsby](https://financialservices.gov.in/pradhan-mantri-suraksha-bima-yojana-pmsby)",
+"official_notification": null,
+"source_reference": "Department of Financial Services PMSBY FAQ",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Financial Services PMSBY information updated in January 2026."
+}
+},
+{
+"scheme_id": "APY",
+"scheme_name": "Atal Pension Yojana",
+"scheme_name_local": "अटल पेंशन योजना",
+"identifiers": {
+"category": "Pension",
+"sub_category": "Social Security Pension",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": [
+"pension",
+"banking",
+"social_welfare"
+],
+"target_group": "Eligible Indian citizens aged 18 to 40 years",
+"benefit_type": "Pension",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Atal Pension Yojana",
+"scheme_id": "APY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Pension",
+"sub_category": "Social Security Pension",
+"sector": "Financial Services",
+"domains": [
+"pension",
+"banking",
+"social_welfare"
+],
+"target_group": "Eligible Indian citizens aged 18 to 40 years",
+"benefit_type": "Pension",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 5000,
+"currency": "INR",
+"frequency": "Monthly",
+"annual_amount": null,
+"benefit_description": "Provides a guaranteed minimum pension of Rs. 1,000, Rs. 2,000, Rs. 3,000, Rs. 4,000 or Rs. 5,000 per month at age 60, depending on the subscriber's contribution."
+},
+"description": {
+"summary": "A pension scheme that enables eligible subscribers to build retirement security and receive a guaranteed minimum pension from age 60.",
+"short": "Retirement pension scheme for eligible subscribers.",
+"full": "Atal Pension Yojana encourages retirement savings and provides a defined minimum pension at age 60. The subscriber chooses a pension level and contributes according to age at joining and the selected pension."
+},
+"eligibility": {
+"age": {
+"minimum": 18,
+"maximum": 40
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": true,
+"aadhaar_linked": null
+},
+"conditions": [
+"Subscriber must be an Indian citizen.",
+"Subscriber must have a savings bank account or post office savings bank account.",
+"Contribution continues according to the selected pension option and applicable rules."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Bank",
+"Post Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Subscriber Contribution",
+"dbt": false,
+"bank_account_required": true,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What pension amounts are available under APY?",
+"answer": "The scheme provides guaranteed minimum pension options of Rs. 1,000, Rs. 2,000, Rs. 3,000, Rs. 4,000 and Rs. 5,000 per month from age 60, depending on contributions."
+},
+{
+"question": "What is the joining age for APY?",
+"answer": "The joining age is 18 to 40 years."
+},
+{
+"question": "Has APY been continued?",
+"answer": "The Government approved continuation of APY and related funding support up to 2030-31."
+}
+],
+"tags": [
+"pension",
+"retirement",
+"banking",
+"social_security"
+],
+"identification_keywords": [
+"Atal Pension",
+"government pension",
+"retirement pension",
+"APY"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": true,
+"insurance": false,
+"post_office": true,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": true,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://financialservices.gov.in/atal-pension-yojana-apy](https://financialservices.gov.in/atal-pension-yojana-apy)",
+"official_notification": "[https://financialservices.gov.in/cabinet-approves-continuation-atal-pension-yojana-apy-and-extension-funding-support-promotional-and](https://financialservices.gov.in/cabinet-approves-continuation-atal-pension-yojana-apy-and-extension-funding-support-promotional-and)",
+"source_reference": "Department of Financial Services APY information and 2026 continuation approval",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the Department of Financial Services APY page and the January 2026 official continuation approval."
+}
+},
+{
+"scheme_id": "PMMY",
+"scheme_name": "Pradhan Mantri MUDRA Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Micro Enterprise Credit",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": [
+"business",
+"banking",
+"employment"
+],
+"target_group": "Micro enterprises and small entrepreneurs",
+"benefit_type": "Collateral-Free Credit",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri MUDRA Yojana",
+"scheme_id": "PMMY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Micro Enterprise Credit",
+"sector": "Financial Services",
+"domains": [
+"business",
+"banking",
+"employment"
+],
+"target_group": "Micro enterprises and small entrepreneurs",
+"benefit_type": "Collateral-Free Credit",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 2000000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides institutional collateral-free credit through Shishu, Kishore, Tarun and Tarun Plus categories. Tarun Plus permits loans above Rs. 10 lakh and up to Rs. 20 lakh for eligible borrowers who have successfully repaid previous Tarun loans."
+},
+"description": {
+"summary": "Provides collateral-free institutional credit to micro enterprises and small entrepreneurs for business and working-capital needs.",
+"short": "Collateral-free credit for micro enterprises.",
+"full": "PMMY provides institutional collateral-free credit to micro enterprises for term loans and working capital. Loan categories include Shishu up to Rs. 50,000, Kishore above Rs. 50,000 up to Rs. 5 lakh, Tarun above Rs. 5 lakh up to Rs. 10 lakh, and Tarun Plus above Rs. 10 lakh up to Rs. 20 lakh for eligible previous Tarun borrowers."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Credit is intended for micro enterprises.",
+"Eligible activities include non-agricultural activities and specified activities allied to agriculture such as poultry, dairy and beekeeping.",
+"Tarun Plus is available to entrepreneurs who have previously availed and successfully repaid a Tarun category loan, subject to applicable conditions."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Bank",
+"NBFC",
+"MFI"
+],
+"steps": []
+},
+"payment": {
+"method": "Loan",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What are the MUDRA loan categories?",
+"answer": "The categories are Shishu up to Rs. 50,000, Kishore above Rs. 50,000 up to Rs. 5 lakh, Tarun above Rs. 5 lakh up to Rs. 10 lakh, and Tarun Plus above Rs. 10 lakh up to Rs. 20 lakh for eligible previous Tarun borrowers."
+},
+{
+"question": "Is collateral required under PMMY?",
+"answer": "The official scheme information states that collateral is not required."
+}
+],
+"tags": [
+"business",
+"loan",
+"mudra",
+"micro_enterprise",
+"entrepreneurship"
+],
+"identification_keywords": [
+"Mudra loan",
+"small business loan",
+"micro business loan",
+"PMMY",
+"collateral free loan"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://financialservices.gov.in/index.php/pradhan-mantri-mudra-yojana-pmmy](https://financialservices.gov.in/index.php/pradhan-mantri-mudra-yojana-pmmy)",
+"official_notification": null,
+"source_reference": "Department of Financial Services PMMY scheme information",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Financial Services PMMY page and 2026 official references."
+}
+},
+{
+"scheme_id": "PMUY",
+"scheme_name": "Pradhan Mantri Ujjwala Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Women",
+"sub_category": "Clean Cooking Energy",
+"gender": "Female",
+"state": "India",
+"sector": "Petroleum & Natural Gas",
+"domains": [
+"women_welfare",
+"social_welfare"
+],
+"target_group": "Adult women from eligible poor households",
+"benefit_type": "LPG Connection",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Ujjwala Yojana",
+"scheme_id": "PMUY",
+"ministry_department": "Ministry of Petroleum and Natural Gas",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Women",
+"sub_category": "Clean Cooking Energy",
+"sector": "Petroleum & Natural Gas",
+"domains": [
+"women_welfare",
+"social_welfare"
+],
+"target_group": "Adult women from eligible poor households",
+"benefit_type": "LPG Connection",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides a deposit-free LPG connection including specified connection equipment and installation support. The official PMUY information also provides for a free first refill and stove under the scheme."
+},
+"description": {
+"summary": "Provides deposit-free LPG connections to eligible adult women from poor households to support access to clean cooking fuel.",
+"short": "Free or deposit-free LPG connection for eligible women.",
+"full": "PMUY provides LPG connections to eligible adult women from poor households. The official scheme provides a security-deposit-free connection and specifies benefits including the cylinder, pressure regulator, safety hose, consumer booklet, installation and specified free refill and stove benefits."
+},
+"eligibility": {
+"age": {
+"minimum": 18,
+"maximum": null
+},
+"gender": [
+"Female"
+],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must be an adult woman who has attained 18 years of age.",
+"The household must not have another LPG connection.",
+"Eligibility is based on the specified poor-household criteria and deprivation declaration or other categories recognized by the scheme."
+],
+"exclusions": [
+"Households with another LPG connection registered in the same household"
+]
+},
+"documents_required": [
+{
+"document": "KYC application form",
+"required": true
+},
+{
+"document": "Aadhaar Card",
+"required": true
+},
+{
+"document": "Proof of Address where applicable",
+"required": true
+},
+{
+"document": "Family composition document or applicable self-declaration",
+"required": true
+}
+],
+"application": {
+"mode": [
+"Online",
+"LPG Distributor"
+],
+"steps": []
+},
+"payment": {
+"method": "LPG Connection Assistance",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who can apply for PMUY?",
+"answer": "An adult woman from an eligible poor household can apply, subject to the scheme conditions."
+},
+{
+"question": "Can a household with an existing LPG connection receive a PMUY connection?",
+"answer": "No. The official scheme states that there should not be another LPG connection in the same household."
+},
+{
+"question": "What benefits are provided with the PMUY connection?",
+"answer": "The official PMUY FAQ lists a security-deposit-free LPG connection, regulator, safety hose, consumer booklet, free first refill(s) and a free two-burner stove, subject to the applicable scheme provisions."
+}
+],
+"tags": [
+"women",
+"LPG",
+"clean_energy",
+"cooking_fuel",
+"social_welfare"
+],
+"identification_keywords": [
+"Ujjwala",
+"free LPG connection",
+"women LPG scheme",
+"PMUY",
+"gas connection government scheme"
+],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://pmuy.gov.in/](https://pmuy.gov.in/)",
+"official_notification": null,
+"source_reference": "PMUY official portal, eligibility criteria, FAQ and KYC documentation",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current PMUY official portal, including the 2026 additional connection allocation and current eligibility information."
+}
+},
+{
+"scheme_id": "PMEGP",
+"scheme_name": "Prime Minister's Employment Generation Programme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Employment",
+"sub_category": "Self Employment",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small & Medium Enterprises",
+"domains": [
+"employment",
+"business",
+"entrepreneurship"
+],
+"target_group": "Aspiring entrepreneurs establishing new micro enterprises in the non-farm sector",
+"benefit_type": "Credit-Linked Subsidy",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Prime Minister's Employment Generation Programme",
+"scheme_id": "PMEGP",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Employment",
+"sub_category": "Self Employment",
+"sector": "Micro, Small & Medium Enterprises",
+"domains": [
+"employment",
+"business",
+"entrepreneurship"
+],
+"target_group": "Aspiring entrepreneurs establishing new micro enterprises in the non-farm sector",
+"benefit_type": "Credit-Linked Subsidy",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides credit-linked subsidy support for establishing new micro enterprises in the non-farm sector. Project cost limits and subsidy rates vary by beneficiary category and location."
+},
+"description": {
+"summary": "Supports creation of new micro enterprises and self-employment opportunities through a credit-linked subsidy programme.",
+"short": "Self-employment and micro-enterprise support.",
+"full": "PMEGP is a major credit-linked subsidy programme aimed at generating self-employment through new micro-enterprises in the non-farm sector. It is implemented nationally through KVIC, State KVIBs, District Industries Centres and banks."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"The scheme is intended for establishment of new micro enterprises in the non-farm sector.",
+"Subsidy rates and beneficiary contributions vary by category and location."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Bank"
+],
+"steps": []
+},
+"payment": {
+"method": "Credit-Linked Subsidy",
+"dbt": null,
+"bank_account_required": true,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does PMEGP support?",
+"answer": "PMEGP supports establishment of new micro enterprises in the non-farm sector through a credit-linked subsidy programme."
+},
+{
+"question": "Who implements PMEGP?",
+"answer": "KVIC is the national-level nodal agency, with implementation through State KVIC Directorates, State KVIBs, District Industries Centres and banks."
+}
+],
+"tags": [
+"employment",
+"self_employment",
+"business",
+"entrepreneurship",
+"MSME",
+"loan"
+],
+"identification_keywords": [
+"PMEGP",
+"business subsidy",
+"self employment loan",
+"micro enterprise government scheme",
+"employment generation"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.msme.gov.in/offerings/schemes-and-services/details/prime-minister-employment-generation-programme-and-other-credit-support-schemes-1-MDMzETMtQWa](https://www.msme.gov.in/offerings/schemes-and-services/details/prime-minister-employment-generation-programme-and-other-credit-support-schemes-1-MDMzETMtQWa)",
+"official_notification": null,
+"source_reference": "Ministry of MSME PMEGP scheme page and PMEGP official portal",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Ministry of MSME PMEGP information and the active PMEGP portal, with 2026 implementation statistics."
+}
+},
+{
+"scheme_id": "PM-VISHWAKARMA",
+"scheme_name": "PM Vishwakarma",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Employment",
+"sub_category": "Artisan and Craftspeople Support",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small & Medium Enterprises",
+"domains": [
+"skill_development",
+"employment",
+"business",
+"social_welfare"
+],
+"target_group": "Traditional artisans and craftspeople in eligible trades",
+"benefit_type": "Skill Training and Credit Support",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "PM Vishwakarma",
+"scheme_id": "PM-VISHWAKARMA",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Employment",
+"sub_category": "Artisan and Craftspeople Support",
+"sector": "Micro, Small & Medium Enterprises",
+"domains": [
+"skill_development",
+"employment",
+"business",
+"social_welfare"
+],
+"target_group": "Traditional artisans and craftspeople in eligible trades",
+"benefit_type": "Skill Training and Credit Support",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 300000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides recognition, skill training, toolkit incentives, collateral-free enterprise development loans up to Rs. 3 lakh in two tranches, digital transaction incentives and marketing support to eligible artisans and craftspeople."
+},
+"description": {
+"summary": "Supports traditional artisans and craftspeople through recognition, training, toolkit assistance, concessional credit and market linkage.",
+"short": "Training, tools, credit and market support for traditional artisans.",
+"full": "PM Vishwakarma provides recognition through a certificate and ID card, skill upgradation, toolkit incentives, collateral-free enterprise development loans, incentives for digital transactions and marketing support for eligible traditional artisans and craftspeople."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must belong to an eligible traditional trade covered by PM Vishwakarma.",
+"Benefits depend on completion of applicable stages and scheme conditions."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"CSC"
+],
+"steps": []
+},
+"payment": {
+"method": "Training Support and Credit",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the maximum credit support under PM Vishwakarma?",
+"answer": "Collateral-free enterprise development loans of up to Rs. 3 lakh are provided in two tranches of Rs. 1 lakh and Rs. 2 lakh, subject to scheme conditions."
+},
+{
+"question": "What toolkit incentive is available?",
+"answer": "A toolkit incentive of up to Rs. 15,000 is provided through e-vouchers."
+},
+{
+"question": "What training support is provided?",
+"answer": "Basic training is for 5 to 7 days and advanced training is for 15 days or more, with a stipend of Rs. 500 per day according to official scheme information."
+}
+],
+"tags": [
+"artisan",
+"craftspeople",
+"skill_development",
+"loan",
+"MSME",
+"employment"
+],
+"identification_keywords": [
+"PM Vishwakarma",
+"artisan scheme",
+"craftsman government scheme",
+"toolkit incentive",
+"artisan loan"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.msme.gov.in/](https://www.msme.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of MSME PM Vishwakarma scheme material and 2026 Performance Smartboard",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Ministry of MSME scheme material and 2026 PM Vishwakarma implementation dashboard."
+}
+},
+{
+"scheme_id": "PM-POSHAN",
+"scheme_name": "Pradhan Mantri Poshan Shakti Nirman",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "School Nutrition",
+"gender": "All",
+"state": "India",
+"sector": "School Education",
+"domains": [
+"education",
+"child_welfare",
+"social_welfare"
+],
+"target_group": "Children studying in eligible Government and Government-aided schools",
+"benefit_type": "School Meal",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Poshan Shakti Nirman",
+"scheme_id": "PM-POSHAN",
+"ministry_department": "Department of School Education and Literacy, Ministry of Education",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "School Nutrition",
+"sector": "School Education",
+"domains": [
+"education",
+"child_welfare",
+"social_welfare"
+],
+"target_group": "Children studying in eligible Government and Government-aided schools",
+"benefit_type": "School Meal",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": "School Days",
+"annual_amount": null,
+"benefit_description": "Provides one hot cooked meal in eligible Government and Government-aided schools."
+},
+"description": {
+"summary": "Provides hot cooked meals to eligible schoolchildren to support nutrition and education.",
+"short": "School meal and nutrition support.",
+"full": "PM POSHAN provides one hot cooked meal to children in Classes I-VIII in Government and Government-aided schools covered by the scheme. The official programme page records continued implementation activity for 2026-27."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": null
+},
+"conditions": [
+"Beneficiary must be a child studying in an eligible Government or Government-aided school.",
+"The scheme covers eligible students in Classes I-VIII."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"School"
+],
+"steps": []
+},
+"payment": {
+"method": "In-Kind School Meal",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does PM POSHAN provide?",
+"answer": "The scheme provides one hot cooked meal in eligible Government and Government-aided schools."
+},
+{
+"question": "Which students are covered?",
+"answer": "The scheme covers eligible children studying in Classes I-VIII in Government and Government-aided schools."
+}
+],
+"tags": [
+"education",
+"children",
+"school_meal",
+"nutrition",
+"child_welfare"
+],
+"identification_keywords": [
+"school meal",
+"mid day meal",
+"PM POSHAN",
+"student nutrition",
+"government school food"
+],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://pmposhan.education.gov.in/](https://pmposhan.education.gov.in/)",
+"official_notification": null,
+"source_reference": "PM POSHAN official portal and 2026-27 Programme Approval Board documentation",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the official PM POSHAN portal, including current 2026-27 implementation documentation and the temporary continuation arrangement for schemes ending March 2026."
+}
+}
+]

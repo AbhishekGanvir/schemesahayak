@@ -1,0 +1,1635 @@
+[
+{
+"scheme_id": "PMFBY",
+"scheme_name": "Pradhan Mantri Fasal Bima Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Insurance",
+"sub_category": "Crop Insurance",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "insurance"],
+"target_group": "Farmers",
+"benefit_type": "Crop Insurance",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Pradhan Mantri Fasal Bima Yojana",
+"scheme_id": "PMFBY",
+"ministry_department": "Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Insurance",
+"sub_category": "Crop Insurance",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "insurance"],
+"target_group": "Farmers",
+"benefit_type": "Crop Insurance",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides crop insurance protection against specified crop losses and risks under the scheme guidelines."
+},
+"description": {
+"summary": "Provides crop insurance protection to farmers against specified crop losses and natural risks.",
+"short": "Government-sponsored crop insurance scheme.",
+"full": "PMFBY is a government-sponsored crop insurance scheme covering notified crops and risks according to the applicable operational guidelines."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Eligibility and enrolment depend on the notified crop, area, season and applicable scheme guidelines."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Online", "Bank"], "steps": []},
+"payment": {"method": "Insurance Claim", "dbt": null, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What does PMFBY cover?", "answer": "The scheme provides insurance protection for notified crops and specified risks according to its operational guidelines."}
+],
+"tags": ["farmer", "agriculture", "crop_insurance", "insurance"],
+"identification_keywords": ["PMFBY", "crop insurance", "farmer insurance", "fasal bima", "crop loss insurance"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": true, "education": false,
+"employment": false, "pension": false, "insurance": true, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": false, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "https://pmfby.gov.in/",
+"official_notification": null,
+"source_reference": "PMFBY operational guidelines and 2026-27 Government of India budget/outcome records",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the official PMFBY portal and current 2026 Government of India records."}
+},
+{
+"scheme_id": "SMAM",
+"scheme_name": "Sub-Mission on Agricultural Mechanization",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Farm Mechanization",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer"],
+"target_group": "Farmers and agricultural institutions",
+"benefit_type": "Mechanization Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Sub-Mission on Agricultural Mechanization",
+"scheme_id": "SMAM",
+"ministry_department": "Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Farm Mechanization",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer"],
+"target_group": "Farmers and agricultural institutions",
+"benefit_type": "Mechanization Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports access to agricultural machinery and mechanization technologies, including support for custom hiring and technology demonstrations."
+},
+"description": {
+"summary": "Expands access to farm machinery and mechanization support, particularly for small and marginal farmers.",
+"short": "Agricultural machinery and mechanization support.",
+"full": "SMAM promotes wider adoption of agricultural mechanization by supporting access to farm machinery, custom hiring facilities and modern mechanization technologies."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Implementation and beneficiary eligibility are governed through State Government arrangements and applicable scheme guidelines."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Online", "Department Office"], "steps": []},
+"payment": {"method": "Mechanization Support", "dbt": null, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What is the purpose of SMAM?", "answer": "The scheme aims to increase access to agricultural mechanization and farm machinery, especially for small and marginal farmers and areas with low farm power availability."}
+],
+"tags": ["agriculture", "farmer", "farm_machinery", "mechanization"],
+"identification_keywords": ["SMAM", "farm machinery subsidy", "agricultural mechanization", "farm equipment"],
+"related_domains": {
+"health": false, "housing": false, "banking": false, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": true, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": true, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.india.gov.in/category/agriculture-rural-environment/subcategory/resources-for-agriculture/details/guidelines-of-sub-mission-on-agricultural-mechanization",
+"official_notification": null,
+"source_reference": "Department of Agriculture & Farmers Welfare SMAM guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current Government of India SMAM information and July 2026 official material."}
+},
+{
+"scheme_id": "AIF",
+"scheme_name": "Agriculture Infrastructure Fund",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Agricultural Infrastructure",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "business", "banking"],
+"target_group": "Farmers, FPOs, agri-entrepreneurs and eligible infrastructure developers",
+"benefit_type": "Credit Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Agriculture Infrastructure Fund",
+"scheme_id": "AIF",
+"ministry_department": "Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Agricultural Infrastructure",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "business", "banking"],
+"target_group": "Farmers, FPOs, agri-entrepreneurs and eligible infrastructure developers",
+"benefit_type": "Credit Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides medium- and long-term debt financing for post-harvest management infrastructure and community farming assets, with Government interest support."
+},
+"description": {
+"summary": "Supports investment in post-harvest and community agricultural infrastructure through medium- and long-term financing.",
+"short": "Financing support for agricultural infrastructure.",
+"full": "AIF supports viable projects such as storage, processing, logistics and community farming infrastructure intended to strengthen agricultural value chains."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Projects must fall within the eligible categories under AIF guidelines."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Online", "Bank"], "steps": []},
+"payment": {"method": "Interest Subvention / Credit Support", "dbt": false, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What type of projects does AIF support?", "answer": "It supports eligible post-harvest management infrastructure and community farming assets."}
+],
+"tags": ["agriculture", "infrastructure", "farmer", "credit"],
+"identification_keywords": ["Agriculture Infrastructure Fund", "AIF", "farm infrastructure loan", "post harvest infrastructure"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": true, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.india.gov.in/category/agriculture-rural-environment/subcategory/resources-for-agriculture/details/website-of-agriculture-infrastructure-fund",
+"official_notification": null,
+"source_reference": "Agriculture Infrastructure Fund official Government of India information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current Government of India AIF information and February 2026 implementation data."}
+},
+{
+"scheme_id": "MIDH",
+"scheme_name": "Mission for Integrated Development of Horticulture",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Horticulture",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer"],
+"target_group": "Horticulture farmers and eligible institutions",
+"benefit_type": "Financial and Technical Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Mission for Integrated Development of Horticulture",
+"scheme_id": "MIDH",
+"ministry_department": "Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Horticulture",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer"],
+"target_group": "Horticulture farmers and eligible institutions",
+"benefit_type": "Financial and Technical Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial, institutional, technical and extension support for development of horticulture."
+},
+"description": {
+"summary": "Supports holistic development of horticulture, including fruits, vegetables, flowers, spices and other horticultural crops.",
+"short": "Horticulture development support.",
+"full": "MIDH promotes area expansion, productivity, protected cultivation, infrastructure and post-harvest development across the horticulture value chain."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Eligibility depends on the specific intervention and applicable State Horticulture Mission guidelines."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Department Office", "Online"], "steps": []},
+"payment": {"method": "Financial Assistance", "dbt": null, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What crops are covered?", "answer": "MIDH covers horticultural sectors including fruits, vegetables, root and tuber crops, mushrooms, spices, flowers, aromatic plants, coconut, cashew, cocoa and bamboo."}
+],
+"tags": ["agriculture", "horticulture", "farmer", "protected_cultivation"],
+"identification_keywords": ["MIDH", "horticulture scheme", "fruit farming subsidy", "vegetable farming support"],
+"related_domains": {
+"health": false, "housing": false, "banking": false, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": true, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.india.gov.in/category/agriculture-rural-environment/subcategory/agriculture-ecosystem/details/mission-for-integrated-development-of-horticulture-midh",
+"official_notification": null,
+"source_reference": "MIDH official Government of India information and 2025 revised operational guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current Government of India MIDH information and July 2026 official updates."}
+},
+{
+"scheme_id": "NMSA",
+"scheme_name": "National Mission for Sustainable Agriculture",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Sustainable Agriculture",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "rural_development"],
+"target_group": "Farmers in rainfed and climate-vulnerable agricultural areas",
+"benefit_type": "Sustainable Agriculture Support",
+"scheme_type": "Central Government Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "National Mission for Sustainable Agriculture",
+"scheme_id": "NMSA",
+"ministry_department": "Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Sustainable Agriculture",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "rural_development"],
+"target_group": "Farmers in rainfed and climate-vulnerable agricultural areas",
+"benefit_type": "Sustainable Agriculture Support",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports climate-resilient and sustainable agricultural practices through components including rainfed area development, soil health management and related interventions."
+},
+"description": {
+"summary": "Promotes climate-resilient and sustainable agricultural practices, particularly in rainfed farming areas.",
+"short": "Climate-resilient agriculture support.",
+"full": "NMSA supports sustainable agricultural practices and climate resilience through interventions covering rainfed farming, soil health and efficient resource use."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Eligibility varies by the specific NMSA component and State implementation guidelines."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Department Office"], "steps": []},
+"payment": {"method": "Agricultural Support", "dbt": null, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What is the main objective of NMSA?", "answer": "The mission aims to promote sustainable and climate-resilient farming, especially in rainfed agricultural areas."}
+],
+"tags": ["agriculture", "sustainable_farming", "climate_resilience", "farmer"],
+"identification_keywords": ["NMSA", "sustainable agriculture", "climate resilient farming", "rainfed farming"],
+"related_domains": {
+"health": false, "housing": false, "banking": false, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": false, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://agriwelfare.gov.in/",
+"official_notification": null,
+"source_reference": "National Mission for Sustainable Agriculture official 2026 Government of India material",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current 2026 Government of India agriculture programme information."}
+},
+{
+"scheme_id": "NMEO-OS",
+"scheme_name": "National Mission on Edible Oils – Oilseeds",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Oilseed Development",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer"],
+"target_group": "Oilseed farmers and agricultural stakeholders",
+"benefit_type": "Agricultural Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "National Mission on Edible Oils – Oilseeds",
+"scheme_id": "NMEO-OS",
+"ministry_department": "Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Oilseed Development",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer"],
+"target_group": "Oilseed farmers and agricultural stakeholders",
+"benefit_type": "Agricultural Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports domestic oilseed production and productivity to reduce India's dependence on edible oil imports."
+},
+"description": {
+"summary": "Promotes domestic oilseed production and productivity with the objective of increasing self-reliance in edible oils.",
+"short": "Support for oilseed production.",
+"full": "NMEO-OS was approved in 2024 to increase domestic oilseed production, improve productivity and strengthen India's edible oil supply chain."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Specific support depends on the intervention and State implementation arrangements."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Department Office"], "steps": []},
+"payment": {"method": "Agricultural Support", "dbt": null, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What is the objective of NMEO-OS?", "answer": "The mission aims to boost domestic oilseed production and move India toward greater self-reliance in edible oils."}
+],
+"tags": ["agriculture", "oilseeds", "farmer", "edible_oil"],
+"identification_keywords": ["NMEO-OS", "oilseed scheme", "oilseed farmer support", "edible oil mission"],
+"related_domains": {
+"health": false, "housing": false, "banking": false, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": false, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://agriwelfare.gov.in/",
+"official_notification": null,
+"source_reference": "Government of India NMEO-OS approval and 2026 implementation information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current Government of India information on NMEO-OS."}
+},
+{
+"scheme_id": "RKVY",
+"scheme_name": "Rashtriya Krishi Vikas Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Agricultural Development",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "rural_development"],
+"target_group": "Farmers and agricultural sector stakeholders through State agricultural plans",
+"benefit_type": "Agricultural Development Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Rashtriya Krishi Vikas Yojana",
+"scheme_id": "RKVY",
+"ministry_department": "Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Agricultural Development",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "rural_development"],
+"target_group": "Farmers and agricultural sector stakeholders through State agricultural plans",
+"benefit_type": "Agricultural Development Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides Central assistance to States for comprehensive agricultural development plans."
+},
+"description": {
+"summary": "Provides Central assistance to States to plan and implement comprehensive agricultural development programmes.",
+"short": "Agricultural development assistance to States.",
+"full": "RKVY incentivizes States to develop comprehensive agricultural plans based on agro-climatic conditions, natural resources and technology while integrating allied sectors."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Specific beneficiary access depends on the State-level programmes implemented under RKVY."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Department Office"], "steps": []},
+"payment": {"method": "Agricultural Development Support", "dbt": null, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What does RKVY support?", "answer": "RKVY provides Central assistance to States for comprehensive agricultural development plans."}
+],
+"tags": ["agriculture", "farmer", "rural_development", "state_agriculture"],
+"identification_keywords": ["RKVY", "Rashtriya Krishi Vikas Yojana", "agriculture development", "state agriculture scheme"],
+"related_domains": {
+"health": false, "housing": false, "banking": false, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": true, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.india.gov.in/category/agriculture-rural-environment/subcategory/resources-for-agriculture/details/website-of-rashtriya-krishi-vikas-yojana-rkvy",
+"official_notification": null,
+"source_reference": "RKVY official Government of India scheme information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current National Portal of India RKVY listing updated July 2026."}
+},
+{
+"scheme_id": "NLM",
+"scheme_name": "National Livestock Mission",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Livestock Development",
+"gender": "All",
+"state": "India",
+"sector": "Animal Husbandry & Dairying",
+"domains": ["agriculture", "farmer", "business", "employment"],
+"target_group": "Livestock farmers, FPOs, SHGs, JLGs, cooperatives and entrepreneurs",
+"benefit_type": "Capital Subsidy and Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "National Livestock Mission",
+"scheme_id": "NLM",
+"ministry_department": "Department of Animal Husbandry & Dairying, Ministry of Fisheries, Animal Husbandry & Dairying",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Livestock Development",
+"sector": "Animal Husbandry & Dairying",
+"domains": ["agriculture", "farmer", "business", "employment"],
+"target_group": "Livestock farmers, FPOs, SHGs, JLGs, cooperatives and entrepreneurs",
+"benefit_type": "Capital Subsidy and Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": 5000000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Under NLM-Entrepreneurship Development Programme, eligible projects can receive capital subsidy of 50% up to Rs. 50 lakh for specified livestock and feed/fodder enterprises."
+},
+"description": {
+"summary": "Supports livestock entrepreneurship, breed development and feed and fodder enterprises through financial assistance and related interventions.",
+"short": "Livestock entrepreneurship and development support.",
+"full": "NLM supports entrepreneurship in poultry, sheep, goat, pig, camel, horse and donkey sectors and promotes feed and fodder development and livestock-related innovation."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Eligibility and project requirements differ by NLM activity."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Online"], "steps": []},
+"payment": {"method": "Capital Subsidy", "dbt": false, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What subsidy is available under NLM-EDP?", "answer": "The official 2026 information states that 50% capital subsidy up to Rs. 50 lakh is available for specified eligible projects."}
+],
+"tags": ["livestock", "farmer", "animal_husbandry", "entrepreneurship"],
+"identification_keywords": ["NLM", "National Livestock Mission", "livestock subsidy", "goat farming subsidy", "poultry subsidy"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": true, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": true, "skill_development": true, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://dahd.gov.in/schemes/programmes/national_livestock_mission",
+"official_notification": null,
+"source_reference": "National Livestock Mission official guidelines and 2026 scheme information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Department of Animal Husbandry & Dairying NLM page updated July 2026."}
+},
+{
+"scheme_id": "RGM",
+"scheme_name": "Rashtriya Gokul Mission",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Cattle Development",
+"gender": "All",
+"state": "India",
+"sector": "Animal Husbandry & Dairying",
+"domains": ["agriculture", "farmer"],
+"target_group": "Cattle and buffalo farmers and livestock sector stakeholders",
+"benefit_type": "Breed Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Rashtriya Gokul Mission",
+"scheme_id": "RGM",
+"ministry_department": "Department of Animal Husbandry & Dairying, Ministry of Fisheries, Animal Husbandry & Dairying",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Cattle Development",
+"sector": "Animal Husbandry & Dairying",
+"domains": ["agriculture", "farmer"],
+"target_group": "Cattle and buffalo farmers and livestock sector stakeholders",
+"benefit_type": "Breed Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports genetic improvement of indigenous bovine breeds, artificial insemination, breed multiplication and related cattle development activities."
+},
+"description": {
+"summary": "Promotes development and conservation of indigenous cattle and buffalo breeds and improves bovine breeding services.",
+"short": "Indigenous cattle breed development support.",
+"full": "Rashtriya Gokul Mission supports genetic improvement, artificial insemination, breed multiplication, conservation of indigenous breeds and farmer awareness."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Specific benefits depend on the applicable RGM activity and implementation arrangements."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Department Office"], "steps": []},
+"payment": {"method": "Livestock Development Support", "dbt": null, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What does RGM focus on?", "answer": "The mission focuses on genetic improvement, conservation and development of indigenous bovine breeds and artificial insemination services."}
+],
+"tags": ["cattle", "farmer", "livestock", "indigenous_breeds"],
+"identification_keywords": ["Rashtriya Gokul Mission", "RGM", "cattle scheme", "indigenous cow breed support"],
+"related_domains": {
+"health": false, "housing": false, "banking": false, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": false, "skill_development": true, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.dahd.gov.in/schemes/programmes/rashtriya_gokul_mission",
+"official_notification": null,
+"source_reference": "Revised Rashtriya Gokul Mission operational guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Department of Animal Husbandry & Dairying RGM page updated July 2026."}
+},
+{
+"scheme_id": "LHDCP",
+"scheme_name": "Livestock Health and Disease Control Program",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Livestock Health",
+"gender": "All",
+"state": "India",
+"sector": "Animal Husbandry & Dairying",
+"domains": ["agriculture", "farmer", "health"],
+"target_group": "Livestock and poultry farmers",
+"benefit_type": "Veterinary and Disease Control Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Livestock Health and Disease Control Program",
+"scheme_id": "LHDCP",
+"ministry_department": "Department of Animal Husbandry & Dairying, Ministry of Fisheries, Animal Husbandry & Dairying",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Livestock Health",
+"sector": "Animal Husbandry & Dairying",
+"domains": ["agriculture", "farmer", "health"],
+"target_group": "Livestock and poultry farmers",
+"benefit_type": "Veterinary and Disease Control Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports vaccination, disease surveillance, veterinary infrastructure and doorstep veterinary services."
+},
+"description": {
+"summary": "Supports disease prevention, vaccination, veterinary services and disease surveillance for livestock and poultry.",
+"short": "Livestock vaccination and veterinary support.",
+"full": "LHDCP aims to prevent and control livestock diseases through vaccination, surveillance, veterinary services and strengthened veterinary infrastructure."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": false, "aadhaar_linked": null},
+"conditions": ["Specific services depend on State and component-level implementation."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Department Office"], "steps": []},
+"payment": {"method": "Veterinary Service", "dbt": false, "bank_account_required": false, "aadhaar_linked": null},
+"faqs": [
+{"question": "What services does LHDCP support?", "answer": "The programme supports vaccination, disease surveillance, veterinary services and strengthening of veterinary infrastructure."}
+],
+"tags": ["livestock", "animal_health", "farmer", "veterinary"],
+"identification_keywords": ["LHDCP", "livestock vaccination", "animal disease control", "veterinary government scheme"],
+"related_domains": {
+"health": true, "housing": false, "banking": false, "farmer": true, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": false, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.dahd.gov.in/schemes-programmes/lhdcp",
+"official_notification": null,
+"source_reference": "Livestock Health and Disease Control Program official scheme page",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Department of Animal Husbandry & Dairying LHDCP page updated July 2026."}
+},
+{
+"scheme_id": "PM-SVANIDHI",
+"scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Street Vendor Credit",
+"gender": "All",
+"state": "India",
+"sector": "Housing & Urban Affairs",
+"domains": ["business", "banking", "urban_development", "social_welfare"],
+"target_group": "Street vendors",
+"benefit_type": "Working Capital Loan",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi",
+"scheme_id": "PM-SVANIDHI",
+"ministry_department": "Ministry of Housing and Urban Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Street Vendor Credit",
+"sector": "Housing & Urban Affairs",
+"domains": ["business", "banking", "urban_development", "social_welfare"],
+"target_group": "Street vendors",
+"benefit_type": "Working Capital Loan",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 50000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Working-capital term loans are available in three tranches up to Rs. 15,000, Rs. 25,000 and Rs. 50,000, subject to applicable conditions."
+},
+"description": {
+"summary": "Provides affordable working-capital loans to eligible street vendors to support and expand their businesses.",
+"short": "Working-capital loans for street vendors.",
+"full": "PM SVANidhi supports street vendors through staged working-capital loans and measures promoting digital transactions and financial inclusion."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Eligibility depends on vendor status and applicable scheme guidelines."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Online", "Bank", "Urban Local Body"], "steps": []},
+"payment": {"method": "Loan", "dbt": false, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What are the loan tranches?", "answer": "The current scheme provides working-capital loans in tranches up to Rs. 15,000, Rs. 25,000 and Rs. 50,000, subject to applicable conditions."}
+],
+"tags": ["street_vendor", "loan", "business", "urban", "financial_inclusion"],
+"identification_keywords": ["PM SVANidhi", "street vendor loan", "vendor business loan", "street vending scheme"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": false, "child_welfare": false, "social_welfare": true, "agriculture": false,
+"business": true, "skill_development": true, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": false, "urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://pmsvanidhi.mohua.gov.in/",
+"official_notification": null,
+"source_reference": "PM SVANidhi official portal and 2026 Ministry of Housing and Urban Affairs updates",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current PM SVANidhi Government of India information and July 2026 implementation data."}
+},
+{
+"scheme_id": "PMEGP",
+"scheme_name": "Prime Minister's Employment Generation Programme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Employment",
+"sub_category": "Self Employment",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small & Medium Enterprises",
+"domains": ["employment", "business", "social_welfare"],
+"target_group": "Individuals and eligible organizations establishing new micro enterprises",
+"benefit_type": "Credit Linked Subsidy",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Prime Minister's Employment Generation Programme",
+"scheme_id": "PMEGP",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Employment",
+"sub_category": "Self Employment",
+"sector": "Micro, Small & Medium Enterprises",
+"domains": ["employment", "business", "social_welfare"],
+"target_group": "Individuals and eligible organizations establishing new micro enterprises",
+"benefit_type": "Credit Linked Subsidy",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 5000000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "The official MSME scheme page states that the maximum admissible project cost is Rs. 50 lakh for manufacturing and Rs. 20 lakh for business/service activities, with category- and location-dependent subsidy rates."
+},
+"description": {
+"summary": "Supports creation of new micro enterprises through a credit-linked subsidy programme that promotes self-employment.",
+"short": "Credit-linked subsidy for new micro enterprises.",
+"full": "PMEGP promotes employment generation by helping eligible beneficiaries establish new micro enterprises through bank-linked finance and Government subsidy."
+},
+"eligibility": {
+"age": {"minimum": 18, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["The proposed unit must be a new micro enterprise and satisfy applicable PMEGP guidelines."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Online", "Bank"], "steps": []},
+"payment": {"method": "Credit Linked Subsidy", "dbt": false, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What is the maximum project cost under PMEGP?", "answer": "The official MSME information specifies Rs. 50 lakh for manufacturing projects and Rs. 20 lakh for business/service projects."}
+],
+"tags": ["PMEGP", "employment", "self_employment", "business", "MSME"],
+"identification_keywords": ["PMEGP", "business subsidy", "micro enterprise loan", "self employment government loan"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": true, "child_welfare": false, "social_welfare": true, "agriculture": true,
+"business": true, "skill_development": true, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.msme.gov.in/",
+"official_notification": null,
+"source_reference": "MSME Ministry PMEGP scheme and credit-support information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current Ministry of MSME PMEGP information."}
+},
+{
+"scheme_id": "PMMY",
+"scheme_name": "Pradhan Mantri MUDRA Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Micro Enterprise Credit",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": ["business", "banking", "employment"],
+"target_group": "Micro enterprises and small entrepreneurs",
+"benefit_type": "Collateral-Free Credit",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Pradhan Mantri MUDRA Yojana",
+"scheme_id": "PMMY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Micro Enterprise Credit",
+"sector": "Financial Services",
+"domains": ["business", "banking", "employment"],
+"target_group": "Micro enterprises and small entrepreneurs",
+"benefit_type": "Collateral-Free Credit",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 2000000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides institutional collateral-free credit through Shishu, Kishore, Tarun and Tarun Plus categories, with loans up to Rs. 20 lakh under Tarun Plus for eligible repeat Tarun borrowers."
+},
+"description": {
+"summary": "Provides institutional collateral-free credit to micro enterprises and small entrepreneurs.",
+"short": "Collateral-free micro enterprise loans.",
+"full": "PMMY provides term loans and working-capital credit to eligible micro enterprises through participating lending institutions."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Loan eligibility and sanction are determined by the participating lending institution and applicable PMMY rules."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Bank", "Online"], "steps": []},
+"payment": {"method": "Loan", "dbt": false, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What are the MUDRA loan categories?", "answer": "The categories are Shishu, Kishore, Tarun and Tarun Plus."},
+{"question": "What is the maximum amount under Tarun Plus?", "answer": "The official DFS information states that Tarun Plus provides loans above Rs. 10 lakh and up to Rs. 20 lakh for eligible entrepreneurs who previously availed and successfully repaid Tarun loans."}
+],
+"tags": ["MUDRA", "loan", "micro_business", "entrepreneurship"],
+"identification_keywords": ["MUDRA loan", "PMMY", "small business loan", "micro enterprise loan", "Mudra"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": true, "child_welfare": false, "social_welfare": false, "agriculture": true,
+"business": true, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://financialservices.gov.in/index.php/pradhan-mantri-mudra-yojana-pmmy",
+"official_notification": null,
+"source_reference": "Department of Financial Services PMMY scheme information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Department of Financial Services PMMY page and 2026 official updates."}
+},
+{
+"scheme_id": "APY",
+"scheme_name": "Atal Pension Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Pension",
+"sub_category": "Old Age Pension",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": ["pension", "banking", "social_welfare"],
+"target_group": "Citizens seeking guaranteed minimum pension, particularly workers in the unorganised sector",
+"benefit_type": "Pension",
+"scheme_type": "Central Government Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Atal Pension Yojana",
+"scheme_id": "APY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Pension",
+"sub_category": "Old Age Pension",
+"sector": "Financial Services",
+"domains": ["pension", "banking", "social_welfare"],
+"target_group": "Citizens seeking guaranteed minimum pension, particularly workers in the unorganised sector",
+"benefit_type": "Pension",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 5000,
+"currency": "INR",
+"frequency": "Monthly",
+"annual_amount": 60000,
+"benefit_description": "Provides a guaranteed minimum monthly pension of Rs. 1,000 to Rs. 5,000 from age 60, depending on the subscriber's contribution and selected pension level."
+},
+"description": {
+"summary": "Provides a guaranteed minimum monthly pension after age 60 through voluntary retirement savings.",
+"short": "Guaranteed pension scheme for retirement.",
+"full": "APY is a pension scheme under which subscribers make contributions during their working years and receive a guaranteed minimum pension after reaching age 60."
+},
+"eligibility": {
+"age": {"minimum": 18, "maximum": 40},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": true, "aadhaar_linked": null},
+"conditions": ["The subscriber must have a savings bank account or post office savings bank account."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Bank", "Post Office"], "steps": []},
+"payment": {"method": "Pension", "dbt": false, "bank_account_required": true, "aadhaar_linked": null},
+"faqs": [
+{"question": "Who can join APY?", "answer": "Any citizen of India aged 18 to 40 years who has a savings bank or post office savings bank account can join, subject to applicable rules."},
+{"question": "What pension levels are available?", "answer": "The guaranteed minimum pension levels are Rs. 1,000, Rs. 2,000, Rs. 3,000, Rs. 4,000 and Rs. 5,000 per month from age 60."}
+],
+"tags": ["pension", "retirement", "banking", "social_security"],
+"identification_keywords": ["APY", "Atal Pension Yojana", "old age pension", "retirement pension", "unorganised worker pension"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": true, "pension": true, "insurance": false, "post_office": true,
+"women_welfare": false, "child_welfare": false, "social_welfare": true, "agriculture": false,
+"business": false, "skill_development": false, "disability": false, "senior_citizen": true,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": false, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://financialservices.gov.in/atal-pension-yojana-apy",
+"official_notification": null,
+"source_reference": "Department of Financial Services APY scheme information and January 2026 continuation approval",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Department of Financial Services APY information and 2026 continuation decision."}
+},
+{
+"scheme_id": "PMJJBY",
+"scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Insurance",
+"sub_category": "Life Insurance",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": ["insurance", "banking", "social_welfare"],
+"target_group": "Eligible bank or post office account holders",
+"benefit_type": "Life Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+"scheme_id": "PMJJBY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Insurance",
+"sub_category": "Life Insurance",
+"sector": "Financial Services",
+"domains": ["insurance", "banking", "social_welfare"],
+"target_group": "Eligible bank or post office account holders",
+"benefit_type": "Life Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 200000,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": null,
+"benefit_description": "Provides life insurance cover of Rs. 2 lakh for death due to any cause, subject to scheme terms."
+},
+"description": {
+"summary": "Provides affordable renewable life insurance cover to eligible account holders.",
+"short": "Low-cost life insurance scheme.",
+"full": "PMJJBY is a one-year renewable life insurance scheme providing a death benefit to eligible enrolled subscribers subject to the applicable scheme terms."
+},
+"eligibility": {
+"age": {"minimum": 18, "maximum": 50},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": true, "aadhaar_linked": null},
+"conditions": ["Enrollment requires an eligible participating bank or post office account and consent for the applicable premium deduction."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Bank", "Post Office"], "steps": []},
+"payment": {"method": "Insurance Claim", "dbt": false, "bank_account_required": true, "aadhaar_linked": null},
+"faqs": [
+{"question": "What is the insurance benefit?", "answer": "The scheme provides Rs. 2 lakh on death due to any cause, subject to applicable scheme conditions."}
+],
+"tags": ["PMJJBY", "life_insurance", "insurance", "social_security"],
+"identification_keywords": ["PMJJBY", "life insurance government scheme", "2 lakh life insurance", "Jan Suraksha"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": false, "pension": false, "insurance": true, "post_office": true,
+"women_welfare": false, "child_welfare": false, "social_welfare": true, "agriculture": false,
+"business": false, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": false, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://financialservices.gov.in/pradhan-mantri-jeevan-jyoti-bima-yojana",
+"official_notification": null,
+"source_reference": "Department of Financial Services PMJJBY scheme information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Department of Financial Services scheme listing and 2026 Jan Suraksha updates."}
+},
+{
+"scheme_id": "PMSBY",
+"scheme_name": "Pradhan Mantri Suraksha Bima Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Insurance",
+"sub_category": "Accident Insurance",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": ["insurance", "banking", "social_welfare"],
+"target_group": "Eligible bank or post office account holders",
+"benefit_type": "Personal Accident Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Pradhan Mantri Suraksha Bima Yojana",
+"scheme_id": "PMSBY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Insurance",
+"sub_category": "Accident Insurance",
+"sector": "Financial Services",
+"domains": ["insurance", "banking", "social_welfare"],
+"target_group": "Eligible bank or post office account holders",
+"benefit_type": "Personal Accident Insurance",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 200000,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": null,
+"benefit_description": "Provides accident insurance cover of Rs. 2 lakh for death or permanent total disability and Rs. 1 lakh for specified partial disability."
+},
+"description": {
+"summary": "Provides affordable personal accident insurance cover to eligible account holders.",
+"short": "Low-cost accident insurance scheme.",
+"full": "PMSBY is a one-year renewable personal accident insurance scheme covering specified accidental death and disability risks."
+},
+"eligibility": {
+"age": {"minimum": 18, "maximum": 70},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": true, "aadhaar_linked": null},
+"conditions": ["Enrollment requires an eligible participating bank or post office account and consent for auto-debit."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Bank", "Post Office"], "steps": []},
+"payment": {"method": "Insurance Claim", "dbt": false, "bank_account_required": true, "aadhaar_linked": null},
+"faqs": [
+{"question": "What does PMSBY cover?", "answer": "It provides specified benefits for accidental death, permanent total disability and specified partial disability."},
+{"question": "What is the annual premium?", "answer": "The official Department of Financial Services information states an annual premium of Rs. 20."}
+],
+"tags": ["PMSBY", "accident_insurance", "insurance", "social_security"],
+"identification_keywords": ["PMSBY", "accident insurance government", "2 lakh accident insurance", "Jan Suraksha"],
+"related_domains": {
+"health": true, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": true, "pension": false, "insurance": true, "post_office": true,
+"women_welfare": false, "child_welfare": false, "social_welfare": true, "agriculture": false,
+"business": false, "skill_development": false, "disability": true, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": false, "urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://financialservices.gov.in/pradhan-mantri-suraksha-bima-yojana-pmsby",
+"official_notification": null,
+"source_reference": "Department of Financial Services PMSBY scheme information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Department of Financial Services PMSBY information and 2026 Jan Suraksha updates."}
+},
+{
+"scheme_id": "PMJDY",
+"scheme_name": "Pradhan Mantri Jan Dhan Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Banking",
+"sub_category": "Financial Inclusion",
+"gender": "All",
+"state": "India",
+"sector": "Financial Services",
+"domains": ["banking", "social_welfare"],
+"target_group": "Unbanked adults and households requiring access to banking services",
+"benefit_type": "Bank Account and Financial Inclusion",
+"scheme_type": "Central Government Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Pradhan Mantri Jan Dhan Yojana",
+"scheme_id": "PMJDY",
+"ministry_department": "Department of Financial Services, Ministry of Finance",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Banking",
+"sub_category": "Financial Inclusion",
+"sector": "Financial Services",
+"domains": ["banking", "social_welfare"],
+"target_group": "Unbanked adults and households requiring access to banking services",
+"benefit_type": "Bank Account and Financial Inclusion",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 10000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides access to a basic bank account without a minimum balance requirement, RuPay debit card, financial literacy and an overdraft facility of up to Rs. 10,000 subject to eligibility."
+},
+"description": {
+"summary": "Provides universal access to basic banking facilities and financial inclusion services, especially for unbanked adults.",
+"short": "Basic bank account and financial inclusion scheme.",
+"full": "PMJDY aims to provide access to banking facilities, financial literacy and social security services, with basic accounts and eligible overdraft facilities."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": false, "aadhaar_linked": null},
+"conditions": ["The scheme focuses on unbanked adults and provides access to a basic savings account."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Bank", "Bank Mitra"], "steps": []},
+"payment": {"method": "Banking Service", "dbt": false, "bank_account_required": false, "aadhaar_linked": null},
+"faqs": [
+{"question": "Is there a minimum balance requirement?", "answer": "The official scheme information states that the basic account is available without a minimum balance requirement."},
+{"question": "Is overdraft available?", "answer": "An overdraft facility of up to Rs. 10,000 is available subject to eligibility conditions."}
+],
+"tags": ["PMJDY", "banking", "financial_inclusion", "Jan_Dhan"],
+"identification_keywords": ["PMJDY", "Jan Dhan account", "zero balance account", "government bank account"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": false, "pension": false, "insurance": true, "post_office": false,
+"women_welfare": true, "child_welfare": false, "social_welfare": true, "agriculture": false,
+"business": true, "skill_development": false, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://financialservices.gov.in/pradhan-mantri-jan-dhan-yojana-pmjdy",
+"official_notification": null,
+"source_reference": "Department of Financial Services PMJDY scheme information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Department of Financial Services PMJDY information."}
+},
+{
+"scheme_id": "PM-SYM",
+"scheme_name": "Pradhan Mantri Shram Yogi Maandhan",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Pension",
+"sub_category": "Unorganised Worker Pension",
+"gender": "All",
+"state": "India",
+"sector": "Labour & Employment",
+"domains": ["pension", "employment", "social_welfare"],
+"target_group": "Unorganised sector workers",
+"benefit_type": "Pension",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Pradhan Mantri Shram Yogi Maandhan",
+"scheme_id": "PM-SYM",
+"ministry_department": "Ministry of Labour & Employment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Pension",
+"sub_category": "Unorganised Worker Pension",
+"sector": "Labour & Employment",
+"domains": ["pension", "employment", "social_welfare"],
+"target_group": "Unorganised sector workers",
+"benefit_type": "Pension",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 3000,
+"currency": "INR",
+"frequency": "Monthly",
+"annual_amount": 36000,
+"benefit_description": "Eligible subscribers receive a monthly pension of Rs. 3,000 after attaining age 60, subject to scheme conditions."
+},
+"description": {
+"summary": "Provides a monthly pension after age 60 to eligible low-income workers in the unorganised sector.",
+"short": "Pension scheme for unorganised workers.",
+"full": "PM-SYM is a contributory pension scheme for eligible unorganised sector workers, with Government matching contribution according to scheme rules."
+},
+"eligibility": {
+"age": {"minimum": 18, "maximum": 40},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": true, "maximum_annual_family_income": 180000, "currency": "INR"},
+"bank_account": {"required": true, "aadhaar_linked": true},
+"conditions": ["Applicant must be an unorganised sector worker.", "Monthly income must be Rs. 15,000 or less.", "Applicant must not be covered by specified statutory social security schemes or be an income-tax payer."],
+"exclusions": []
+},
+"documents_required": [
+{"document": "Aadhaar Card", "required": true}
+],
+"application": {"mode": ["CSC", "Online"], "steps": []},
+"payment": {"method": "Pension", "dbt": false, "bank_account_required": true, "aadhaar_linked": true},
+"faqs": [
+{"question": "Who can join PM-SYM?", "answer": "Eligible unorganised sector workers aged 18 to 40 years with monthly income of Rs. 15,000 or less can enrol subject to the scheme's exclusion conditions."},
+{"question": "What pension is provided?", "answer": "The scheme provides a monthly pension of Rs. 3,000 after attaining age 60, subject to applicable conditions."}
+],
+"tags": ["PM_SYM", "pension", "unorganised_workers", "labour", "social_security"],
+"identification_keywords": ["PM Shram Yogi Maandhan", "PM-SYM", "worker pension", "unorganised worker pension"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": true, "pension": true, "insurance": false, "post_office": false,
+"women_welfare": true, "child_welfare": false, "social_welfare": true, "agriculture": false,
+"business": true, "skill_development": false, "disability": false, "senior_citizen": true,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://services.india.gov.in/service/detail/enroll-to-avail-benefits-from-pradhan-mantri-shram-yogi-maandhan-yojana-1",
+"official_notification": null,
+"source_reference": "National Government Services Portal PM-SYM enrolment information and Labour Ministry dashboard",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current Government of India service information and Labour Ministry 2026 programme records."}
+},
+{
+"scheme_id": "PMVBRY",
+"scheme_name": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Employment",
+"sub_category": "Employment Incentive",
+"gender": "All",
+"state": "India",
+"sector": "Labour & Employment",
+"domains": ["employment", "social_welfare"],
+"target_group": "Employees and employers covered by the scheme",
+"benefit_type": "Employment Incentive",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+"scheme_id": "PMVBRY",
+"ministry_department": "Ministry of Labour & Employment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Employment",
+"sub_category": "Employment Incentive",
+"sector": "Labour & Employment",
+"domains": ["employment", "social_welfare"],
+"target_group": "Employees and employers covered by the scheme",
+"benefit_type": "Employment Incentive",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides incentives linked to employment generation and formal workforce participation for eligible employees and employers under the scheme."
+},
+"description": {
+"summary": "Promotes formal employment and job creation through employment-linked incentives for eligible workers and employers.",
+"short": "Employment-linked incentive scheme.",
+"full": "PMVBRY is an Employment Linked Incentive scheme designed to promote employment generation, employability and social security, with particular focus on manufacturing and other sectors."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": [],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": null, "aadhaar_linked": null},
+"conditions": ["Registration period for jobs covered by the scheme runs from 1 August 2025 to 31 July 2027.", "Eligibility is governed by the scheme's employee and employer conditions."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Online"], "steps": []},
+"payment": {"method": "Employment Incentive", "dbt": null, "bank_account_required": null, "aadhaar_linked": null},
+"faqs": [
+{"question": "What period does PMVBRY cover?", "answer": "The official Labour Ministry information states that the registration period runs from 1 August 2025 to 31 July 2027."},
+{"question": "What is the objective of PMVBRY?", "answer": "The scheme aims to promote employment generation, enhance employability and strengthen social security."}
+],
+"tags": ["employment", "jobs", "formal_employment", "labour"],
+"identification_keywords": ["PMVBRY", "Viksit Bharat Rozgar Yojana", "employment incentive", "job creation scheme"],
+"related_domains": {
+"health": false, "housing": false, "banking": true, "farmer": false, "education": false,
+"employment": true, "pension": false, "insurance": true, "post_office": false,
+"women_welfare": true, "child_welfare": false, "social_welfare": true, "agriculture": false,
+"business": true, "skill_development": true, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.labour.gov.in/",
+"official_notification": null,
+"source_reference": "Ministry of Labour & Employment PMVBRY official releases and 2026 implementation information",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current Ministry of Labour & Employment information; the scheme's registration period runs through July 2027."}
+},
+{
+"scheme_id": "PMMVY",
+"scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Women",
+"sub_category": "Maternity Benefit",
+"gender": "Female",
+"state": "India",
+"sector": "Women & Child Development",
+"domains": ["women_welfare", "child_welfare", "social_welfare"],
+"target_group": "Pregnant women and lactating mothers belonging to eligible categories",
+"benefit_type": "Cash Transfer",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+"scheme_id": "PMMVY",
+"ministry_department": "Ministry of Women and Child Development",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Women",
+"sub_category": "Maternity Benefit",
+"sector": "Women & Child Development",
+"domains": ["women_welfare", "child_welfare", "social_welfare"],
+"target_group": "Pregnant women and lactating mothers belonging to eligible categories",
+"benefit_type": "Cash Transfer",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": 5000,
+"currency": "INR",
+"frequency": "Per eligible pregnancy",
+"annual_amount": null,
+"benefit_description": "Provides Rs. 5,000 for the first child in two instalments and Rs. 6,000 for the second child when the second child is a girl, subject to scheme conditions."
+},
+"description": {
+"summary": "Provides maternity cash assistance to eligible pregnant and lactating women to support nutrition, health-seeking behaviour and partial wage-loss compensation.",
+"short": "Maternity benefit for eligible women.",
+"full": "PMMVY is a maternity benefit scheme providing cash incentives to eligible women, with benefits for the first child and an additional provision for the second child when the second child is a girl."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": ["Female"],
+"residency": {"required": true, "state": "India"},
+"income": {"required": true, "maximum_annual_family_income": 800000, "currency": "INR"},
+"bank_account": {"required": true, "aadhaar_linked": true},
+"conditions": [
+"Eligibility includes specified socially and economically disadvantaged categories.",
+"The second-child benefit applies when the second child is a girl.",
+"The scheme is not implemented in Odisha and Telangana, which operate their own maternity benefit schemes."
+],
+"exclusions": []
+},
+"documents_required": [
+{"document": "Aadhaar Card", "required": true}
+],
+"application": {"mode": ["Online", "Anganwadi Centre", "ASHA Worker"], "steps": []},
+"payment": {"method": "Direct Benefit Transfer", "dbt": true, "bank_account_required": true, "aadhaar_linked": true},
+"faqs": [
+{"question": "How much is provided for the first child?", "answer": "The official PMMVY information states that Rs. 5,000 is provided in two instalments for the first child."},
+{"question": "Is there a benefit for a second child?", "answer": "Yes. Rs. 6,000 is provided for the second child when the second child is a girl, subject to the scheme conditions."}
+],
+"tags": ["women", "maternity", "pregnancy", "cash_transfer", "DBT"],
+"identification_keywords": ["PMMVY", "maternity benefit", "pregnancy financial assistance", "pregnant women scheme", "maternity cash"],
+"related_domains": {
+"health": true, "housing": false, "banking": true, "farmer": true, "education": false,
+"employment": false, "pension": false, "insurance": false, "post_office": true,
+"women_welfare": true, "child_welfare": true, "social_welfare": true, "agriculture": false,
+"business": false, "skill_development": false, "disability": true, "senior_citizen": false,
+"tribal_welfare": true, "minority_welfare": false, "rural_development": true, "urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna/brief",
+"official_notification": null,
+"source_reference": "PMMVY 2.0 official FAQs and scheme brief under Mission Shakti",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against current Ministry of Women and Child Development PMMVY information and official 2026 documents."}
+},
+{
+"scheme_id": "BBBP",
+"scheme_name": "Beti Bachao Beti Padhao",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Women",
+"sub_category": "Girl Child Welfare",
+"gender": "Female",
+"state": "India",
+"sector": "Women & Child Development",
+"domains": ["women_welfare", "child_welfare", "social_welfare", "education"],
+"target_group": "Girl children, adolescents, families and communities",
+"benefit_type": "Awareness and Social Intervention",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {"active": true, "status_label": "Active"},
+"authority": {
+"scheme_name": "Beti Bachao Beti Padhao",
+"scheme_id": "BBBP",
+"ministry_department": "Ministry of Women and Child Development",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Women",
+"sub_category": "Girl Child Welfare",
+"sector": "Women & Child Development",
+"domains": ["women_welfare", "child_welfare", "social_welfare", "education"],
+"target_group": "Girl children, adolescents, families and communities",
+"benefit_type": "Awareness and Social Intervention",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports behavioural and social change interventions promoting the value, safety, education and development of the girl child."
+},
+"description": {
+"summary": "Promotes the value, safety and education of the girl child through coordinated awareness and social interventions.",
+"short": "Girl child protection, education and awareness programme.",
+"full": "Beti Bachao Beti Padhao focuses on improving the sex ratio at birth, promoting institutional deliveries, increasing girls' enrolment and reducing dropout, while raising awareness around the rights and wellbeing of girls."
+},
+"eligibility": {
+"age": {"minimum": null, "maximum": null},
+"gender": ["Female"],
+"residency": {"required": true, "state": "India"},
+"income": {"required": false, "maximum_annual_family_income": null, "currency": "INR"},
+"bank_account": {"required": false, "aadhaar_linked": false},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {"mode": ["Department Office"], "steps": []},
+"payment": {"method": "Social Intervention", "dbt": false, "bank_account_required": false, "aadhaar_linked": false},
+"faqs": [
+{"question": "Does BBBP provide a direct cash transfer?", "answer": "The official BBBP information states that there is no provision for Direct Benefit Transfer under the scheme."},
+{"question": "What are the major objectives?", "answer": "Objectives include improving sex ratio at birth, girls' education and enrolment, reducing dropout and increasing awareness about the wellbeing and rights of girls."}
+],
+"tags": ["girl_child", "women", "education", "social_awareness"],
+"identification_keywords": ["BBBP", "Beti Bachao Beti Padhao", "girl child scheme", "girl education", "save girl child"],
+"related_domains": {
+"health": true, "housing": false, "banking": false, "farmer": false, "education": true,
+"employment": true, "pension": false, "insurance": false, "post_office": false,
+"women_welfare": true, "child_welfare": true, "social_welfare": true, "agriculture": false,
+"business": false, "skill_development": true, "disability": false, "senior_citizen": false,
+"tribal_welfare": false, "minority_welfare": false, "rural_development": true, "urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.spniwcd.wcd.gov.in/beti-bachao-beti-padhao",
+"official_notification": null,
+"source_reference": "Official BBBP brief and operational documents",
+"last_verified": "2026-08-15"
+},
+"verification": {"verified": true, "verification_note": "Verified against the current Ministry of Women and Child Development BBBP page updated July 2026."}
+}
+]

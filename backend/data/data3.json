@@ -1,0 +1,2801 @@
+[
+{
+"scheme_id": "TOP-CLASS-SC",
+"scheme_name": "Central Sector Scholarship of Top Class Education for SC Students",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "Scheduled Caste students pursuing studies beyond Class 12",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Central Sector Scholarship of Top Class Education for SC Students",
+"scheme_id": "TOP-CLASS-SC",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "Scheduled Caste students pursuing studies beyond Class 12",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial support to eligible SC students pursuing studies beyond Class 12 in empanelled institutions notified by the Ministry."
+},
+"description": {
+"summary": "Provides financial support to eligible Scheduled Caste students pursuing higher education in notified institutions.",
+"short": "Higher education scholarship for SC students.",
+"full": "The scheme promotes quality higher education among Scheduled Caste students by providing financial support for studies beyond Class 12 in institutions empanelled by the Ministry of Social Justice and Empowerment."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must belong to the Scheduled Caste community.",
+"Applicant must be pursuing studies beyond Class 12 in an institution covered by the scheme."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is covered by the scheme?",
+"answer": "Eligible Scheduled Caste students pursuing studies beyond Class 12 in notified institutions are covered."
+}
+],
+"tags": ["SC", "scholarship", "higher_education", "education"],
+"identification_keywords": ["SC scholarship", "top class SC scholarship", "SC college scholarship", "higher education SC"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/27",
+"official_notification": null,
+"source_reference": "Scheme Guidelines for 2026-27",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the Department of Social Justice and Empowerment scheme page and current 2026-27 guidelines."
+}
+},
+{
+"scheme_id": "PMS-SC",
+"scheme_name": "Post-Matric Scholarship for SC students",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "Scheduled Caste students pursuing post-matriculation education",
+"benefit_type": "Scholarship",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Post-Matric Scholarship for SC students",
+"scheme_id": "PMS-SC",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Scholarship",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "Scheduled Caste students pursuing post-matriculation education",
+"benefit_type": "Scholarship",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial assistance to eligible SC students at the post-matriculation or post-secondary stage."
+},
+"description": {
+"summary": "Provides financial assistance to eligible Scheduled Caste students to continue education after matriculation.",
+"short": "Post-matric scholarship for SC students.",
+"full": "The scheme aims to increase participation of Scheduled Caste students in higher education by providing financial assistance for post-matriculation and post-secondary studies in India."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must belong to the Scheduled Caste community.",
+"Applicant must be pursuing an eligible post-matriculation or post-secondary course."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who can receive the scholarship?",
+"answer": "Eligible Scheduled Caste students pursuing qualifying post-matriculation or post-secondary studies can receive assistance."
+}
+],
+"tags": ["SC", "scholarship", "post_matric", "education"],
+"identification_keywords": ["SC post matric scholarship", "SC college scholarship", "SC student financial aid"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/25",
+"official_notification": null,
+"source_reference": "Post-Matric Scholarship for SC students scheme guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Social Justice and Empowerment scheme page."
+}
+},
+{
+"scheme_id": "PRE-MATRIC-SC",
+"scheme_name": "Pre- Matric Scholarships Scheme for Scheduled Castes & Others",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "School Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "child_welfare", "social_welfare"],
+"target_group": "Eligible SC and other disadvantaged students at the pre-matric stage",
+"benefit_type": "Scholarship",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pre- Matric Scholarships Scheme for Scheduled Castes & Others",
+"scheme_id": "PRE-MATRIC-SC",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "School Scholarship",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "child_welfare", "social_welfare"],
+"target_group": "Eligible SC and other disadvantaged students at the pre-matric stage",
+"benefit_type": "Scholarship",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": null,
+"benefit_description": "Provides academic scholarship assistance to eligible students at the pre-matric stage under the applicable components."
+},
+"description": {
+"summary": "Supports eligible disadvantaged students at the pre-matric stage to improve participation and reduce school dropout.",
+"short": "Pre-matric scholarship for eligible students.",
+"full": "The scheme supports education of children belonging to Scheduled Castes and other covered disadvantaged categories at the pre-matric stage."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility depends on the applicable component and student category.",
+"The scheme is implemented through State Governments and UT administrations."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Where are applications initiated?",
+"answer": "The official scheme information states that applications are invited through the National Scholarship Portal and subsequently handled by the concerned State or UT."
+}
+],
+"tags": ["SC", "scholarship", "school", "pre_matric"],
+"identification_keywords": ["SC pre matric scholarship", "school scholarship SC", "pre matric scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/23",
+"official_notification": null,
+"source_reference": "Pre-Matric Scholarships Scheme for Scheduled Castes & Others",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Social Justice and Empowerment scheme information."
+}
+},
+{
+"scheme_id": "PM-YASASVI",
+"scheme_name": "PM Young Achievers Scholarship Award Scheme for Vibrant India for OBCs and Others",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "OBC, EBC and DNT students",
+"benefit_type": "Scholarship and Hostel Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "PM Young Achievers Scholarship Award Scheme for Vibrant India for OBCs and Others",
+"scheme_id": "PM-YASASVI",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Scholarship",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "OBC, EBC and DNT students",
+"benefit_type": "Scholarship and Hostel Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Umbrella scheme covering pre-matric and post-matric scholarships, top-class school and college education, and hostel support for eligible OBC, EBC and DNT students."
+},
+"description": {
+"summary": "Supports education of eligible OBC, EBC and DNT students through scholarships, top-class education and hostel support.",
+"short": "Scholarship and education support for OBC, EBC and DNT students.",
+"full": "PM-YASASVI is an umbrella scheme covering five interventions for OBC, EBC and DNT students: pre-matric scholarship, post-matric scholarship, top-class school education, top-class college education and hostel construction."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility differs across the five sub-schemes."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship / Education Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is PM-YASASVI for?",
+"answer": "The umbrella scheme is for eligible OBC, EBC and DNT students."
+},
+{
+"question": "What does PM-YASASVI include?",
+"answer": "It includes five sub-schemes covering pre-matric scholarship, post-matric scholarship, top-class school education, top-class college education and hostel construction."
+}
+],
+"tags": ["OBC", "EBC", "DNT", "scholarship", "education"],
+"identification_keywords": ["PM YASASVI", "OBC scholarship", "EBC scholarship", "DNT scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/101",
+"official_notification": null,
+"source_reference": "Department of Social Justice and Empowerment PM-YASASVI scheme page",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Social Justice and Empowerment scheme listing and 2025-26 financial records."
+}
+},
+{
+"scheme_id": "NFSC",
+"scheme_name": "National Fellowship for Scheduled Caste Students",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Research Fellowship",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "Scheduled Caste students pursuing PhD-level research",
+"benefit_type": "Fellowship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Fellowship for Scheduled Caste Students",
+"scheme_id": "NFSC",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Research Fellowship",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "Scheduled Caste students pursuing PhD-level research",
+"benefit_type": "Fellowship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides fellowship support to eligible SC students pursuing higher education leading to a PhD degree."
+},
+"description": {
+"summary": "Provides fellowship support to eligible SC students pursuing PhD research in recognized Indian institutions.",
+"short": "PhD fellowship for SC students.",
+"full": "NFSC provides fellowship opportunities for Scheduled Caste students pursuing higher education leading to a PhD in Sciences, Humanities and Social Sciences in UGC-recognized institutions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must belong to the Scheduled Caste community.",
+"Applicants must satisfy the applicable NET-JRF and academic eligibility requirements."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Fellowship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "How many new fellowship slots are provided annually?",
+"answer": "The official scheme page states that 2,000 new slots are provided annually."
+}
+],
+"tags": ["SC", "fellowship", "PhD", "research"],
+"identification_keywords": ["NFSC", "SC fellowship", "SC PhD fellowship", "National Fellowship SC"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/29",
+"official_notification": null,
+"source_reference": "National Fellowship for SC students Scheme Guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Social Justice and Empowerment scheme page and active 2025-26 guidelines."
+}
+},
+{
+"scheme_id": "NOS-SC",
+"scheme_name": "National Overseas Scholarship (NOS) for SC etc. Candidates",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Overseas Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "Eligible SC, DNT, Nomadic and Semi-Nomadic Tribes, landless agricultural labourers and traditional artisans",
+"benefit_type": "Overseas Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Overseas Scholarship (NOS) for SC etc. Candidates",
+"scheme_id": "NOS-SC",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Overseas Scholarship",
+"sector": "Social Justice & Empowerment",
+"domains": ["education", "social_welfare"],
+"target_group": "Eligible SC, DNT, Nomadic and Semi-Nomadic Tribes, landless agricultural labourers and traditional artisans",
+"benefit_type": "Overseas Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial assistance for eligible candidates to pursue Master's or PhD-level higher education abroad."
+},
+"description": {
+"summary": "Supports eligible low-income and meritorious candidates from specified communities to pursue higher education abroad.",
+"short": "Overseas higher education scholarship.",
+"full": "The National Overseas Scholarship provides financial assistance for higher education abroad to eligible candidates from Scheduled Castes and other specified categories."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicants must satisfy the applicable academic, income and category requirements.",
+"The scheme supports Master's and PhD-level studies abroad."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship / Reimbursement",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "How many annual slots are available?",
+"answer": "The official scheme page states that 125 slots are allotted annually, with category-wise allocation."
+},
+{
+"question": "Can women candidates apply?",
+"answer": "The official scheme states that 30% of scholarships for each selection year are earmarked for female candidates."
+}
+],
+"tags": ["SC", "overseas", "scholarship", "higher_education"],
+"identification_keywords": ["National Overseas Scholarship", "SC abroad scholarship", "study abroad government scholarship", "NOS SC"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": true,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/28",
+"official_notification": null,
+"source_reference": "National Overseas Scholarship Scheme Guidelines applicable from 2026-27",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the Department of Social Justice and Empowerment's current NOS information and 2026-27 guidelines."
+}
+},
+{
+"scheme_id": "NAPDDR",
+"scheme_name": "National Action Plan for Drug Demand Reduction",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Health",
+"sub_category": "Drug Demand Reduction",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["health", "social_welfare"],
+"target_group": "Persons affected by substance dependence and communities requiring prevention and rehabilitation services",
+"benefit_type": "Rehabilitation and Prevention Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Action Plan for Drug Demand Reduction",
+"scheme_id": "NAPDDR",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Health",
+"sub_category": "Drug Demand Reduction",
+"sector": "Social Justice & Empowerment",
+"domains": ["health", "social_welfare"],
+"target_group": "Persons affected by substance dependence and communities requiring prevention and rehabilitation services",
+"benefit_type": "Rehabilitation and Prevention Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports prevention, counselling, treatment, rehabilitation and awareness activities through eligible implementing organizations."
+},
+"description": {
+"summary": "Supports prevention, treatment and rehabilitation services aimed at reducing demand for alcohol and drugs.",
+"short": "Drug prevention, treatment and rehabilitation support.",
+"full": "NAPDDR supports identification, counselling, treatment and rehabilitation of persons affected by substance dependence and funds eligible organizations for drug demand reduction activities."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office", "Online"],
+"steps": []
+},
+"payment": {
+"method": "Rehabilitation Support",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What services are supported?",
+"answer": "The scheme supports identification, counselling, treatment and rehabilitation through eligible organizations, along with prevention and awareness activities."
+}
+],
+"tags": ["health", "rehabilitation", "drug_prevention", "social_welfare"],
+"identification_keywords": ["NAPDDR", "drug rehabilitation", "de addiction government scheme", "drug prevention"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/42",
+"official_notification": null,
+"source_reference": "NAPDDR 5th Revised Guidelines effective from 27 February 2023",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Social Justice and Empowerment scheme information and guidelines valid through 2026."
+}
+},
+{
+"scheme_id": "NSFDC",
+"scheme_name": "National Scheduled Castes Finance and Development Corporation",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "SC Finance and Livelihood",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["business", "employment", "skill_development", "social_welfare"],
+"target_group": "Eligible Scheduled Caste beneficiaries",
+"benefit_type": "Loan and Livelihood Support",
+"scheme_type": "Central Government Corporation Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Scheduled Castes Finance and Development Corporation",
+"scheme_id": "NSFDC",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "SC Finance and Livelihood",
+"sector": "Social Justice & Empowerment",
+"domains": ["business", "employment", "skill_development", "social_welfare"],
+"target_group": "Eligible Scheduled Caste beneficiaries",
+"benefit_type": "Loan and Livelihood Support",
+"scheme_type": "Central Government Corporation Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides loans, skill training, entrepreneurship development and marketing support to eligible SC beneficiaries through channelizing agencies and financial institutions."
+},
+"description": {
+"summary": "Supports income-generating activities, skills and entrepreneurship among eligible Scheduled Caste beneficiaries.",
+"short": "Finance and livelihood support for SC beneficiaries.",
+"full": "NSFDC finances income-generating activities of eligible Scheduled Caste beneficiaries and provides skill training, entrepreneurship development and marketing support through partner institutions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": 500000,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Beneficiary must belong to the Scheduled Caste community.",
+"The official NSFDC page states an annual family income ceiling of Rs. 5 lakh for the target group."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Bank", "Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Loan / Financial Assistance",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What support does NSFDC provide?",
+"answer": "NSFDC provides loans, skill training, entrepreneurship development programmes and marketing support to eligible SC beneficiaries."
+},
+{
+"question": "What income ceiling is stated by NSFDC?",
+"answer": "The official NSFDC information states an annual family income ceiling of Rs. 5 lakh for its target group."
+}
+],
+"tags": ["SC", "loan", "business", "entrepreneurship", "skill_development"],
+"identification_keywords": ["NSFDC loan", "SC business loan", "SC entrepreneurship", "SC financial assistance"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": true,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/34",
+"official_notification": null,
+"source_reference": "NSFDC schemes and programmes; performance information as on 30 April 2026",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Department of Social Justice and Empowerment information and NSFDC performance data dated April 2026."
+}
+},
+{
+"scheme_id": "NSKFDC",
+"scheme_name": "National Safai Karamcharis Finance and Development Corporation",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Social Welfare",
+"sub_category": "Sanitation Worker Livelihood",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare", "business", "employment"],
+"target_group": "Safai Karamcharis, scavengers and their dependants",
+"benefit_type": "Concessional Finance and Livelihood Support",
+"scheme_type": "Central Government Corporation Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Safai Karamcharis Finance and Development Corporation",
+"scheme_id": "NSKFDC",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Social Welfare",
+"sub_category": "Sanitation Worker Livelihood",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare", "business", "employment"],
+"target_group": "Safai Karamcharis, scavengers and their dependants",
+"benefit_type": "Concessional Finance and Livelihood Support",
+"scheme_type": "Central Government Corporation Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides concessional financial assistance for socio-economic upliftment through State Channelizing Agencies, RRBs and nationalised banks."
+},
+"description": {
+"summary": "Provides concessional financial assistance and livelihood support to Safai Karamcharis, scavengers and their dependants.",
+"short": "Livelihood finance for sanitation workers.",
+"full": "NSKFDC is a Government of India undertaking focused on the socio-economic upliftment of Safai Karamcharis, scavengers and their dependants through concessional finance and related programmes."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must fall within the target group specified by NSKFDC."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Bank", "Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Concessional Loan",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is NSKFDC intended for?",
+"answer": "It is intended for Safai Karamcharis, scavengers and their dependants throughout India."
+}
+],
+"tags": ["sanitation_workers", "loan", "livelihood", "social_welfare"],
+"identification_keywords": ["NSKFDC loan", "Safai Karamchari loan", "sanitation worker finance", "scavenger rehabilitation"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://socialjustice.gov.in/schemes/33",
+"official_notification": null,
+"source_reference": "NSKFDC current scheme information",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Social Justice and Empowerment scheme page updated June 2026."
+}
+},
+{
+"scheme_id": "PM-USP-CSSS",
+"scheme_name": "Central Sector Scheme of Scholarship for College and University Students",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Higher Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Meritorious students from economically weaker sections pursuing regular higher education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Central Sector Scheme of Scholarship for College and University Students",
+"scheme_id": "PM-USP-CSSS",
+"ministry_department": "Department of Higher Education, Ministry of Education",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"sector": "Higher Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Meritorious students from economically weaker sections pursuing regular higher education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 10000,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": 10000,
+"benefit_description": "Provides scholarship assistance to eligible meritorious students from economically weaker sections. The official scheme provides Rs. 10,000 per year for the first three years of graduation and Rs. 20,000 per year for the fourth and fifth years where applicable."
+},
+"description": {
+"summary": "Provides scholarships to meritorious students from economically weaker sections pursuing regular college and university courses.",
+"short": "Higher education scholarship for meritorious EWS students.",
+"full": "The scheme provides financial assistance to meritorious students from economically weaker sections based on their performance in Class XII board examinations and applicable eligibility criteria."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": 800000,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Student must be above the 80th percentile of successful candidates in the relevant Class XII stream.",
+"Student must pursue a regular course.",
+"Student must not be receiving another scholarship."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the family income ceiling?",
+"answer": "The official scheme information specifies family income below Rs. 8 lakh per annum."
+},
+{
+"question": "What is the scholarship amount?",
+"answer": "The official scheme provides Rs. 10,000 per year for the first three years of graduation and Rs. 20,000 per year for the fourth and fifth years where applicable."
+}
+],
+"tags": ["scholarship", "college", "university", "EWS"],
+"identification_keywords": ["central sector scholarship", "college scholarship", "university scholarship", "PM USP scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.education.gov.in/",
+"official_notification": null,
+"source_reference": "Ministry of Education official scholarship scheme information and parliamentary records",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against Ministry of Education official scheme information and current scholarship records."
+}
+},
+{
+"scheme_id": "PM-USP-JK-LADAKH",
+"scheme_name": "PM-USP Special Scholarship Scheme for Jammu and Kashmir and Ladakh",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"gender": "All",
+"state": "Jammu and Kashmir / Ladakh",
+"sector": "Higher Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Eligible students from Jammu and Kashmir and Ladakh pursuing higher education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "PM-USP Special Scholarship Scheme for Jammu and Kashmir and Ladakh",
+"scheme_id": "PM-USP-JK-LADAKH",
+"ministry_department": "Ministry of Education",
+"government_level": "Central",
+"state": "Jammu and Kashmir / Ladakh"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"sector": "Higher Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Eligible students from Jammu and Kashmir and Ladakh pursuing higher education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial assistance for eligible students from Jammu and Kashmir and Ladakh pursuing undergraduate professional and other higher education in eligible institutions."
+},
+"description": {
+"summary": "Provides higher education scholarship support to eligible students from Jammu and Kashmir and Ladakh.",
+"short": "Higher education scholarship for students from J&K and Ladakh.",
+"full": "The PM-USP Special Scholarship Scheme supports eligible students from Jammu and Kashmir and Ladakh in pursuing higher education through financial assistance subject to scheme rules."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "Jammu and Kashmir / Ladakh"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is this scholarship intended for?",
+"answer": "It is intended for eligible students from Jammu and Kashmir and Ladakh pursuing qualifying higher education."
+}
+],
+"tags": ["Jammu_Kashmir", "Ladakh", "scholarship", "higher_education"],
+"identification_keywords": ["PM USP J&K scholarship", "Jammu Kashmir scholarship", "Ladakh scholarship", "J&K college scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.education.gov.in/",
+"official_notification": null,
+"source_reference": "Ministry of Education scholarship scheme records",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Ministry of Education scholarship listings and official parliamentary records."
+}
+},
+{
+"scheme_id": "ISHAN-UDAY",
+"scheme_name": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"gender": "All",
+"state": "North Eastern Region",
+"sector": "Higher Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Students from the North Eastern Region pursuing higher education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+"scheme_id": "ISHAN-UDAY",
+"ministry_department": "University Grants Commission, Ministry of Education",
+"government_level": "Central",
+"state": "North Eastern Region"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"sector": "Higher Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Students from the North Eastern Region pursuing higher education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides scholarship assistance to eligible students from the North Eastern Region pursuing qualifying higher education."
+},
+"description": {
+"summary": "Provides higher education scholarships to eligible students from India's North Eastern Region.",
+"short": "Higher education scholarship for NER students.",
+"full": "Ishan Uday is a UGC scholarship scheme intended to support students from the North Eastern Region pursuing higher education."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "North Eastern Region"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who administers Ishan Uday?",
+"answer": "The scheme is administered through the University Grants Commission."
+},
+{
+"question": "Who is the target group?",
+"answer": "Eligible students from the North Eastern Region pursuing qualifying higher education are covered."
+}
+],
+"tags": ["NER", "scholarship", "UGC", "higher_education"],
+"identification_keywords": ["Ishan Uday", "NER scholarship", "North East scholarship", "UGC scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.ugc.gov.in/",
+"official_notification": null,
+"source_reference": "UGC Selection and Awards-III scheme listing",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current UGC scheme listing, updated July 2026."
+}
+},
+{
+"scheme_id": "AICTE-PRAGATI",
+"scheme_name": "AICTE Pragati Scholarship Scheme for Girl Students",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Girls Scholarship",
+"gender": "Female",
+"state": "India",
+"sector": "Technical Education",
+"domains": ["education", "women_welfare"],
+"target_group": "Girl students pursuing eligible technical education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "AICTE Pragati Scholarship Scheme for Girl Students",
+"scheme_id": "AICTE-PRAGATI",
+"ministry_department": "All India Council for Technical Education, Ministry of Education",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Girls Scholarship",
+"sector": "Technical Education",
+"domains": ["education", "women_welfare"],
+"target_group": "Girl students pursuing eligible technical education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": null,
+"benefit_description": "Provides scholarship assistance to eligible girl students pursuing diploma or degree-level technical education."
+},
+"description": {
+"summary": "Supports girl students pursuing eligible diploma and degree-level technical education through scholarship assistance.",
+"short": "Technical education scholarship for girls.",
+"full": "AICTE Pragati is a scholarship scheme intended to encourage girls to pursue technical education at eligible diploma and degree institutions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": ["Female"],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Applicant must satisfy the applicable AICTE eligibility criteria."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is Pragati Scholarship for?",
+"answer": "It is intended for eligible girl students pursuing qualifying AICTE-approved technical education."
+}
+],
+"tags": ["girls", "scholarship", "AICTE", "technical_education"],
+"identification_keywords": ["AICTE Pragati", "girl scholarship", "engineering scholarship girls", "technical education girls"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.aicte-india.org/",
+"official_notification": null,
+"source_reference": "AICTE scholarship scheme records",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against official Government of India education records showing current AICTE Pragati scholarship activity."
+}
+},
+{
+"scheme_id": "AICTE-SAKSHAM",
+"scheme_name": "AICTE Saksham Scholarship Scheme for Differently-Abled Students",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Disability Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Technical Education",
+"domains": ["education", "disability", "social_welfare"],
+"target_group": "Differently-abled students pursuing eligible technical education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "AICTE Saksham Scholarship Scheme for Differently-Abled Students",
+"scheme_id": "AICTE-SAKSHAM",
+"ministry_department": "All India Council for Technical Education, Ministry of Education",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Disability Scholarship",
+"sector": "Technical Education",
+"domains": ["education", "disability", "social_welfare"],
+"target_group": "Differently-abled students pursuing eligible technical education",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": null,
+"benefit_description": "Provides scholarship assistance to eligible differently-abled students pursuing approved technical education."
+},
+"description": {
+"summary": "Provides scholarship assistance to eligible differently-abled students pursuing technical education.",
+"short": "Technical education scholarship for differently-abled students.",
+"full": "AICTE Saksham supports eligible differently-abled students pursuing diploma and degree-level technical education in institutions covered by AICTE."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Applicant must satisfy the applicable AICTE disability and course eligibility requirements."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is the Saksham scholarship intended for?",
+"answer": "It is intended for eligible differently-abled students pursuing qualifying AICTE-approved technical education."
+}
+],
+"tags": ["disability", "scholarship", "AICTE", "technical_education"],
+"identification_keywords": ["AICTE Saksham", "disabled student scholarship", "PwD technical scholarship", "engineering scholarship disability"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.aicte-india.org/",
+"official_notification": null,
+"source_reference": "AICTE scholarship scheme records",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against official Government of India education records showing Saksham scholarship beneficiaries."
+}
+},
+{
+"scheme_id": "AICTE-SWANATH",
+"scheme_name": "AICTE Swanath Scholarship Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Technical Education Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Technical Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Eligible students covered by the Swanath Scholarship criteria",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "AICTE Swanath Scholarship Scheme",
+"scheme_id": "AICTE-SWANATH",
+"ministry_department": "All India Council for Technical Education, Ministry of Education",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Technical Education Scholarship",
+"sector": "Technical Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Eligible students covered by the Swanath Scholarship criteria",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": null,
+"benefit_description": "Provides scholarship assistance to eligible students pursuing approved technical education under the Swanath scheme."
+},
+"description": {
+"summary": "Provides scholarship support to eligible students pursuing technical education under the AICTE Swanath scheme.",
+"short": "AICTE technical education scholarship.",
+"full": "The Swanath Scholarship Scheme provides financial assistance to eligible students who meet the scheme's specified beneficiary conditions and pursue approved technical education."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Applicant must satisfy the applicable Swanath and AICTE course eligibility conditions."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who can apply for Swanath Scholarship?",
+"answer": "Students meeting the specified Swanath beneficiary and technical education eligibility conditions can apply."
+}
+],
+"tags": ["AICTE", "scholarship", "technical_education", "students"],
+"identification_keywords": ["AICTE Swanath", "Swanath scholarship", "technical scholarship", "AICTE student scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://www.aicte-india.org/",
+"official_notification": null,
+"source_reference": "AICTE Swanath Scholarship Scheme records",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against official Government of India education records listing current Swanath scholarship beneficiaries."
+}
+},
+{
+"scheme_id": "TOP-CLASS-PWD",
+"scheme_name": "Top Class Education for Students with Disabilities",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Disability Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["education", "disability", "social_welfare"],
+"target_group": "Students with benchmark disabilities studying in notified institutions",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Top Class Education for Students with Disabilities",
+"scheme_id": "TOP-CLASS-PWD",
+"ministry_department": "Department of Empowerment of Persons with Disabilities, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Disability Scholarship",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["education", "disability", "social_welfare"],
+"target_group": "Students with benchmark disabilities studying in notified institutions",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides scholarship support for eligible students with benchmark disabilities studying in notified institutions."
+},
+"description": {
+"summary": "Provides financial assistance for higher education to eligible students with benchmark disabilities in notified institutions.",
+"short": "Top-class higher education scholarship for students with disabilities.",
+"full": "The scheme supports students with benchmark disabilities pursuing graduate, postgraduate and diploma courses in notified institutions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": 800000,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": true
+},
+"conditions": [
+"Applicant must be an Indian national.",
+"Applicant must have a benchmark disability of 40% or more.",
+"Applicant must study in a notified institution."
+],
+"exclusions": []
+},
+"documents_required": [
+{
+"document": "UDID Card",
+"required": true
+},
+{
+"document": "Aadhaar Card",
+"required": true
+}
+],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Direct Benefit Transfer",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": true
+},
+"faqs": [
+{
+"question": "What disability level is required?",
+"answer": "The official DEPwD information specifies a benchmark disability of 40% or more."
+},
+{
+"question": "Where can the scholarship be used?",
+"answer": "It is available for eligible students studying in notified institutions."
+}
+],
+"tags": ["disability", "PwD", "scholarship", "higher_education"],
+"identification_keywords": ["top class disability scholarship", "PwD scholarship", "disabled student scholarship", "benchmark disability scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://depwd.gov.in/en/scholarship-top-class-fellowship/",
+"official_notification": null,
+"source_reference": "DEPwD Top Class Fellowship and Scholarship information",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Department of Empowerment of Persons with Disabilities scholarship information."
+}
+},
+{
+"scheme_id": "NFPWD",
+"scheme_name": "National Fellowship for Persons with Disabilities",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Disability Research Fellowship",
+"gender": "All",
+"state": "India",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["education", "disability", "social_welfare"],
+"target_group": "Eligible persons with disabilities pursuing research",
+"benefit_type": "Fellowship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Fellowship for Persons with Disabilities",
+"scheme_id": "NFPWD",
+"ministry_department": "Department of Empowerment of Persons with Disabilities, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Disability Research Fellowship",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["education", "disability", "social_welfare"],
+"target_group": "Eligible persons with disabilities pursuing research",
+"benefit_type": "Fellowship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides fellowship support to eligible persons with disabilities pursuing higher research studies."
+},
+"description": {
+"summary": "Provides fellowship assistance to eligible persons with disabilities pursuing higher research studies.",
+"short": "Research fellowship for persons with disabilities.",
+"full": "The National Fellowship for Persons with Disabilities supports eligible scholars with disabilities pursuing research-level higher education."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": true
+},
+"conditions": [
+"Applicant must satisfy the applicable disability and academic requirements.",
+"UDID is mandatory for scholars under current scheme provisions."
+],
+"exclusions": []
+},
+"documents_required": [
+{
+"document": "UDID Card",
+"required": true
+}
+],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Fellowship",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": true
+},
+"faqs": [
+{
+"question": "Who is NFPwD for?",
+"answer": "It is intended for eligible persons with disabilities pursuing higher research studies."
+},
+{
+"question": "Is UDID required?",
+"answer": "The Department has issued an official notification making UDID mandatory for scholars under the NFPwD scheme."
+}
+],
+"tags": ["disability", "PwD", "fellowship", "research"],
+"identification_keywords": ["NFPwD", "disability fellowship", "PwD PhD fellowship", "disabled research scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://depwd.gov.in/en/scholarship/",
+"official_notification": null,
+"source_reference": "DEPwD National Fellowship for Persons with Disabilities records and 2025-26 notifications",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current DEPwD scholarship records, including 2026 selection information and current UDID requirements."
+}
+},
+{
+"scheme_id": "ADIP",
+"scheme_name": "Assistance to Persons with Disabilities for Purchase/Fitting of Aids and Appliances",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Disability",
+"sub_category": "Assistive Devices",
+"gender": "All",
+"state": "India",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["disability", "health", "social_welfare"],
+"target_group": "Eligible persons with disabilities requiring assistive aids and appliances",
+"benefit_type": "Assistive Devices",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Assistance to Persons with Disabilities for Purchase/Fitting of Aids and Appliances",
+"scheme_id": "ADIP",
+"ministry_department": "Department of Empowerment of Persons with Disabilities, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Disability",
+"sub_category": "Assistive Devices",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["disability", "health", "social_welfare"],
+"target_group": "Eligible persons with disabilities requiring assistive aids and appliances",
+"benefit_type": "Assistive Devices",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Assists eligible persons with disabilities in obtaining durable and appropriate aids and assistive appliances to improve independent functioning."
+},
+"description": {
+"summary": "Provides assistive aids and appliances to eligible persons with disabilities to improve mobility, independence and functioning.",
+"short": "Assistive devices for persons with disabilities.",
+"full": "The ADIP Scheme supports eligible persons with disabilities in obtaining modern, durable and scientifically manufactured aids and appliances through approved implementing agencies."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must meet the applicable disability and income criteria.",
+"Benefits are provided through approved implementing agencies."
+],
+"exclusions": []
+},
+"documents_required": [
+{
+"document": "UDID Card",
+"required": true
+}
+],
+"application": {
+"mode": ["Department Office", "Online"],
+"steps": []
+},
+"payment": {
+"method": "Assistive Device",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does ADIP provide?",
+"answer": "It assists eligible persons with disabilities in obtaining durable aids and assistive appliances."
+},
+{
+"question": "Is UDID required?",
+"answer": "The Department has issued an official order making a UDID Card mandatory for availing benefits under ADIP."
+}
+],
+"tags": ["disability", "assistive_devices", "PwD", "health"],
+"identification_keywords": ["ADIP scheme", "disability aids", "assistive devices government", "wheelchair government scheme"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://depwd.gov.in/en/",
+"official_notification": null,
+"source_reference": "DEPwD ADIP revised guidelines effective from 1 April 2024",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current DEPwD ADIP guidelines and 2026 official portal activity."
+}
+},
+{
+"scheme_id": "DDRS",
+"scheme_name": "Deendayal Divyangjan Rehabilitation Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Disability",
+"sub_category": "Rehabilitation",
+"gender": "All",
+"state": "India",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["disability", "health", "social_welfare"],
+"target_group": "Persons with disabilities through eligible rehabilitation organizations",
+"benefit_type": "Rehabilitation Services",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Deendayal Divyangjan Rehabilitation Scheme",
+"scheme_id": "DDRS",
+"ministry_department": "Department of Empowerment of Persons with Disabilities, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Disability",
+"sub_category": "Rehabilitation",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["disability", "health", "social_welfare"],
+"target_group": "Persons with disabilities through eligible rehabilitation organizations",
+"benefit_type": "Rehabilitation Services",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides grant-in-aid to eligible NGOs and organizations undertaking rehabilitation projects for persons with disabilities."
+},
+"description": {
+"summary": "Supports rehabilitation services for persons with disabilities through eligible voluntary organizations and rehabilitation projects.",
+"short": "Rehabilitation support for persons with disabilities.",
+"full": "DDRS provides Central Government grant-in-aid to eligible voluntary organizations for projects intended to create an enabling environment and support rehabilitation of persons with disabilities."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": null
+},
+"conditions": [
+"The primary grant recipients are eligible voluntary organizations implementing approved rehabilitation projects."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Grant-in-Aid",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is DDRS?",
+"answer": "DDRS is a Central Government scheme providing grant-in-aid to eligible NGOs for projects related to rehabilitation of persons with disabilities."
+}
+],
+"tags": ["disability", "rehabilitation", "NGO", "social_welfare"],
+"identification_keywords": ["DDRS", "disability rehabilitation scheme", "PwD rehabilitation", "disabled rehabilitation"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://depwd.gov.in/en/ddrs/",
+"official_notification": null,
+"source_reference": "Revised DDRS Guidelines effective from 1 October 2024",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current DEPwD DDRS portal, including 2025 operationalization information."
+}
+},
+{
+"scheme_id": "SIPDA",
+"scheme_name": "Scheme for Implementation of the Rights of Persons with Disabilities Act, 2016",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Disability",
+"sub_category": "Accessibility and Inclusion",
+"gender": "All",
+"state": "India",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["disability", "social_welfare"],
+"target_group": "Persons with disabilities and public institutions implementing accessibility measures",
+"benefit_type": "Accessibility Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Scheme for Implementation of the Rights of Persons with Disabilities Act, 2016",
+"scheme_id": "SIPDA",
+"ministry_department": "Department of Empowerment of Persons with Disabilities, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Disability",
+"sub_category": "Accessibility and Inclusion",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["disability", "social_welfare"],
+"target_group": "Persons with disabilities and public institutions implementing accessibility measures",
+"benefit_type": "Accessibility Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial assistance for activities including creation of barrier-free environments and accessibility measures."
+},
+"description": {
+"summary": "Supports implementation of disability rights through accessibility, barrier-free infrastructure and other inclusion measures.",
+"short": "Accessibility and inclusion support for persons with disabilities.",
+"full": "SIPDA provides financial assistance to State Governments and eligible government bodies for activities supporting implementation of the Rights of Persons with Disabilities Act, including barrier-free access."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": null
+},
+"conditions": [
+"Financial assistance is provided to eligible government bodies and institutions for approved accessibility activities."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Government Grant",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does SIPDA support?",
+"answer": "SIPDA supports implementation of disability rights, including barrier-free environments and accessibility measures."
+}
+],
+"tags": ["disability", "accessibility", "inclusion", "social_welfare"],
+"identification_keywords": ["SIPDA", "disability accessibility scheme", "barrier free India", "PwD accessibility"],
+"related_domains": {
+"health": true,
+"housing": true,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://depwd.gov.in/en/sipda/",
+"official_notification": null,
+"source_reference": "SIPDA scheme information and 2026 accessibility auditor records",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current DEPwD SIPDA portal and 2026 accessibility implementation records."
+}
+},
+{
+"scheme_id": "NATIONAL-FUND-PWDS",
+"scheme_name": "National Fund for Persons with Disabilities",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Disability",
+"sub_category": "Financial Assistance",
+"gender": "All",
+"state": "India",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["disability", "education", "social_welfare"],
+"target_group": "Eligible persons with disabilities and specified beneficiaries",
+"benefit_type": "Financial Assistance",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Fund for Persons with Disabilities",
+"scheme_id": "NATIONAL-FUND-PWDS",
+"ministry_department": "Department of Empowerment of Persons with Disabilities, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Disability",
+"sub_category": "Financial Assistance",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["disability", "education", "social_welfare"],
+"target_group": "Eligible persons with disabilities and specified beneficiaries",
+"benefit_type": "Financial Assistance",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial assistance under approved National Fund interventions for eligible persons with disabilities."
+},
+"description": {
+"summary": "Provides financial assistance for specified needs of eligible persons with disabilities.",
+"short": "Financial assistance for persons with disabilities.",
+"full": "The National Fund for Persons with Disabilities provides financial assistance under approved guidelines and includes support such as specified tuition-fee reimbursement for eligible blind and deaf students pursuing STEM subjects."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility depends on the specific financial assistance component and applicable guidelines."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Financial Assistance",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the National Fund used for?",
+"answer": "It provides financial assistance under approved guidelines for specified needs of eligible persons with disabilities."
+}
+],
+"tags": ["disability", "financial_assistance", "PwD", "education"],
+"identification_keywords": ["National Fund PwD", "disability financial assistance", "blind student fee reimbursement", "deaf student government assistance"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://depwd.gov.in/en/national-fund-under-pwds/",
+"official_notification": null,
+"source_reference": "National Fund for PwDs guidelines and current DEPwD application portal",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the current Department of Empowerment of Persons with Disabilities National Fund portal and official guidelines."
+}
+},
+{
+"scheme_id": "FREE-COACHING-PWD",
+"scheme_name": "Free Coaching for Students with Disabilities",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Competitive Examination Coaching",
+"gender": "All",
+"state": "India",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["education", "disability", "employment"],
+"target_group": "Eligible students with disabilities preparing for competitive examinations and higher education entrance examinations",
+"benefit_type": "Free Coaching",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Free Coaching for Students with Disabilities",
+"scheme_id": "FREE-COACHING-PWD",
+"ministry_department": "Department of Empowerment of Persons with Disabilities, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Competitive Examination Coaching",
+"sector": "Empowerment of Persons with Disabilities",
+"domains": ["education", "disability", "employment"],
+"target_group": "Eligible students with disabilities preparing for competitive examinations and higher education entrance examinations",
+"benefit_type": "Free Coaching",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides coaching support under the applicable guidelines for eligible students with disabilities."
+},
+"description": {
+"summary": "Provides coaching assistance to eligible students with disabilities preparing for competitive and entrance examinations.",
+"short": "Free coaching for students with disabilities.",
+"full": "The scheme provides coaching support to eligible students with disabilities to improve access to competitive examinations and higher education opportunities."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Applicants must satisfy the applicable scheme and examination eligibility conditions."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Coaching Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does the scheme provide?",
+"answer": "It provides coaching assistance to eligible students with disabilities under the applicable guidelines."
+}
+],
+"tags": ["disability", "coaching", "education", "competitive_exams"],
+"identification_keywords": ["free coaching PwD", "disabled student coaching", "disability competitive exam coaching", "PwD education support"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "https://depwd.gov.in/en/scholarship/",
+"official_notification": null,
+"source_reference": "Revised Free Coaching for Students with Disabilities guidelines",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current DEPwD records, including revised guidelines issued in 2025."
+}
+}
+]

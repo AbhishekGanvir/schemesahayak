@@ -1,0 +1,2488 @@
+[
+{
+"scheme_id": "PM-VBRY",
+"scheme_name": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Employment",
+"sub_category": "Employment Incentive",
+"gender": "All",
+"state": "India",
+"sector": "Labour & Employment",
+"domains": ["employment", "social_welfare"],
+"target_group": "First-time employees and eligible employers",
+"benefit_type": "Employment Incentive",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+"scheme_id": "PM-VBRY",
+"ministry_department": "Ministry of Labour and Employment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Employment",
+"sub_category": "Employment Incentive",
+"sector": "Labour & Employment",
+"domains": ["employment", "social_welfare"],
+"target_group": "First-time employees and eligible employers",
+"benefit_type": "Employment Incentive",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 15000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides a one-time incentive of up to Rs. 15,000 to eligible first-time employees and incentives to eligible employers for additional employment."
+},
+"description": {
+"summary": "Provides employment-linked incentives to encourage formal job creation and support first-time employees.",
+"short": "Employment-linked incentive for new formal workers.",
+"full": "PM-VBRY is an employment-linked incentive scheme intended to promote job creation, formalisation of employment and expansion of social security coverage. The registration period for jobs covered by the scheme runs from 1 August 2025 to 31 July 2027."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Employment must satisfy the scheme's registration and EPFO-related conditions."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Direct Benefit Transfer",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "How much can a first-time employee receive?",
+"answer": "An eligible first-time employee can receive an incentive of up to Rs. 15,000."
+},
+{
+"question": "How long is the registration period?",
+"answer": "Jobs created during the registration period from 1 August 2025 to 31 July 2027 are covered, subject to the scheme conditions."
+}
+],
+"tags": ["employment", "jobs", "EPFO", "social_security"],
+"identification_keywords": ["PM VBRY", "employment scheme", "first job incentive", "job incentive"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://labour.gov.in/](https://labour.gov.in/)",
+"official_notification": null,
+"source_reference": "PIB and Ministry of Labour & Employment official PM-VBRY information ([Press Information Bureau][1])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current implementation and benefit disbursement were verified through official Government of India releases."
+}
+},
+{
+"scheme_id": "PM-AJAY",
+"scheme_name": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojna",
+"scheme_name_local": "प्रधानमंत्री अनुसूचित जाति अभ्युदय योजना",
+"identifiers": {
+"category": "Social Welfare",
+"sub_category": "Scheduled Caste Welfare",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare"],
+"target_group": "Scheduled Caste communities",
+"benefit_type": "Infrastructure, Livelihood and Educational Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojna",
+"scheme_id": "PM-AJAY",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Social Welfare",
+"sub_category": "Scheduled Caste Welfare",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare"],
+"target_group": "Scheduled Caste communities",
+"benefit_type": "Infrastructure, Livelihood and Educational Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports Adarsh Gram development, grants-in-aid for skill and employment-related activities, and hostels in educational institutions."
+},
+"description": {
+"summary": "Supports socio-economic development of Scheduled Caste communities through village development, livelihood and educational interventions.",
+"short": "Scheduled Caste development and livelihood support.",
+"full": "PM-AJAY combines interventions for development of SC-dominated villages, grants-in-aid for skill development and employment, and hostels in educational institutions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Government Assistance",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does PM-AJAY cover?",
+"answer": "The scheme covers Adarsh Gram, grants-in-aid for skill and employment activities, and hostels in educational institutions."
+}
+],
+"tags": ["SC", "social_welfare", "livelihood", "education"],
+"identification_keywords": ["PM AJAY", "SC welfare", "Scheduled Caste scheme", "SC livelihood"],
+"related_domains": {
+"health": false,
+"housing": true,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://pmajay.dosje.gov.in/](https://pmajay.dosje.gov.in/)",
+"official_notification": null,
+"source_reference": "Department of Social Justice and Empowerment scheme listing and 2026 PM-AJAY implementation updates ([Social Justice][2])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current PM-AJAY implementation was verified through the Department of Social Justice and Empowerment and 2026 Government of India releases."
+}
+},
+{
+"scheme_id": "PM-DAKSH",
+"scheme_name": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Skill Development",
+"sub_category": "Skill Training",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["skill_development", "employment", "social_welfare"],
+"target_group": "Eligible SCs, OBCs, EWS persons, Safai Mitras and other specified groups",
+"benefit_type": "Skill Training",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi",
+"scheme_id": "PM-DAKSH",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Skill Development",
+"sub_category": "Skill Training",
+"sector": "Social Justice & Empowerment",
+"domains": ["skill_development", "employment", "social_welfare"],
+"target_group": "Eligible SCs, OBCs, EWS persons, Safai Mitras and other specified groups",
+"benefit_type": "Skill Training",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides skill development training through specified training programmes for eligible target groups."
+},
+"description": {
+"summary": "Provides skill development training to eligible disadvantaged groups to improve employability and livelihood opportunities.",
+"short": "Skill training for eligible disadvantaged groups.",
+"full": "PM-DAKSH provides skill development interventions for eligible members of disadvantaged communities and specified groups with the objective of improving employability and livelihood opportunities."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Training Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is PM-DAKSH intended to provide?",
+"answer": "It provides skill development and training opportunities to eligible target groups."
+}
+],
+"tags": ["skill_development", "employment", "SC", "OBC", "EWS"],
+"identification_keywords": ["PM DAKSH", "skill training government", "SC skill training", "OBC skill training"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://pmdaksh.dosje.gov.in/](https://pmdaksh.dosje.gov.in/)",
+"official_notification": null,
+"source_reference": "Department of Social Justice and Empowerment official scheme listing ([Social Justice][2])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "PM-DAKSH is listed among the current schemes of the Department of Social Justice and Empowerment."
+}
+},
+{
+"scheme_id": "SEED",
+"scheme_name": "Scheme for Economic Empowerment of DNTs",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Social Welfare",
+"sub_category": "DNT Welfare",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare", "education", "employment"],
+"target_group": "De-notified, Nomadic and Semi-Nomadic communities",
+"benefit_type": "Economic Empowerment",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Scheme for Economic Empowerment of DNTs",
+"scheme_id": "SEED",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Social Welfare",
+"sub_category": "DNT Welfare",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare", "education", "employment"],
+"target_group": "De-notified, Nomadic and Semi-Nomadic communities",
+"benefit_type": "Economic Empowerment",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides support through identified interventions for education, health, livelihoods and housing for eligible DNT communities."
+},
+"description": {
+"summary": "Supports economic and social empowerment of De-notified, Nomadic and Semi-Nomadic communities.",
+"short": "Economic empowerment support for DNT communities.",
+"full": "SEED is designed to improve the socio-economic conditions of De-notified, Nomadic and Semi-Nomadic communities through targeted interventions including education, health, livelihood and housing support."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Government Assistance",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is SEED intended for?",
+"answer": "SEED is intended for eligible De-notified, Nomadic and Semi-Nomadic communities."
+}
+],
+"tags": ["DNT", "nomadic", "social_welfare", "livelihood"],
+"identification_keywords": ["SEED scheme", "DNT scheme", "nomadic community welfare", "denotified tribes"],
+"related_domains": {
+"health": true,
+"housing": true,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://dwbdnc.dosje.gov.in/](https://dwbdnc.dosje.gov.in/)",
+"official_notification": null,
+"source_reference": "Department of Social Justice and Empowerment current scheme listing ([Social Justice][2])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "SEED is listed among current Department of Social Justice and Empowerment schemes and was subject to official evaluation during FY 2025-26."
+}
+},
+{
+"scheme_id": "SMILE",
+"scheme_name": "Support for Marginalized Individuals for Livelihood and Enterprise",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Social Welfare",
+"sub_category": "Marginalized Communities",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare", "skill_development", "employment"],
+"target_group": "Transgender persons and persons engaged in begging",
+"benefit_type": "Rehabilitation and Livelihood Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Support for Marginalized Individuals for Livelihood and Enterprise",
+"scheme_id": "SMILE",
+"ministry_department": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Social Welfare",
+"sub_category": "Marginalized Communities",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare", "skill_development", "employment"],
+"target_group": "Transgender persons and persons engaged in begging",
+"benefit_type": "Rehabilitation and Livelihood Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides rehabilitation, medical facilities, counselling, education, skill development and livelihood-related support through its sub-schemes."
+},
+"description": {
+"summary": "Supports rehabilitation and socio-economic inclusion of transgender persons and persons engaged in begging.",
+"short": "Rehabilitation and livelihood support for marginalized persons.",
+"full": "SMILE is an umbrella Central Sector Scheme covering comprehensive rehabilitation for transgender persons and persons engaged in begging, with interventions including healthcare, counselling, education, skill development and economic linkages."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office", "Online"],
+"steps": []
+},
+"payment": {
+"method": "Rehabilitation and Livelihood Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who does SMILE support?",
+"answer": "The umbrella scheme covers transgender persons and persons engaged in begging through its two sub-schemes."
+}
+],
+"tags": ["social_welfare", "transgender", "rehabilitation", "livelihood"],
+"identification_keywords": ["SMILE scheme", "transgender welfare", "beggary rehabilitation", "marginalized persons"],
+"related_domains": {
+"health": true,
+"housing": true,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://smile-b.dosje.gov.in/](https://smile-b.dosje.gov.in/)",
+"official_notification": null,
+"source_reference": "Department of Social Justice and Empowerment and official SMILE portal; 2026 implementation confirmed ([Press Information Bureau][3])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "SMILE was verified as operational in 2026 through current Department of Social Justice and Empowerment and PIB sources."
+}
+},
+{
+"scheme_id": "NAMASTE",
+"scheme_name": "National Action for Mechanised Sanitation Ecosystem",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Social Welfare",
+"sub_category": "Sanitation Worker Welfare",
+"gender": "All",
+"state": "India",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare", "employment", "health"],
+"target_group": "Sewer and septic tank workers and waste pickers",
+"benefit_type": "Safety, Health and Livelihood Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Action for Mechanised Sanitation Ecosystem",
+"scheme_id": "NAMASTE",
+"ministry_department": "Ministry of Social Justice and Empowerment and Ministry of Housing and Urban Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Social Welfare",
+"sub_category": "Sanitation Worker Welfare",
+"sector": "Social Justice & Empowerment",
+"domains": ["social_welfare", "employment", "health"],
+"target_group": "Sewer and septic tank workers and waste pickers",
+"benefit_type": "Safety, Health and Livelihood Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports worker profiling, health coverage, occupational safety training, personal protective equipment and access to livelihood-related support."
+},
+"description": {
+"summary": "Promotes safe mechanised sanitation and improves the safety, dignity and social security of sanitation workers.",
+"short": "Safety and social security for sanitation workers.",
+"full": "NAMASTE aims to eliminate hazardous manual cleaning of sewers and septic tanks while improving worker safety, health, dignity and livelihood opportunities."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Worker Welfare Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is NAMASTE intended for?",
+"answer": "The scheme primarily supports sewer and septic tank workers and also covers waste pickers through its worker welfare interventions."
+}
+],
+"tags": ["sanitation", "workers", "health", "social_security"],
+"identification_keywords": ["NAMASTE scheme", "sanitation worker scheme", "sewer worker welfare", "waste picker scheme"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": true,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://bmsnamaste.dosje.gov.in/](https://bmsnamaste.dosje.gov.in/)",
+"official_notification": null,
+"source_reference": "Department of Social Justice and Empowerment and 2026 PIB implementation updates ([Press Information Bureau][4])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current NAMASTE implementation and worker coverage were verified through official 2026 Government of India releases."
+}
+},
+{
+"scheme_id": "PM-JANMAN",
+"scheme_name": "Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Tribal Welfare",
+"sub_category": "PVTG Development",
+"gender": "All",
+"state": "India",
+"sector": "Tribal Affairs",
+"domains": ["tribal_welfare", "housing", "health", "education"],
+"target_group": "Particularly Vulnerable Tribal Groups",
+"benefit_type": "Integrated Development Support",
+"scheme_type": "Central Government Mission"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan",
+"scheme_id": "PM-JANMAN",
+"ministry_department": "Ministry of Tribal Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Tribal Welfare",
+"sub_category": "PVTG Development",
+"sector": "Tribal Affairs",
+"domains": ["tribal_welfare", "housing", "health", "education"],
+"target_group": "Particularly Vulnerable Tribal Groups",
+"benefit_type": "Integrated Development Support",
+"scheme_type": "Central Government Mission"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports basic facilities and services including housing, drinking water, education, health and nutrition, connectivity, electrification and sustainable livelihood opportunities for PVTG communities."
+},
+"description": {
+"summary": "Improves socio-economic conditions of Particularly Vulnerable Tribal Groups through integrated basic services and livelihood interventions.",
+"short": "Integrated development support for PVTG communities.",
+"full": "PM-JANMAN targets 75 Particularly Vulnerable Tribal Group communities in 18 States and one Union Territory through interventions implemented by multiple Union ministries."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Beneficiaries must belong to the PVTG communities covered by the mission."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Integrated Government Assistance",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is PM-JANMAN for?",
+"answer": "The mission is targeted at 75 Particularly Vulnerable Tribal Group communities residing in 18 States and one Union Territory."
+}
+],
+"tags": ["tribal", "PVTG", "housing", "health", "education"],
+"identification_keywords": ["PM JANMAN", "PVTG scheme", "tribal welfare", "tribal housing"],
+"related_domains": {
+"health": true,
+"housing": true,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": true,
+"business": false,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://tribal.nic.in/pm-janman.aspx](https://tribal.nic.in/pm-janman.aspx)",
+"official_notification": null,
+"source_reference": "Ministry of Tribal Affairs PM-JANMAN portal and 2026 sanctions ([Tribal Affairs][5])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current PM-JANMAN implementation and 2026-27 sanctions were verified through the Ministry of Tribal Affairs."
+}
+},
+{
+"scheme_id": "DAJGUA",
+"scheme_name": "Dharti Aaba Janjatiya Gram Utkarsh Abhiyan",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Tribal Welfare",
+"sub_category": "Tribal Village Development",
+"gender": "All",
+"state": "India",
+"sector": "Tribal Affairs",
+"domains": ["tribal_welfare", "rural_development", "education", "health"],
+"target_group": "Tribal communities and tribal-majority villages",
+"benefit_type": "Integrated Village Development",
+"scheme_type": "Central Government Abhiyan"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Dharti Aaba Janjatiya Gram Utkarsh Abhiyan",
+"scheme_id": "DAJGUA",
+"ministry_department": "Ministry of Tribal Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Tribal Welfare",
+"sub_category": "Tribal Village Development",
+"sector": "Tribal Affairs",
+"domains": ["tribal_welfare", "rural_development", "education", "health"],
+"target_group": "Tribal communities and tribal-majority villages",
+"benefit_type": "Integrated Village Development",
+"scheme_type": "Central Government Abhiyan"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Converges interventions of multiple ministries to improve infrastructure and access to services in tribal-majority villages."
+},
+"description": {
+"summary": "Improves infrastructure and access to essential services in tribal-majority villages through convergence of government programmes.",
+"short": "Integrated development of tribal-majority villages.",
+"full": "DAJGUA is a multi-sector tribal development initiative designed to address infrastructure and service gaps in tribal-majority villages through convergence of government interventions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Government Development Assistance",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who benefits from DAJGUA?",
+"answer": "The Abhiyan focuses on tribal communities and tribal-majority villages through converged development interventions."
+}
+],
+"tags": ["tribal", "rural_development", "villages", "infrastructure"],
+"identification_keywords": ["Dharti Aaba", "tribal village development", "tribal welfare scheme", "DAJGUA"],
+"related_domains": {
+"health": true,
+"housing": true,
+"banking": false,
+"farmer": true,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": true,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://tribal.nic.in/](https://tribal.nic.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Tribal Affairs 2026-27 scheme-wise sanction information ([Tribal Affairs][6])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "DAJGUA has current 2026-27 allocation and sanctions on the Ministry of Tribal Affairs official portal."
+}
+},
+{
+"scheme_id": "EMRS",
+"scheme_name": "Eklavya Model Residential Schools",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Tribal Education",
+"gender": "All",
+"state": "India",
+"sector": "Tribal Affairs",
+"domains": ["education", "tribal_welfare", "child_welfare"],
+"target_group": "Scheduled Tribe students",
+"benefit_type": "Residential School Education",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Eklavya Model Residential Schools",
+"scheme_id": "EMRS",
+"ministry_department": "Ministry of Tribal Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Tribal Education",
+"sector": "Tribal Affairs",
+"domains": ["education", "tribal_welfare", "child_welfare"],
+"target_group": "Scheduled Tribe students",
+"benefit_type": "Residential School Education",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides quality residential school education and associated facilities for eligible Scheduled Tribe students."
+},
+"description": {
+"summary": "Provides residential school education and facilities for eligible Scheduled Tribe students.",
+"short": "Residential education for tribal students.",
+"full": "Eklavya Model Residential Schools are intended to provide quality education and residential facilities to Scheduled Tribe students, particularly in tribal areas."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": null
+},
+"conditions": ["Admission is governed by the applicable EMRS admission rules."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["School"],
+"steps": []
+},
+"payment": {
+"method": "Residential Education",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who are EMRS intended for?",
+"answer": "EMRS are intended primarily for Scheduled Tribe students."
+}
+],
+"tags": ["education", "ST", "tribal", "residential_school"],
+"identification_keywords": ["Eklavya school", "EMRS", "tribal residential school", "ST education"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://tribal.nic.in/](https://tribal.nic.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Tribal Affairs 2026-27 scheme-wise sanction information ([Tribal Affairs][6])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "EMRS has current 2026-27 allocation and implementation information on the Ministry of Tribal Affairs official portal."
+}
+},
+{
+"scheme_id": "ST-PMS",
+"scheme_name": "Post-Matric Scholarship for Scheduled Tribes",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Tribal Affairs",
+"domains": ["education", "tribal_welfare"],
+"target_group": "Scheduled Tribe students studying at post-matriculation or post-secondary level",
+"benefit_type": "Scholarship",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Post-Matric Scholarship for Scheduled Tribes",
+"scheme_id": "ST-PMS",
+"ministry_department": "Ministry of Tribal Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Scholarship",
+"sector": "Tribal Affairs",
+"domains": ["education", "tribal_welfare"],
+"target_group": "Scheduled Tribe students studying at post-matriculation or post-secondary level",
+"benefit_type": "Scholarship",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides scholarship assistance to eligible Scheduled Tribe students pursuing post-matriculation or post-secondary education."
+},
+"description": {
+"summary": "Provides financial scholarship assistance to eligible Scheduled Tribe students pursuing education after matriculation.",
+"short": "Post-matric scholarship for ST students.",
+"full": "The Post-Matric Scholarship for Scheduled Tribes supports eligible ST students pursuing recognized post-matriculation and post-secondary courses."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Student must satisfy the applicable ST scholarship eligibility rules and be enrolled in an eligible course."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who can receive the scholarship?",
+"answer": "Eligible Scheduled Tribe students pursuing qualifying post-matriculation or post-secondary education can receive the scholarship subject to the applicable rules."
+}
+],
+"tags": ["ST", "scholarship", "education", "tribal"],
+"identification_keywords": ["ST scholarship", "post matric ST scholarship", "tribal student scholarship", "ST education"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://tribal.nic.in/](https://tribal.nic.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Tribal Affairs 2026-27 scheme-wise allocation ([Tribal Affairs][6])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "The scheme is listed with current 2026-27 allocation by the Ministry of Tribal Affairs."
+}
+},
+{
+"scheme_id": "ST-PRE-MATRIC",
+"scheme_name": "Pre-Matric Scholarship for Scheduled Tribes",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Tribal Affairs",
+"domains": ["education", "tribal_welfare", "child_welfare"],
+"target_group": "Scheduled Tribe students in eligible pre-matric classes",
+"benefit_type": "Scholarship",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pre-Matric Scholarship for Scheduled Tribes",
+"scheme_id": "ST-PRE-MATRIC",
+"ministry_department": "Ministry of Tribal Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Scholarship",
+"sector": "Tribal Affairs",
+"domains": ["education", "tribal_welfare", "child_welfare"],
+"target_group": "Scheduled Tribe students in eligible pre-matric classes",
+"benefit_type": "Scholarship",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides scholarship assistance to eligible Scheduled Tribe students at the pre-matric level."
+},
+"description": {
+"summary": "Provides scholarship support to eligible Scheduled Tribe students at the pre-matric stage.",
+"short": "Pre-matric scholarship for ST students.",
+"full": "The scheme provides financial assistance to eligible Scheduled Tribe students studying in qualifying pre-matric classes, subject to the applicable scheme rules."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Student must satisfy applicable ST scholarship eligibility requirements."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is the scholarship for?",
+"answer": "It is intended for eligible Scheduled Tribe students studying at the pre-matric level."
+}
+],
+"tags": ["ST", "scholarship", "education", "children"],
+"identification_keywords": ["ST pre matric scholarship", "tribal scholarship", "school scholarship ST"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://tribal.nic.in/](https://tribal.nic.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Tribal Affairs 2026-27 scheme-wise allocation ([Tribal Affairs][6])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "The scheme is listed with current 2026-27 allocation by the Ministry of Tribal Affairs."
+}
+},
+{
+"scheme_id": "ST-NFHE",
+"scheme_name": "National Fellowship and Scholarship for Higher Education of ST Students",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Tribal Affairs",
+"domains": ["education", "tribal_welfare"],
+"target_group": "Scheduled Tribe students pursuing higher education",
+"benefit_type": "Fellowship and Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Fellowship and Scholarship for Higher Education of ST Students",
+"scheme_id": "ST-NFHE",
+"ministry_department": "Ministry of Tribal Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Higher Education Scholarship",
+"sector": "Tribal Affairs",
+"domains": ["education", "tribal_welfare"],
+"target_group": "Scheduled Tribe students pursuing higher education",
+"benefit_type": "Fellowship and Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides fellowship and scholarship support for eligible Scheduled Tribe students pursuing higher education."
+},
+"description": {
+"summary": "Supports eligible Scheduled Tribe students pursuing higher education through fellowship and scholarship assistance.",
+"short": "Higher education fellowship and scholarship for ST students.",
+"full": "The scheme supports Scheduled Tribe students in higher education through national fellowship and scholarship provisions according to applicable eligibility and selection rules."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Applicants must satisfy the applicable academic and ST eligibility requirements."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Fellowship / Scholarship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is supported under this scheme?",
+"answer": "Eligible Scheduled Tribe students pursuing higher education are supported through fellowship and scholarship provisions."
+}
+],
+"tags": ["ST", "fellowship", "scholarship", "higher_education"],
+"identification_keywords": ["ST fellowship", "ST higher education scholarship", "tribal fellowship", "ST student scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://tribal.nic.in/](https://tribal.nic.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Tribal Affairs 2026-27 scheme-wise allocation ([Tribal Affairs][6])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "The scheme is listed with current 2026-27 allocation by the Ministry of Tribal Affairs."
+}
+},
+{
+"scheme_id": "PMJVM",
+"scheme_name": "Pradhan Mantri Jan Jatiya Vikas Mission",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Tribal Welfare",
+"sub_category": "Tribal Livelihood",
+"gender": "All",
+"state": "India",
+"sector": "Tribal Affairs",
+"domains": ["tribal_welfare", "agriculture", "business", "employment"],
+"target_group": "Tribal communities and tribal entrepreneurs",
+"benefit_type": "Livelihood and Enterprise Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Jan Jatiya Vikas Mission",
+"scheme_id": "PMJVM",
+"ministry_department": "Ministry of Tribal Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Tribal Welfare",
+"sub_category": "Tribal Livelihood",
+"sector": "Tribal Affairs",
+"domains": ["tribal_welfare", "agriculture", "business", "employment"],
+"target_group": "Tribal communities and tribal entrepreneurs",
+"benefit_type": "Livelihood and Enterprise Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports tribal livelihoods, entrepreneurship, value addition and marketing of tribal products."
+},
+"description": {
+"summary": "Supports tribal livelihoods and enterprises by improving value addition, market access and economic opportunities.",
+"short": "Livelihood and enterprise support for tribal communities.",
+"full": "PMJVM seeks to strengthen tribal livelihoods and entrepreneurship through interventions related to tribal products, value chains, value addition and market linkages."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Livelihood Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does PMJVM support?",
+"answer": "The mission supports tribal livelihoods and enterprises, including value addition and market access for tribal products."
+}
+],
+"tags": ["tribal", "livelihood", "business", "tribal_products"],
+"identification_keywords": ["PMJVM", "tribal livelihood", "tribal business scheme", "tribal products"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": true,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": true,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://tribal.nic.in/](https://tribal.nic.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Tribal Affairs 2026-27 scheme-wise allocation ([Tribal Affairs][6])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "PMJVM is listed with current 2026-27 allocation by the Ministry of Tribal Affairs."
+}
+},
+{
+"scheme_id": "NMMSS",
+"scheme_name": "National Means-cum-Merit Scholarship Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "School Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "School Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Meritorious students from economically weaker sections",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Means-cum-Merit Scholarship Scheme",
+"scheme_id": "NMMSS",
+"ministry_department": "Department of School Education and Literacy, Ministry of Education",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "School Scholarship",
+"sector": "School Education",
+"domains": ["education", "social_welfare"],
+"target_group": "Meritorious students from economically weaker sections",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 12000,
+"currency": "INR",
+"frequency": "Annual",
+"annual_amount": 12000,
+"benefit_description": "Provides an annual scholarship of Rs. 12,000 to selected students under the current scheme provisions."
+},
+"description": {
+"summary": "Provides scholarships to meritorious students from economically weaker sections to encourage continuation of secondary education.",
+"short": "Scholarship for meritorious EWS students.",
+"full": "NMMSS aims to reduce dropout after Class VIII and encourage economically weaker students to continue secondary education. The scholarship is administered through the National Scholarship Portal."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": 350000,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Students must satisfy the prescribed academic and selection criteria.",
+"The scholarship is intended for economically weaker students studying in eligible schools."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the objective of NMMSS?",
+"answer": "The scheme aims to reduce dropout after Class VIII and encourage meritorious students from economically weaker sections to continue secondary education."
+},
+{
+"question": "How much is the scholarship?",
+"answer": "The current annual scholarship amount is Rs. 12,000."
+}
+],
+"tags": ["education", "scholarship", "EWS", "students"],
+"identification_keywords": ["NMMSS", "school scholarship", "merit scholarship", "EWS scholarship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.education.gov.in/](https://www.education.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Education 2026-27 Output-Outcome Monitoring Framework and National Portal of India ([Education Government][7])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "NMMSS has a current 2026-27 financial allocation and active scholarship cycle information on official Government of India sources."
+}
+},
+{
+"scheme_id": "PM-SHRI",
+"scheme_name": "PM Schools for Rising India",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "School Education",
+"gender": "All",
+"state": "India",
+"sector": "School Education",
+"domains": ["education", "child_welfare"],
+"target_group": "Students of selected PM SHRI schools",
+"benefit_type": "School Infrastructure and Education Quality",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "PM Schools for Rising India",
+"scheme_id": "PM-SHRI",
+"ministry_department": "Department of School Education and Literacy, Ministry of Education",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "School Education",
+"sector": "School Education",
+"domains": ["education", "child_welfare"],
+"target_group": "Students of selected PM SHRI schools",
+"benefit_type": "School Infrastructure and Education Quality",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Strengthens selected schools through improved infrastructure, learning environments, resources and implementation of National Education Policy 2020."
+},
+"description": {
+"summary": "Develops selected schools as exemplar institutions with improved infrastructure, learning environments and education quality.",
+"short": "Exemplar school development programme.",
+"full": "PM SHRI aims to develop more than 14,500 exemplar schools managed by Central, State, UT and local governments, including eligible KVS and NVS schools."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": null
+},
+"conditions": ["Students benefit through participation in selected PM SHRI schools."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["School"],
+"steps": []
+},
+"payment": {
+"method": "School Education Support",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the objective of PM SHRI?",
+"answer": "The scheme aims to strengthen existing schools and showcase implementation of the National Education Policy 2020."
+},
+{
+"question": "How many schools are targeted?",
+"answer": "More than 14,500 PM SHRI schools are proposed."
+}
+],
+"tags": ["education", "schools", "children", "NEP2020"],
+"identification_keywords": ["PM SHRI", "PM schools", "school development scheme", "government school improvement"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://pmshrischools.education.gov.in/](https://pmshrischools.education.gov.in/)",
+"official_notification": null,
+"source_reference": "PM SHRI official portal and FAQ ([PM SHRI Schools][8])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "The official PM SHRI portal confirms the scheme and its implementation through 2026-27."
+}
+},
+{
+"scheme_id": "NAPS-2",
+"scheme_name": "National Apprenticeship Promotion Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Skill Development",
+"sub_category": "Apprenticeship",
+"gender": "All",
+"state": "India",
+"sector": "Skill Development",
+"domains": ["skill_development", "employment"],
+"target_group": "Apprentices and establishments engaging apprentices",
+"benefit_type": "Apprenticeship Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Apprenticeship Promotion Scheme",
+"scheme_id": "NAPS-2",
+"ministry_department": "Ministry of Skill Development and Entrepreneurship",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Skill Development",
+"sub_category": "Apprenticeship",
+"sector": "Skill Development",
+"domains": ["skill_development", "employment"],
+"target_group": "Apprentices and establishments engaging apprentices",
+"benefit_type": "Apprenticeship Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports apprenticeship engagement and training through government assistance to eligible establishments under NAPS-2."
+},
+"description": {
+"summary": "Promotes apprenticeship training by supporting establishments and expanding opportunities for apprentices.",
+"short": "Government-supported apprenticeship training.",
+"full": "NAPS-2 is the continuation of the National Apprenticeship Promotion Scheme and supports apprenticeship engagement across sectors including manufacturing, IT, banking, healthcare, logistics and services."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Apprenticeship engagement is governed by the Apprentices Act and applicable NAPS-2 conditions."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online"],
+"steps": []
+},
+"payment": {
+"method": "Apprenticeship Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is NAPS-2?",
+"answer": "NAPS-2 is the continuation of the National Apprenticeship Promotion Scheme introduced to promote apprenticeship engagement."
+}
+],
+"tags": ["apprenticeship", "skill_development", "employment", "training"],
+"identification_keywords": ["NAPS", "apprenticeship scheme", "apprenticeship training", "government apprenticeship"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.msde.gov.in/](https://www.msde.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Skill Development and Entrepreneurship and PIB 2026 apprenticeship update ([Press Information Bureau][9])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "NAPS-2 is explicitly identified as an active Central Sector apprenticeship scheme in the 2026 Government of India release."
+}
+},
+{
+"scheme_id": "PM-SVANIDHI",
+"scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Employment",
+"sub_category": "Street Vendor Credit",
+"gender": "All",
+"state": "India",
+"sector": "Housing & Urban Affairs",
+"domains": ["employment", "business", "banking", "urban_development"],
+"target_group": "Street vendors",
+"benefit_type": "Working Capital Loan",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi",
+"scheme_id": "PM-SVANIDHI",
+"ministry_department": "Ministry of Housing and Urban Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Employment",
+"sub_category": "Street Vendor Credit",
+"sector": "Housing & Urban Affairs",
+"domains": ["employment", "business", "banking", "urban_development"],
+"target_group": "Street vendors",
+"benefit_type": "Working Capital Loan",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 50000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides working-capital loans in three tranches of up to Rs. 15,000, Rs. 25,000 and Rs. 50,000 under the restructured scheme."
+},
+"description": {
+"summary": "Provides working-capital credit and financial inclusion support to street vendors.",
+"short": "Working-capital loans for street vendors.",
+"full": "PM SVANidhi supports street vendors through collateral-free working-capital loans, digital transaction incentives and social-security linkage. The restructured scheme has expanded coverage beyond statutory urban areas."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Applicant must qualify as a street vendor under the applicable scheme provisions."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online", "Urban Local Body"],
+"steps": []
+},
+"payment": {
+"method": "Loan",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What loan amounts are available?",
+"answer": "The restructured scheme provides three working-capital loan tranches of up to Rs. 15,000, Rs. 25,000 and Rs. 50,000."
+},
+{
+"question": "Who is PM SVANidhi for?",
+"answer": "The scheme is intended for eligible street vendors."
+}
+],
+"tags": ["street_vendor", "loan", "business", "urban", "employment"],
+"identification_keywords": ["PM SVANidhi", "street vendor loan", "vendor loan", "small business loan"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://pmsvanidhi.mohua.gov.in/](https://pmsvanidhi.mohua.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Housing and Urban Affairs and PIB 2026 PM SVANidhi implementation updates ([Press Information Bureau][10])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current PM SVANidhi lending and expanded coverage were verified through official 2026 Government of India releases."
+}
+},
+{
+"scheme_id": "SUKANYA-SAMRIDDHI",
+"scheme_name": "Sukanya Samriddhi Account",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Women",
+"sub_category": "Girl Child Savings",
+"gender": "Female",
+"state": "India",
+"sector": "Financial Services",
+"domains": ["women_welfare", "social_welfare", "banking"],
+"target_group": "Girl children below 10 years of age",
+"benefit_type": "Savings Account",
+"scheme_type": "Central Government Savings Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Sukanya Samriddhi Account",
+"scheme_id": "SUKANYA-SAMRIDDHI",
+"ministry_department": "Ministry of Finance, Department of Economic Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Women",
+"sub_category": "Girl Child Savings",
+"sector": "Financial Services",
+"domains": ["women_welfare", "social_welfare", "banking"],
+"target_group": "Girl children below 10 years of age",
+"benefit_type": "Savings Account",
+"scheme_type": "Central Government Savings Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides a government-backed small savings account for the benefit of a girl child, with interest determined under applicable small-savings rules."
+},
+"description": {
+"summary": "Provides a long-term savings account designed to support the future financial needs of a girl child.",
+"short": "Savings scheme for the girl child.",
+"full": "Sukanya Samriddhi Account can be opened for a girl child below 10 years of age and is designed to encourage long-term savings for her future."
+},
+"eligibility": {
+"age": {
+"minimum": 0,
+"maximum": 10
+},
+"gender": ["Female"],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": null
+},
+"conditions": ["The account is opened for an eligible girl child below 10 years of age."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Bank", "Post Office"],
+"steps": []
+},
+"payment": {
+"method": "Savings Account",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who can have a Sukanya Samriddhi Account?",
+"answer": "The account is intended for an eligible girl child below 10 years of age."
+},
+{
+"question": "Where can the account be opened?",
+"answer": "Sukanya Samriddhi Accounts are available through authorized banks and post offices."
+}
+],
+"tags": ["girl_child", "savings", "women_welfare", "education"],
+"identification_keywords": ["Sukanya Samriddhi", "girl child savings", "SSA", "daughter savings scheme"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": true,
+"women_welfare": true,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.indiapost.gov.in/banking-services/savings](https://www.indiapost.gov.in/banking-services/savings)",
+"official_notification": null,
+"source_reference": "India Post official savings scheme information, current 2026 listing ([India Post][11])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "Sukanya Samriddhi Account is currently offered by India Post and remains an active Government of India small savings scheme."
+}
+},
+{
+"scheme_id": "PMMVY",
+"scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Women",
+"sub_category": "Maternal Welfare",
+"gender": "Female",
+"state": "India",
+"sector": "Women & Child Development",
+"domains": ["women_welfare", "child_welfare", "social_welfare"],
+"target_group": "Eligible pregnant women and lactating mothers",
+"benefit_type": "Maternity Benefit",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+"scheme_id": "PMMVY",
+"ministry_department": "Ministry of Women and Child Development",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Women",
+"sub_category": "Maternal Welfare",
+"sector": "Women & Child Development",
+"domains": ["women_welfare", "child_welfare", "social_welfare"],
+"target_group": "Eligible pregnant women and lactating mothers",
+"benefit_type": "Maternity Benefit",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides maternity benefit assistance to eligible pregnant women and lactating mothers according to PMMVY provisions."
+},
+"description": {
+"summary": "Provides maternity benefit assistance to eligible pregnant women and lactating mothers.",
+"short": "Maternity benefit scheme for eligible women.",
+"full": "PMMVY supports eligible pregnant women and lactating mothers with maternity benefits intended to compensate partly for wage loss and encourage health-seeking behaviour."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": ["Female"],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": ["Applicant must meet the current PMMVY eligibility criteria."],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Online", "Anganwadi Centre"],
+"steps": []
+},
+"payment": {
+"method": "Direct Benefit Transfer",
+"dbt": true,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is PMMVY intended for?",
+"answer": "It provides maternity benefits to eligible pregnant women and lactating mothers who satisfy the scheme's applicable eligibility criteria."
+}
+],
+"tags": ["women", "maternity", "pregnancy", "child_welfare", "DBT"],
+"identification_keywords": ["PMMVY", "maternity benefit", "pregnancy government scheme", "maternity assistance"],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": true,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://pmmvy.wcd.gov.in/](https://pmmvy.wcd.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Women and Child Development official PMMVY portal",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "PMMVY is part of the Ministry of Women and Child Development's current women and child welfare framework."
+}
+},
+{
+"scheme_id": "RKVY",
+"scheme_name": "Rashtriya Krishi Vikas Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Agricultural Development",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "rural_development"],
+"target_group": "Farmers and agricultural sector stakeholders",
+"benefit_type": "Agricultural Development Assistance",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Rashtriya Krishi Vikas Yojana",
+"scheme_id": "RKVY",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Agricultural Development",
+"sector": "Agriculture & Farmers Welfare",
+"domains": ["agriculture", "farmer", "rural_development"],
+"target_group": "Farmers and agricultural sector stakeholders",
+"benefit_type": "Agricultural Development Assistance",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports state-led agricultural development projects and interventions intended to improve agricultural infrastructure, productivity and related value chains."
+},
+"description": {
+"summary": "Supports state-led agricultural development initiatives aimed at improving farm productivity and agricultural infrastructure.",
+"short": "Agricultural development support through States.",
+"full": "Rashtriya Krishi Vikas Yojana supports states in implementing agricultural development projects and interventions based on local priorities and agricultural needs."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": ["Department Office"],
+"steps": []
+},
+"payment": {
+"method": "Agricultural Development Assistance",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the purpose of RKVY?",
+"answer": "RKVY supports state-led agricultural development projects and interventions to improve agricultural development and productivity."
+}
+],
+"tags": ["agriculture", "farmer", "rural_development", "farm_productivity"],
+"identification_keywords": ["RKVY", "Rashtriya Krishi Vikas Yojana", "agriculture development scheme", "farmer development"],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": true,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://agriwelfare.gov.in/](https://agriwelfare.gov.in/)",
+"official_notification": null,
+"source_reference": "Government of India Expenditure Profile 2026-27, Department of Agriculture and Farmers Welfare scheme allocation ([India Budget][12])",
+"last_verified": "2026-08-15"
+},
+"verification": {
+"verified": true,
+"verification_note": "RKVY is included in the Government of India's current 2026-27 agricultural scheme expenditure framework."
+}
+}
+]
+

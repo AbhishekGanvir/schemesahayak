@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3A"/>
+      <stop offset="55%" stop-color="#123B7A"/>
+      <stop offset="100%" stop-color="#2154C7"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EDF1F8"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#04122B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- app-icon background -->
+  <rect x="0" y="0" width="240" height="240" rx="52" fill="url(#bgGrad)"/>
+
+  <!-- shield badge -->
+  <g filter="url(#softShadow)">
+    <path d="M120,32
+             C155,32 188,43 203,58
+             L203,120
+             C203,175 167,208 120,224
+             C73,208 37,175 37,120
+             L37,58
+             C52,43 85,32 120,32 Z"
+          fill="url(#shieldGrad)" stroke="#0B1F3A" stroke-width="2"/>
+  </g>
+
+  <!-- civic building glyph -->
+  <g fill="#0B1F3A">
+    <!-- pediment -->
+    <path d="M120,76 L158,106 L82,106 Z"/>
+    <!-- entablature -->
+    <rect x="82" y="106" width="76" height="9" rx="1.5"/>
+    <!-- columns -->
+    <rect x="88" y="119" width="9" height="52" rx="1.5"/>
+    <rect x="107" y="119" width="9" height="52" rx="1.5"/>
+    <rect x="125" y="119" width="9" height="52" rx="1.5"/>
+    <rect x="143" y="119" width="9" height="52" rx="1.5"/>
+  </g>
+
+  <!-- tricolor plinth (Indian civic accent, not an official emblem) -->
+  <rect x="76" y="175" width="88" height="6" fill="#FF9933"/>
+  <rect x="76" y="181" width="88" height="6" fill="#FFFFFF" stroke="#D9DEE8" stroke-width="0.5"/>
+  <rect x="76" y="187" width="88" height="6" fill="#128807"/>
+
+  <!-- AI spark accent -->
+  <g fill="#FFB13C">
+    <path d="M184,46
+             C185.5,54 190,58.5 198,60
+             C190,61.5 185.5,66 184,74
+             C182.5,66 178,61.5 170,60
+             C178,58.5 182.5,54 184,46 Z"/>
+  </g>
+</svg>

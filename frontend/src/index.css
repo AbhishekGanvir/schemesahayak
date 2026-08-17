@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Hides scrollbars for horizontally-scrolling chip/prompt rows,
+   while keeping the content scrollable (used with className="no-scrollbar"). */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .scrollbar-pc {
+    scrollbar-width: auto;
+  }
+
+  .scrollbar-pc::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .scrollbar-pc::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+  }
+}
