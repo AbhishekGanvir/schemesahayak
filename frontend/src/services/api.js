@@ -8,7 +8,7 @@
 // that does not exist in the database can still open on the detail page.
 
 export const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+  import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000' || 'schemesahayak.up.railway.app';
 
 // ---------------------------------------------------------------------
 // Low level request helper
