@@ -2,14 +2,9 @@ import { useRef, useState } from 'react';
 import { textToSpeech } from '../services/api.js';
 
 // ---------------------------------------------------------------------
-// Text-to-speech helpers
+// TEXT TO SPEECH HELPERS
 // ---------------------------------------------------------------------
 
-// Splits text into sentence-sized (and, for very long sentences,
-// further word-wrapped) chunks. Chrome's speechSynthesis has a
-// long-standing bug where a single long utterance silently stops
-// after a few seconds/words — speaking short chunks back-to-back via
-// the utterance's `onend` callback works around it reliably.
 const SENTENCE_SPLIT_REGEX = /(?<=[.!?।])\s+/;
 const MAX_CHUNK_LENGTH = 180;
 
@@ -27,53 +22,102 @@ function splitIntoSpeechChunks(text) {
       continue;
     }
 
-    // Word-wrap very long sentences so no single utterance is too long.
     let remainder = sentence;
+
     while (remainder.length > MAX_CHUNK_LENGTH) {
-      let cut = remainder.lastIndexOf(' ', MAX_CHUNK_LENGTH);
-      if (cut <= 0) cut = MAX_CHUNK_LENGTH;
-      chunks.push(remainder.slice(0, cut).trim());
-      remainder = remainder.slice(cut).trim();
+      let cut = remainder.lastIndexOf(
+        ' ',
+        MAX_CHUNK_LENGTH
+      );
+
+      if (cut <= 0) {
+        cut = MAX_CHUNK_LENGTH;
+      }
+
+      chunks.push(
+        remainder.slice(0, cut).trim()
+      );
+
+      remainder = remainder
+        .slice(cut)
+        .trim();
     }
-    if (remainder) chunks.push(remainder);
+
+    if (remainder) {
+      chunks.push(remainder);
+    }
   }
 
   return chunks.filter(Boolean);
 }
 
-// If the text contains Devanagari characters, prefer Hindi voice/lang
-// regardless of what the caller asked for (handles Hindi-translated
-// responses being spoken correctly).
-function resolveSpeechLang(text, requestedLang) {
-  const hasDevanagari = /[\u0900-\u097F]/.test(text);
-  if (hasDevanagari) return 'hi-IN';
-  return requestedLang === 'hi-IN' ? 'hi-IN' : 'en-IN';
+function resolveSpeechLang(
+  text,
+  requestedLang
+) {
+  const hasDevanagari =
+    /[\u0900-\u097F]/.test(text);
+
+  if (hasDevanagari) {
+    return 'hi-IN';
+  }
+
+  return requestedLang === 'hi-IN'
+    ? 'hi-IN'
+    : 'en-IN';
 }
 
-// Encapsulates the Web Speech API usage: speech-to-text (voice search)
-// and text-to-speech (audio readout of bot replies).
+// ---------------------------------------------------------------------
+// VOICE RECOGNITION
+// ---------------------------------------------------------------------
+
 export function useVoiceRecognition({
   showToast,
   onTranscript,
   onInterimTranscript
 }) {
-  const [isListening, setIsListening] = useState(false);
-  const [voiceLang, setVoiceLang] = useState('en-IN');
+  const [isListening, setIsListening] =
+    useState(false);
 
-  const recognitionRef = useRef(null);
-  const audioRef = useRef(null);
-  const finalTranscriptRef = useRef('');
-  const submittedRef = useRef(false);
+  const [voiceLang, setVoiceLang] =
+    useState('en-IN');
 
-  // ---------------------------------------------------------------
-  // SILENCE DETECTION
-  // ---------------------------------------------------------------
+  const recognitionRef =
+    useRef(null);
 
-  const silenceTimerRef = useRef(null);
+  const audioRef =
+    useRef(null);
+
+  // Final text for this recognition session.
+  const finalTranscriptRef =
+    useRef('');
+
+  // Prevent duplicate submission.
+  const submittedRef =
+    useRef(false);
+
+  // Prevent duplicate recognition results.
+  const lastFinalTranscriptRef =
+    useRef('');
+
+  // Keep track of the latest visible transcript.
+  const lastInterimTranscriptRef =
+    useRef('');
+
+  // Silence timer.
+  const silenceTimerRef =
+    useRef(null);
+
+  // -------------------------------------------------------------------
+  // SILENCE TIMER
+  // -------------------------------------------------------------------
 
   const clearSilenceTimer = () => {
     if (silenceTimerRef.current) {
-      clearTimeout(silenceTimerRef.current);
+      clearTimeout(
+        silenceTimerRef.current
+      );
+
       silenceTimerRef.current = null;
     }
   };
@@ -81,32 +125,37 @@ export function useVoiceRecognition({
   const startSilenceTimer = () => {
     clearSilenceTimer();
 
-    silenceTimerRef.current = setTimeout(() => {
-      console.log('🎤 1 second silence detected. Stopping recognition...');
+    silenceTimerRef.current =
+      setTimeout(() => {
+        console.log(
+          '🎤 Silence detected. Stopping recognition...'
+        );
 
-      if (recognitionRef.current) {
-        try {
-          recognitionRef.current.stop();
-        } catch (error) {
-          // Recognition may already be stopped.
+        if (recognitionRef.current) {
+          try {
+            recognitionRef.current.stop();
+          } catch (error) {
+            // Already stopped.
+          }
         }
-      }
-    }, 1000);
+      }, 1200);
   };
 
-  // ---------------------------------------------------------------
+  // -------------------------------------------------------------------
   // LANGUAGE
-  // ---------------------------------------------------------------
+  // -------------------------------------------------------------------
 
   const toggleVoiceLang = () => {
     setVoiceLang((prev) =>
-      prev === 'en-IN' ? 'hi-IN' : 'en-IN'
+      prev === 'en-IN'
+        ? 'hi-IN'
+        : 'en-IN'
     );
   };
 
-  // ---------------------------------------------------------------
-  // STOP VOICE
-  // ---------------------------------------------------------------
+  // -------------------------------------------------------------------
+  // STOP
+  // -------------------------------------------------------------------
 
   const stopVoiceRecognition = () => {
     clearSilenceTimer();
@@ -117,14 +166,14 @@ export function useVoiceRecognition({
       try {
         recognitionRef.current.stop();
       } catch (error) {
-        // Recognition may already be stopped.
+        // Already stopped.
       }
     }
   };
 
-  // ---------------------------------------------------------------
-  // START / TOGGLE VOICE
-  // ---------------------------------------------------------------
+  // -------------------------------------------------------------------
+  // START / TOGGLE
+  // -------------------------------------------------------------------
 
   const toggleVoiceRecognition = () => {
     if (isListening) {
@@ -140,86 +189,224 @@ export function useVoiceRecognition({
       showToast(
         'Voice recognition is not supported in this browser. Please try Chrome or Edge.'
       );
+
       return;
     }
 
-    const recognition = new SpeechRecognition();
+    const recognition =
+      new SpeechRecognition();
 
-    recognition.continuous = true;
+    /*
+    |--------------------------------------------------------------------------
+    | IMPORTANT MOBILE FIX
+    |--------------------------------------------------------------------------
+    |
+    | This is a search query, not continuous dictation.
+    |
+    | continuous = false prevents Android Chrome from repeatedly
+    | replaying previous recognition segments.
+    |
+    |--------------------------------------------------------------------------
+    */
+
+    recognition.continuous = false;
     recognition.interimResults = true;
     recognition.maxAlternatives = 1;
     recognition.lang = voiceLang;
 
+    // Reset session state.
     finalTranscriptRef.current = '';
     submittedRef.current = false;
+    lastFinalTranscriptRef.current = '';
+    lastInterimTranscriptRef.current = '';
 
     clearSilenceTimer();
 
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
     // START
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
 
     recognition.onstart = () => {
-      console.log('🎤 Voice recognition started');
+      console.log(
+        '🎤 Voice recognition started'
+      );
+
       setIsListening(true);
     };
 
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
     // RESULT
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
 
     recognition.onresult = (event) => {
-      let interim = '';
+      let finalText = '';
+      let interimText = '';
+
+      /*
+      |--------------------------------------------------------------------------
+      | IMPORTANT
+      |--------------------------------------------------------------------------
+      |
+      | Instead of blindly appending every result, only use the current
+      | recognition result set and deduplicate repeated final text.
+      |
+      |--------------------------------------------------------------------------
+      */
 
       for (
         let i = event.resultIndex;
         i < event.results.length;
         i++
       ) {
-        const result = event.results[i];
+        const result =
+          event.results[i];
 
         const transcript =
-          result?.[0]?.transcript || '';
+          result?.[0]?.transcript
+            ?.trim() || '';
+
+        if (!transcript) {
+          continue;
+        }
 
         if (result.isFinal) {
-          finalTranscriptRef.current =
-            `${finalTranscriptRef.current} ${transcript}`
+          finalText =
+            `${finalText} ${transcript}`
               .trim();
         } else {
-          interim += transcript;
+          interimText =
+            `${interimText} ${transcript}`
+              .trim();
         }
       }
 
-      const currentText =
-        `${finalTranscriptRef.current} ${interim}`
-          .trim();
+      /*
+      |--------------------------------------------------------------------------
+      | FINAL TEXT
+      |--------------------------------------------------------------------------
+      */
 
-      console.log(
-        '🎤 Speech:',
-        currentText
-      );
+      if (finalText) {
+        /*
+        |----------------------------------------------------------------------
+        | Prevent Android duplicate final events.
+        |----------------------------------------------------------------------
+        */
 
-      // Show live transcript if supported.
-      if (
-        typeof onInterimTranscript === 'function'
-      ) {
-        onInterimTranscript(currentText);
+        if (
+          finalText ===
+          lastFinalTranscriptRef.current
+        ) {
+          console.log(
+            '🎤 Duplicate final transcript ignored:',
+            finalText
+          );
+
+          return;
+        }
+
+        lastFinalTranscriptRef.current =
+          finalText;
+
+        finalTranscriptRef.current =
+          finalText;
+
+        lastInterimTranscriptRef.current =
+          '';
+
+        console.log(
+          '🎤 Final speech:',
+          finalText
+        );
+
+        if (
+          typeof onInterimTranscript ===
+          'function'
+        ) {
+          onInterimTranscript(
+            finalText
+          );
+        }
+
+        clearSilenceTimer();
+
+        /*
+        |--------------------------------------------------------------------------
+        | SUBMIT IMMEDIATELY
+        |--------------------------------------------------------------------------
+        |
+        | Since this is a one-shot recognition query, once Android gives us
+        | a final transcript we can submit it immediately.
+        |
+        |--------------------------------------------------------------------------
+        */
+
+        if (
+          !submittedRef.current
+        ) {
+          submittedRef.current =
+            true;
+
+          console.log(
+            '📤 Sending voice query:',
+            finalText
+          );
+
+          onTranscript(
+            finalText
+          );
+        }
+
+        /*
+        |--------------------------------------------------------------------------
+        | Stop recognition after final result.
+        |--------------------------------------------------------------------------
+        */
+
+        try {
+          recognition.stop();
+        } catch (error) {
+          // Already stopping.
+        }
+
+        return;
       }
 
-      // -----------------------------------------------------------
-      // IMPORTANT
-      //
-      // Every speech result resets the 1-second silence timer.
-      // -----------------------------------------------------------
+      /*
+      |--------------------------------------------------------------------------
+      | INTERIM TEXT
+      |--------------------------------------------------------------------------
+      */
 
-      if (currentText) {
+      const currentInterim =
+        interimText.trim();
+
+      if (currentInterim) {
+        lastInterimTranscriptRef.current =
+          currentInterim;
+
+        console.log(
+          '🎤 Interim speech:',
+          currentInterim
+        );
+
+        if (
+          typeof onInterimTranscript ===
+          'function'
+        ) {
+          onInterimTranscript(
+            currentInterim
+          );
+        }
+
+        // Reset silence timer while user is speaking.
         startSilenceTimer();
       }
     };
 
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
     // ERROR
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
 
     recognition.onerror = (event) => {
       console.log(
@@ -229,20 +416,22 @@ export function useVoiceRecognition({
 
       clearSilenceTimer();
 
-      // These are normal browser events.
+      setIsListening(false);
+
       if (
         event.error !== 'no-speech' &&
         event.error !== 'aborted'
       ) {
         showToast(
-          'Voice error: ' + event.error
+          'Voice error: ' +
+            event.error
         );
       }
     };
 
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
     // END
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
 
     recognition.onend = () => {
       console.log(
@@ -254,46 +443,66 @@ export function useVoiceRecognition({
       setIsListening(false);
 
       const finalText =
-        finalTranscriptRef.current.trim();
+        finalTranscriptRef.current
+          .trim();
 
-      console.log(
-        '📝 Final transcript:',
-        finalText
-      );
-
-      // -----------------------------------------------------------
-      // SEND ONLY ONCE
-      // -----------------------------------------------------------
+      /*
+      |--------------------------------------------------------------------------
+      | FALLBACK SUBMISSION
+      |--------------------------------------------------------------------------
+      |
+      | Usually the final result is already submitted inside onresult.
+      | This fallback handles browsers that only deliver the final text
+      | immediately before onend.
+      |
+      |--------------------------------------------------------------------------
+      */
 
       if (
         finalText &&
         !submittedRef.current
       ) {
-        submittedRef.current = true;
+        submittedRef.current =
+          true;
 
         console.log(
-          '📤 Sending voice query:',
+          '📤 Sending voice query from onend:',
           finalText
         );
 
-        onTranscript(finalText);
+        onTranscript(
+          finalText
+        );
       }
 
+      recognitionRef.current = null;
+
       finalTranscriptRef.current = '';
+      lastFinalTranscriptRef.current = '';
+      lastInterimTranscriptRef.current = '';
     };
 
-    recognitionRef.current = recognition;
+    recognitionRef.current =
+      recognition;
 
-    // -------------------------------------------------------------
-    // START RECOGNITION
-    // -------------------------------------------------------------
+    // -----------------------------------------------------------------
+    // START
+    // -----------------------------------------------------------------
 
     try {
       recognition.start();
     } catch (error) {
+      console.error(
+        '🎤 Recognition start failed:',
+        error
+      );
+
       clearSilenceTimer();
 
       setIsListening(false);
+
+      recognitionRef.current =
+        null;
 
       showToast(
         'Unable to start the microphone. Please try again.'
@@ -301,18 +510,21 @@ export function useVoiceRecognition({
     }
   };
 
-  // ---------------------------------------------------------------
+  // ---------------------------------------------------------------------
   // BROWSER TEXT TO SPEECH
-  // ---------------------------------------------------------------
+  // ---------------------------------------------------------------------
 
   const speakWithBrowser = (
     text,
     requestedLang
   ) => {
-    if (!('speechSynthesis' in window)) {
+    if (
+      !('speechSynthesis' in window)
+    ) {
       showToast(
         'Audio playback is not supported in this browser.'
       );
+
       return;
     }
 
@@ -325,12 +537,17 @@ export function useVoiceRecognition({
       );
 
     const chunks =
-      splitIntoSpeechChunks(text);
+      splitIntoSpeechChunks(
+        text
+      );
 
     let index = 0;
 
     const speakNextChunk = () => {
-      if (index >= chunks.length) {
+      if (
+        index >=
+        chunks.length
+      ) {
         return;
       }
 
@@ -339,18 +556,25 @@ export function useVoiceRecognition({
           chunks[index]
         );
 
-      utterance.lang = lang;
-      utterance.rate = 1.0;
+      utterance.lang =
+        lang;
+
+      utterance.rate =
+        1.0;
 
       utterance.onend = () => {
         index += 1;
         speakNextChunk();
       };
 
-      utterance.onerror = (event) => {
+      utterance.onerror = (
+        event
+      ) => {
         if (
-          event.error !== 'interrupted' &&
-          event.error !== 'canceled'
+          event.error !==
+            'interrupted' &&
+          event.error !==
+            'canceled'
         ) {
           showToast(
             'Unable to play audio for this response.'
@@ -366,27 +590,40 @@ export function useVoiceRecognition({
     speakNextChunk();
   };
 
-  // ---------------------------------------------------------------
+  // ---------------------------------------------------------------------
   // TEXT TO SPEECH
-  // ---------------------------------------------------------------
+  // ---------------------------------------------------------------------
 
   const speakText = async (
     text,
     requestedLang
   ) => {
-    const cleanText = text
-      .replace(/<[^>]*>/g, '')
-      .replace(/\*\*/g, '');
+    const cleanText =
+      text
+        .replace(
+          /<[^>]*>/g,
+          ''
+        )
+        .replace(
+          /\*\*/g,
+          ''
+        );
 
-    if (!cleanText.trim()) {
+    if (
+      !cleanText.trim()
+    ) {
       return;
     }
 
-    if ('speechSynthesis' in window) {
+    if (
+      'speechSynthesis' in window
+    ) {
       window.speechSynthesis.cancel();
     }
 
-    if (audioRef.current) {
+    if (
+      audioRef.current
+    ) {
       audioRef.current.pause();
       audioRef.current = null;
     }
@@ -416,7 +653,8 @@ export function useVoiceRecognition({
         const audio =
           new Audio(src);
 
-        audioRef.current = audio;
+        audioRef.current =
+          audio;
 
         audio.onerror = () => {
           speakWithBrowser(
@@ -430,7 +668,10 @@ export function useVoiceRecognition({
         return;
       }
     } catch (error) {
-      // Fall back to browser speech synthesis.
+      console.warn(
+        'TTS backend failed, using browser speech:',
+        error
+      );
     }
 
     speakWithBrowser(
@@ -439,16 +680,21 @@ export function useVoiceRecognition({
     );
   };
 
-  // ---------------------------------------------------------------
+  // ---------------------------------------------------------------------
   // RETURN
-  // ---------------------------------------------------------------
+  // ---------------------------------------------------------------------
 
   return {
     isListening,
+
     voiceLang,
+
     toggleVoiceLang,
+
     toggleVoiceRecognition,
+
     stopVoiceRecognition,
+
     speakText
   };
 }
