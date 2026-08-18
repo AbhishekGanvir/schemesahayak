@@ -2,9 +2,22 @@
 // SCHEME PDF GENERATOR
 // =====================================================================
 //
-// Uses html2pdf.js installed through npm.
-// No CDN script injection.
-// No window.html2pdf dependency.
+// Uses the browser's native print pipeline ("Save as PDF" in the
+// print dialog) instead of html2pdf.js / html2canvas.
+//
+// Why: html2canvas rasterizes the DOM to a bitmap before jsPDF lays
+// it onto a page. That step is where most of the real-world failures
+// come from — blank output on some mobile WebViews, broken/garbled
+// text (because it's actually an image, not text), inline SVG not
+// rendering, CORS issues with fonts, huge memory spikes on long
+// pages, and inconsistent scaling across devices/DPI settings.
+//
+// The print approach sidesteps all of that: we build the exact same
+// HTML, drop it into a hidden iframe with print-specific CSS, and
+// call the browser's own print() — which every desktop and mobile
+// browser already knows how to paginate and rasterize correctly
+// (or, on desktop, just emit a real vector/text PDF directly via
+// "Save as PDF"). No extra library, no canvas, no memory spikes.
 //
 // Mirrors the display logic in SchemeDetailContent.jsx so the PDF and
 // the on-screen detail page never disagree: same isMeaningfulValue
@@ -18,7 +31,6 @@
 //
 // =====================================================================
 
-import html2pdf from "html2pdf.js";
 import { isMeaningfulValue } from "./isMeaningfulValue.js";
 import {
   documentLabel,
@@ -28,11 +40,6 @@ import {
 
 // =====================================================================
 // BRAND LOGO (inline SVG — matches the mark used on the site header)
-// =====================================================================
-//
-// Sized down from the source 240x240 icon; viewBox kept intact so it
-// scales cleanly. Embedded inline (not as an <img src>) so html2canvas
-// renders it reliably without an extra network/asset fetch.
 // =====================================================================
 
 const SCHEME_SAHAYAK_LOGO_SVG = `
@@ -85,10 +92,7 @@ const SCHEME_SAHAYAK_LOGO_SVG = `
 // =====================================================================
 
 function escapeHtml(value) {
-  if (
-    value === null ||
-    value === undefined
-  ) {
+  if (value === null || value === undefined) {
     return "";
   }
 
@@ -136,22 +140,14 @@ function formatEligibilityValuePdf(value) {
   }
 
   if (Array.isArray(value)) {
-    const parts = value
-      .map(formatEligibilityValuePdf)
-      .filter(Boolean);
+    const parts = value.map(formatEligibilityValuePdf).filter(Boolean);
     return parts.length ? parts.join(", ") : null;
   }
 
   if (typeof value === "object") {
     // { minimum: 18, maximum: 60 }
-    if (
-      isMeaningfulValue(value.minimum) ||
-      isMeaningfulValue(value.maximum)
-    ) {
-      if (
-        isMeaningfulValue(value.minimum) &&
-        isMeaningfulValue(value.maximum)
-      ) {
+    if (isMeaningfulValue(value.minimum) || isMeaningfulValue(value.maximum)) {
+      if (isMeaningfulValue(value.minimum) && isMeaningfulValue(value.maximum)) {
         return `${value.minimum} – ${value.maximum}`;
       }
       if (isMeaningfulValue(value.minimum)) {
@@ -165,9 +161,7 @@ function formatEligibilityValuePdf(value) {
     // Income object — only render an amount when one is actually set.
     if ("maximum_annual_family_income" in value) {
       if (isMeaningfulValue(value.maximum_annual_family_income)) {
-        const amount = Number(
-          value.maximum_annual_family_income
-        ).toLocaleString("en-IN");
+        const amount = Number(value.maximum_annual_family_income).toLocaleString("en-IN");
         return `${value.currency || "₹"} ${amount} annual family income`;
       }
       if (value.required === true) {
@@ -188,9 +182,7 @@ function formatEligibilityValuePdf(value) {
     }
 
     // Generic object fallback
-    const entries = Object.entries(value).filter(([, v]) =>
-      isMeaningfulValue(v)
-    );
+    const entries = Object.entries(value).filter(([, v]) => isMeaningfulValue(v));
 
     if (entries.length === 0) {
       return null;
@@ -201,10 +193,7 @@ function formatEligibilityValuePdf(value) {
     }
 
     return entries
-      .map(
-        ([key, v]) =>
-          `${key.replace(/_/g, " ")}: ${formatEligibilityValuePdf(v)}`
-      )
+      .map(([key, v]) => `${key.replace(/_/g, " ")}: ${formatEligibilityValuePdf(v)}`)
       .join(" • ");
   }
 
@@ -212,7 +201,8 @@ function formatEligibilityValuePdf(value) {
 }
 
 // =====================================================================
-// BUILD PDF HTML
+// BUILD PDF HTML (the scheme "content" — no <html>/<head> wrapper,
+// this gets dropped straight into the print document below)
 // =====================================================================
 
 export function buildSchemePdfHtml(scheme) {
@@ -264,17 +254,13 @@ export function buildSchemePdfHtml(scheme) {
     })
     .filter(Boolean);
 
-  const conditionLines = (
-    Array.isArray(eligibility.conditions) ? eligibility.conditions : []
-  )
+  const conditionLines = (Array.isArray(eligibility.conditions) ? eligibility.conditions : [])
     .filter((c) => isMeaningfulValue(c))
     .map((condition) => `Condition: ${formatEligibilityValuePdf(condition)}`);
 
   const allEligibilityLines = [...eligibilityLines, ...conditionLines];
 
-  const documents = (
-    Array.isArray(documents_required) ? documents_required : []
-  )
+  const documents = (Array.isArray(documents_required) ? documents_required : [])
     .map(documentLabel)
     .filter(Boolean);
 
@@ -396,10 +382,6 @@ export function buildSchemePdfHtml(scheme) {
     },
   ].filter(Boolean);
 
-  // display: inline-flex + align-items: center + a fixed line-height
-  // is what actually centers the text inside the pill — inline-block
-  // alone lets the browser's default line box push the text toward
-  // the bottom, which is why the badges looked bottom-heavy before.
   const badgesHtml = badges
     .map(
       (b) => `
@@ -424,8 +406,7 @@ export function buildSchemePdfHtml(scheme) {
     .join("");
 
   // Section header helper — icon + title + underline, matching the
-  // Section component's look on the detail page (colored icon, bold
-  // title, thin divider).
+  // Section component's look on the detail page.
   const sectionHeader = (icon, color, title) => `
     <div
       style="
@@ -445,19 +426,24 @@ export function buildSchemePdfHtml(scheme) {
     </div>
   `;
 
+  // break-inside is the modern print/paginated-media property;
+  // page-break-inside is kept alongside it for older WebKit engines
+  // (older Safari / some Android WebViews) that don't honor break-inside.
   const cardStyle = `
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
     padding: 12px 16px;
     margin-bottom: 10px;
+    break-inside: avoid;
     page-break-inside: avoid;
   `;
 
   return `
     <div
       style="
-        width: 740px;
+        width: 100%;
+        max-width: 740px;
         box-sizing: border-box;
         background: #ffffff;
         color: #1e293b;
@@ -465,6 +451,7 @@ export function buildSchemePdfHtml(scheme) {
         padding: 22px 26px;
         line-height: 1.4;
         font-size: 12px;
+        margin: 0 auto;
       "
     >
 
@@ -500,6 +487,8 @@ export function buildSchemePdfHtml(scheme) {
           border-radius: 12px;
           padding: 16px 20px;
           margin-bottom: 12px;
+          break-inside: avoid;
+          page-break-inside: avoid;
         "
       >
         ${badgesHtml ? `<div style="margin-bottom: 8px;">${badgesHtml}</div>` : ""}
@@ -664,6 +653,8 @@ export function buildSchemePdfHtml(scheme) {
           border: 1px solid #e2e8f0;
           color: #334155;
           margin-bottom: 4px;
+          break-inside: avoid;
+          page-break-inside: avoid;
         "
       >
         <strong style="color: #0f172a;">Ministry / Department:</strong>
@@ -710,273 +701,152 @@ export function buildSchemePdfHtml(scheme) {
 }
 
 // =====================================================================
-// DOWNLOAD PDF
+// BUILD FULL PRINT DOCUMENT
+// =====================================================================
+//
+// Wraps buildSchemePdfHtml()'s content fragment in a full HTML
+// document with @page rules so the browser's print engine paginates
+// it exactly like a real PDF: letter size, 0.3in margins, cards that
+// never split mid-card across a page break, and colors that survive
+// "print backgrounds" being off by default (print-color-adjust).
+//
 // =====================================================================
 
-export async function downloadSchemePdf(
-  scheme,
-  pdfPrintContainerRef,
-  showToast
-) {
+function buildSchemePrintDocument(scheme) {
+  const contentHtml = buildSchemePdfHtml(scheme);
+  const title = `${scheme?.scheme_name || "Scheme"} - Scheme Sahayak`;
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>${escapeHtml(title)}</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.3in;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color-adjust: exact;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  img, svg {
+    max-width: 100%;
+  }
+
+  @media print {
+    body {
+      width: auto;
+    }
+  }
+</style>
+</head>
+<body>
+${contentHtml}
+</body>
+</html>`;
+}
+
+// =====================================================================
+// DOWNLOAD / PRINT PDF
+// =====================================================================
+//
+// pdfPrintContainerRef is accepted for backward compatibility with
+// existing call sites but is no longer required — the print approach
+// builds its own isolated iframe document instead of reusing a node
+// in the live page, so nothing needs to be rendered on-screen first.
+//
+// =====================================================================
+
+export async function downloadSchemePdf(scheme, pdfPrintContainerRef, showToast) {
   if (!scheme) {
     return;
   }
 
-  if (
-    !pdfPrintContainerRef ||
-    !pdfPrintContainerRef.current
-  ) {
-    console.error(
-      "[PDF] Missing PDF container ref."
-    );
+  showToast?.("📄 Preparing PDF...");
 
-    showToast(
-      "Unable to prepare PDF."
-    );
+  const iframe = document.createElement("iframe");
+  iframe.setAttribute("aria-hidden", "true");
+  iframe.style.position = "fixed";
+  iframe.style.right = "0";
+  iframe.style.bottom = "0";
+  iframe.style.width = "0";
+  iframe.style.height = "0";
+  iframe.style.border = "0";
+  iframe.style.visibility = "hidden";
 
-    return;
+  let cleaned = false;
+  const cleanup = () => {
+    if (cleaned) return;
+    cleaned = true;
+    window.removeEventListener("focus", onFocusAfterPrint);
+    if (iframe.parentNode) {
+      iframe.parentNode.removeChild(iframe);
+    }
+  };
+
+  // Different browsers signal "the print dialog is done" differently.
+  // Desktop Chrome/Edge/Firefox fire `afterprint` on the iframe's own
+  // window. Safari and some mobile browsers don't reliably fire it on
+  // iframes, but focus always returns to the main window once the
+  // native print/share sheet closes — so that's used as a fallback
+  // signal. A final timeout guarantees the iframe never lingers even
+  // if neither event fires.
+  function onFocusAfterPrint() {
+    setTimeout(cleanup, 500);
   }
 
-  const container =
-    pdfPrintContainerRef.current;
-
-  const fileName =
-    `Sarkaari-Saathi-${
-      scheme.scheme_id ||
-      scheme.id ||
-      "scheme"
-    }.pdf`;
-
-  // ---------------------------------------------------------------
-  // Save page state
-  // ---------------------------------------------------------------
-
-  const prevScrollX =
-    window.scrollX;
-
-  const prevScrollY =
-    window.scrollY;
-
-  const prevHtmlOverflow =
-    document.documentElement.style.overflow;
-
-  const prevBodyOverflow =
-    document.body.style.overflow;
-
-  window.scrollTo(0, 0);
-
-  document.documentElement.style.overflow =
-    "hidden";
-
-  document.body.style.overflow =
-    "hidden";
-
   try {
-    // -------------------------------------------------------------
-    // Build temporary PDF content
-    // -------------------------------------------------------------
+    document.body.appendChild(iframe);
+    window.addEventListener("focus", onFocusAfterPrint, { once: true });
 
-    container.innerHTML =
-      buildSchemePdfHtml(
-        scheme
-      );
+    const doc = iframe.contentWindow.document;
+    doc.open();
+    doc.write(buildSchemePrintDocument(scheme));
+    doc.close();
 
-    // NOTE: no explicit container width here — this is the fix for the
-    // content-hugging-the-left-of-the-page bug. The HTML returned by
-    // buildSchemePdfHtml() is itself a fixed-width (700px) box. If the
-    // container is *also* forced to a different fixed width (it used
-    // to be 750px), the child sits flush-left inside it and the extra
-    // width becomes a dead strip on the right that gets captured into
-    // the canvas and carried straight into the PDF. Leaving width
-    // unset lets this fixed-position container shrink-wrap tightly
-    // around its child, so the captured image is exactly the content's
-    // size — no lopsided margins once it's placed on the page.
-
-    container.style.background =
-      "#ffffff";
-
-    container.style.color =
-      "#0f172a";
-
-    container.style.display =
-      "block";
-
-    container.style.position =
-      "fixed";
-
-    container.style.left =
-      "0";
-
-    container.style.top =
-      "0";
-
-    container.style.zIndex =
-      "-1";
-
-    // -------------------------------------------------------------
-    // Allow browser to render
-    // -------------------------------------------------------------
-
-    await new Promise(
-      (resolve) => {
-        requestAnimationFrame(() => {
-          requestAnimationFrame(
-            resolve
-          );
-        });
+    // Wait for the iframe to actually finish loading/laying out
+    // (fonts, inline SVG, reflow) before invoking print — calling
+    // print() too early can produce a blank or half-rendered page.
+    await new Promise((resolve) => {
+      if (doc.readyState === "complete") {
+        requestAnimationFrame(() => requestAnimationFrame(resolve));
+      } else {
+        iframe.contentWindow.addEventListener(
+          "load",
+          () => requestAnimationFrame(() => requestAnimationFrame(resolve)),
+          { once: true }
+        );
       }
-    );
+    });
 
-    const width =
-      Math.ceil(
-        container.getBoundingClientRect()
-          .width
-      ) ||
-      container.scrollWidth;
+    iframe.contentWindow.addEventListener("afterprint", cleanup, { once: true });
+    iframe.contentWindow.focus();
+    iframe.contentWindow.print();
 
-    const height =
-      Math.ceil(
-        container.scrollHeight
-      );
+    showToast?.('🖨️ In the print dialog, choose "Save as PDF" to download.');
 
-    if (
-      !width ||
-      !height
-    ) {
-      throw new Error(
-        "PDF container has zero dimensions."
-      );
-    }
-
-    showToast(
-      "📄 Generating PDF..."
-    );
-
-    // -------------------------------------------------------------
-    // PDF OPTIONS
-    // -------------------------------------------------------------
-
-    const options = {
-      // 0.3in margins on a letter page (8.5in) leave a 7.9in / ~758px
-      // interior at 96dpi — the 740px content box above fits that with
-      // a small buffer, so it fills the page width instead of leaving
-      // a gap. Reduced from 0.4in to also claw back some of the dead
-      // space that was piling up above the content.
-      margin: 0.3,
-
-      filename: fileName,
-
-      image: {
-        type: "jpeg",
-        quality: 0.98,
-      },
-
-      html2canvas: {
-        scale: 2,
-
-        backgroundColor:
-          "#ffffff",
-
-        useCORS: true,
-
-        allowTaint: false,
-
-        logging: false,
-
-        width,
-
-        height,
-
-        windowWidth:
-          width,
-
-        windowHeight:
-          height,
-
-        x: 0,
-
-        y: 0,
-
-        scrollX: 0,
-
-        scrollY: 0,
-      },
-
-      jsPDF: {
-        unit: "in",
-
-        format: "letter",
-
-        orientation:
-          "portrait",
-
-        compress: true,
-      },
-
-      pagebreak: {
-        mode: [
-          "css",
-          "legacy",
-        ],
-      },
-    };
-
-    // -------------------------------------------------------------
-    // GENERATE
-    // -------------------------------------------------------------
-
-    await html2pdf()
-      .set(options)
-      .from(container)
-      .save();
-
-    showToast(
-      "✅ Scheme PDF downloaded."
-    );
-
+    // Safety net in case neither afterprint nor window focus ever fires
+    // (observed on a handful of embedded/in-app mobile browsers).
+    setTimeout(cleanup, 60000);
   } catch (error) {
-
-    console.error(
-      "[PDF] Generation failed:",
-      error
-    );
-
-    showToast(
-      "Unable to generate the PDF. Please try again."
-    );
-
-  } finally {
-
-    // -------------------------------------------------------------
-    // Cleanup
-    // -------------------------------------------------------------
-
-    container.innerHTML = "";
-
-    container.style.display =
-      "";
-
-    container.style.position =
-      "";
-
-    container.style.left =
-      "";
-
-    container.style.top =
-      "";
-
-    container.style.zIndex =
-      "";
-
-    document.documentElement.style.overflow =
-      prevHtmlOverflow;
-
-    document.body.style.overflow =
-      prevBodyOverflow;
-
-    window.scrollTo(
-      prevScrollX,
-      prevScrollY
-    );
+    console.error("[PDF] Print generation failed:", error);
+    showToast?.("Unable to generate the PDF. Please try again.");
+    cleanup();
   }
 }
