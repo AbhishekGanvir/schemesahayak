@@ -3,21 +3,21 @@ import React, { useState } from 'react';
 const FAQ_ITEMS = [
   {
     id: 'faq1',
-    question: 'How does Voice Search work in Scheme Sahayak AI?',
+    question: 'How reliable is the information provided by Scheme Sahayak AI?',
     answer:
-      'Click the microphone icon beside the send button and speak your question naturally. Scheme Sahayak AI converts your voice into text and instantly finds matching scheme details.'
+      'Scheme Sahayak AI simplifies scheme information for easy understanding. Always confirm important details with the relevant official government source.'
   },
   {
     id: 'faq2',
-    question: 'How do I download crisp scheme summary sheets in PDF?',
+    question: 'How can I understand a scheme’s eligibility and benefits?',
     answer:
-      'Open any scheme detail page by clicking "Explore Scheme →" or "View Details", then click the "Download Scheme Details " button. A formatted print sheet will be securely generated on your device.'
+      'Scheme Sahayak AI explains the key eligibility criteria, benefits, required documents, and application process in simple language. Always verify the final eligibility requirements with the official scheme source.'
   },
   {
     id: 'faq3',
-    question: 'How do I know if I am fully eligible for a scheme?',
+    question: 'How can I compare different government schemes?',
     answer:
-      'Every scheme detail page clearly lists the "Eligibility Criteria" and "Required Documents." You can also directly ask the AI Assistant, "Am I eligible for [Scheme Name] if I earn [Income]?" for a precise answer.'
+      'You can compare schemes based on key factors such as benefits, eligibility, required documents, and application process to find the option that best suits your needs.'
   },
   {
     id: 'faq4',

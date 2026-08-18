@@ -855,61 +855,125 @@ export const searchSchemesController = (
 |--------------------------------------------------------------------------
 */
 
+/*
+|--------------------------------------------------------------------------
+| CATEGORY KEY (STABLE, NORMALIZED SLUG)
+|--------------------------------------------------------------------------
+|
+| Single normalization rule used everywhere a category is turned into an
+| id/slug, so the same category name always produces the same key.
+|
+|--------------------------------------------------------------------------
+*/
+
+const getCategoryKey = (
+  categoryName
+) => {
+  return normalizeText(
+    categoryName
+  ).replace(
+    /\s+/g,
+    "_"
+  );
+};
+
+/*
+|--------------------------------------------------------------------------
+| BUILD CATEGORY GROUPS — SHARED SOURCE OF TRUTH
+|--------------------------------------------------------------------------
+|
+| This is the ONE place that decides:
+|   - which category a scheme belongs to
+|   - how schemes are deduplicated (by scheme_id)
+|
+| Both /api/schemes/categories (counts) and
+| /api/schemes/category/:category (actual schemes) are built from this
+| same function, so it is structurally impossible for the chip count to
+| differ from the number of schemes actually returned.
+|
+| Domains are intentionally NOT used as category membership — category
+| membership is defined solely by getCategory(scheme).
+|
+|--------------------------------------------------------------------------
+*/
+
+const buildCategoryGroups = () => {
+  const groups = new Map();
+  // key -> { key, name, schemes: Map<scheme_id, scheme> }
+
+  for (const scheme of schemeDataset) {
+    const categoryName =
+      getCategory(scheme);
+
+    if (!categoryName) {
+      continue;
+    }
+
+    if (!scheme?.scheme_id) {
+      // Can't safely dedupe a scheme with no id, so skip it
+      // rather than risk inflating a category's count.
+      continue;
+    }
+
+    const key =
+      getCategoryKey(
+        categoryName
+      );
+
+    if (!groups.has(key)) {
+      groups.set(key, {
+        key,
+        name: categoryName,
+        schemes: new Map(),
+      });
+    }
+
+    // Dedupe by scheme_id so duplicate records coming from
+    // multiple JSON dataset files never inflate category counts.
+    groups
+      .get(key)
+      .schemes.set(
+        scheme.scheme_id,
+        scheme
+      );
+  }
+
+  return groups;
+};
+
+/*
+|--------------------------------------------------------------------------
+| GET CATEGORIES
+|--------------------------------------------------------------------------
+|
+| GET /api/schemes/categories
+|
+|--------------------------------------------------------------------------
+*/
+
 export const getCategories = (
   req,
   res
 ) => {
   try {
-    const categoryMap =
-      new Map();
-
-    for (const scheme of
-      schemeDataset) {
-      const category =
-        getCategory(scheme);
-
-      if (!category) {
-        continue;
-      }
-
-      if (
-        !categoryMap.has(
-          category
-        )
-      ) {
-        categoryMap.set(
-          category,
-          0
-        );
-      }
-
-      categoryMap.set(
-        category,
-        categoryMap.get(
-          category
-        ) + 1
-      );
-    }
+    const groups =
+      buildCategoryGroups();
 
     const categories =
       Array.from(
-        categoryMap.entries()
+        groups.values()
       )
         .map(
-          ([
-            name,
-            count,
-          ]) => ({
-            id: normalizeText(
-              name
-            ).replace(
-              /\s+/g,
-              "_"
-            ),
+          (group) => ({
+            id: group.key,
 
-            name,
+            name: group.name,
 
-            count,
+            // count === unique schemes.length for this category,
+            // guaranteed by sharing buildCategoryGroups() with
+            // getSchemesByCategory below.
+            count:
+              group.schemes.size,
           })
         )
         .sort(
@@ -958,35 +1022,24 @@ export const getSchemesByCategory = (
   res
 ) => {
   try {
-    const requestedCategory =
-      normalizeText(
+    const requestedKey =
+      getCategoryKey(
         req.params.category
       );
 
-    const results =
-      schemeDataset.filter(
-        (scheme) => {
-          const category =
-            normalizeText(
-              getCategory(
-                scheme
-              )
-            );
+    const groups =
+      buildCategoryGroups();
 
-          const domains =
-            getDomains(
-              scheme
-            );
+    const group =
+      groups.get(requestedKey);
 
-          return (
-            category ===
-              requestedCategory ||
-            domains.includes(
-              requestedCategory
-            )
-          );
-        }
-      );
+    // Same Map that produced the chip's count above, so this list's
+    // length always matches that count exactly.
+    const uniqueSchemes = group
+      ? Array.from(
+          group.schemes.values()
+        )
+      : [];
 
     return res.json({
       success: true,
@@ -996,10 +1049,10 @@ export const getSchemesByCategory = (
           req.params.category,
 
         count:
-          results.length,
+          uniqueSchemes.length,
 
         schemes:
-          results.map(
+          uniqueSchemes.map(
             formatSchemeCard
           ),
       },
@@ -1343,6 +1396,3 @@ export const getProfileTemplate = (req, res) => {
     });
   }
 };
-
-
-

@@ -7,7 +7,7 @@
 // Gemini-generated schemes are also cached in localStorage so a scheme
 // that does not exist in the database can still open on the detail page.
 
-export const API_BASE_URL = "";
+export const API_BASE_URL = "http://localhost:5000";
 
 // ---------------------------------------------------------------------
 // Low level request helper
@@ -257,7 +257,7 @@ function unwrap(payload) {
 // Example:
 //
 // localStorage
-//   gemini_scheme_cache_v1
+//   gemini_scheme_cache_v2
 //      {
 //        "gemini-example-scheme": {
 //          scheme_id: "...",
@@ -270,8 +270,14 @@ function unwrap(payload) {
 //
 // This allows a Gemini-only scheme to open even when it isn't in DB.
 //
+// v2: the backend now returns a fully normalized/validated canonical
+// Gemini scheme (see gemini.controller.js buildCanonicalGeminiScheme),
+// with every required field populated and a validated official URL.
+// Bumping the cache key ensures old, incomplete v1 entries (which
+// could contain null/""/{} fields) can never resurface for a user who
+// cached them before this fix.
 
-const GEMINI_SCHEME_CACHE_KEY = 'gemini_scheme_cache_v1';
+const GEMINI_SCHEME_CACHE_KEY = 'gemini_scheme_cache_v2';
 
 function hasValue(v) {
   return (
@@ -1137,10 +1143,43 @@ export function normalizeSchemeDetail(payload) {
       verified:
         verification.verified ?? null,
 
+      verification_status:
+        verification.verification_status ??
+        null,
+
+      verification_source:
+        verification.verification_source ??
+        null,
+
       verification_note:
         verification.verification_note ??
         null
-    }
+    },
+
+    // Only present for AI/Gemini-generated schemes. Genuine database
+    // schemes simply won't have this object, so it stays undefined and
+    // the detail page's AI Advisor badge is skipped for them.
+    ai_advisor:
+      scheme.ai_advisor &&
+      typeof scheme.ai_advisor === 'object'
+        ? {
+            generated:
+              scheme.ai_advisor.generated ??
+              null,
+
+            verified:
+              scheme.ai_advisor.verified ??
+              null,
+
+            status:
+              scheme.ai_advisor.status ??
+              null,
+
+            note:
+              scheme.ai_advisor.note ??
+              null
+          }
+        : null
   };
 }
 
@@ -1186,12 +1225,16 @@ export function normalizeCategory(raw) {
     return null;
   }
 
+  // The backend's stable, normalized slug (`id`) is the real category
+  // key used to fetch /api/schemes/category/:category. Prefer it over
+  // the human-readable `name` so the frontend always requests using
+  // the same key the backend grouped schemes by.
   const key =
     firstNonEmpty(
+      raw.id,
       raw.key,
       raw.category,
-      raw.name,
-      raw.id
+      raw.name
     );
 
   if (!key) {

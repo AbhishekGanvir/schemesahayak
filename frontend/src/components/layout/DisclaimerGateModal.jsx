@@ -14,7 +14,7 @@ export default function DisclaimerGateModal({ onAccept, onClose }) {
         </div>
         <h3 className="text-sm font-bold text-slate-900 mb-2">Please accept the disclaimer before using the AI assistant.</h3>
         <p className="text-xs text-slate-500 leading-relaxed mb-5">
-          Scheme Sahayak is a privately owned information platform and is not affiliated with the Government of India.
+          Scheme Sahayak is a open source information platform and is not affiliated with the Government of India.
         </p>
         <div className="flex flex-col sm:flex-row gap-2.5">
           <button

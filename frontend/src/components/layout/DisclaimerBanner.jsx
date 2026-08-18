@@ -58,16 +58,16 @@ export default function DisclaimerBanner({ onAccept }) {
           {/* Main disclaimer */}
           <p className="text-slate-300 text-[11px] sm:text-xs lg:text-sm leading-[1.55]">
             <strong className="text-white">Scheme Sahayak</strong> is an
-            open-source, AI-powered information platform designed to help
+            open source information platform designed to help
             citizens discover and understand Indian Government Schemes.
             <span className="text-white font-semibold">
-              {" "}We are NOT affiliated with the Government of India, department, or public-sector organization.
+              {" "}We are NOT affiliated with the Government of India, department, or public sector organization.
             </span>
           </p>
 
           {/* Secondary text */}
           <p className="text-slate-400 text-[10px] sm:text-xs lg:text-sm leading-[1.5] mt-2">
-            Scheme information is compiled and cross-checked using official
+            Scheme information is compiled and cross checked using official
             government portals and publicly available sources. Users are
             advised to verify eligibility, documents, deadlines, benefits,
             and application requirements on the official portal before applying.

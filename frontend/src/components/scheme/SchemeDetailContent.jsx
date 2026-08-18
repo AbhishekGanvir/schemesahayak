@@ -80,6 +80,22 @@ function formatEligibilityValue(value) {
       return null;
     }
 
+    // Residency (and similar) shape — { required: true, state: 'India' }.
+    // The "required" flag is just internal bookkeeping; what the user
+    // actually wants to read is the place itself, e.g. "India", not
+    // "required: Yes • state: India".
+    if ('state' in value) {
+      if (isMeaningfulValue(value.state)) {
+        return String(value.state);
+      }
+
+      if (value.required === true) {
+        return 'Required';
+      }
+
+      return null;
+    }
+
     // Generic object fallback
     const entries = Object.entries(value).filter(([, v]) => isMeaningfulValue(v));
 
@@ -206,7 +222,8 @@ export default function SchemeDetailContent({ scheme, onAskAi }) {
     faqs,
     tags,
     source,
-    verification
+    verification,
+    ai_advisor: aiAdvisor
   } = scheme;
 
   const documents = documentsRaw.map(documentLabel).filter(Boolean);
@@ -327,7 +344,9 @@ export default function SchemeDetailContent({ scheme, onAskAi }) {
           )}
         </Section>
 
-        {/* Key Benefits */}
+        {/* Key Benefits — heading always shown; falls back to an
+            EmptyNote inside the card when there's no benefit data,
+            unlike the other sections below which hide entirely. */}
         <Section icon="fa-gift" iconColor="text-emerald-600" title="Key Benefits">
           {isMeaningfulValue(activeBenefitDescription) || isMeaningfulValue(benefit.amount) ? (
             <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2">
@@ -355,9 +374,10 @@ export default function SchemeDetailContent({ scheme, onAskAi }) {
           )}
         </Section>
 
-        {/* Eligibility */}
-        <Section icon="fa-clipboard-check" iconColor="text-indigo-600" title="Eligibility Criteria">
-          {hasEligibilityDetails || activeConditions.length > 0 || activeExclusions.length > 0 ? (
+        {/* Eligibility — hidden entirely (heading included) when there's
+            no eligibility data, conditions, or exclusions to show. */}
+        {(hasEligibilityDetails || activeConditions.length > 0 || activeExclusions.length > 0) && (
+          <Section icon="fa-clipboard-check" iconColor="text-indigo-600" title="Eligibility Criteria">
             <div className="text-xs sm:text-sm">
               <EligibilityRow label="Age" value={eligibility.age} />
               <EligibilityRow label="Gender" value={eligibility.gender} />
@@ -393,14 +413,14 @@ export default function SchemeDetailContent({ scheme, onAskAi }) {
                 </div>
               )}
             </div>
-          ) : (
-            <EmptyNote>No eligibility details listed for this scheme yet.</EmptyNote>
-          )}
-        </Section>
+          </Section>
+        )}
 
-        {/* Required Documents */}
-        <Section icon="fa-folder-open" iconColor="text-amber-600" title="Required Documents">
-          {activeDocuments.length > 0 ? (
+        {/* Required Documents — hide the entire section (heading
+            included) when there are no real documents to list, rather
+            than showing an empty "No specific documents listed." card. */}
+        {activeDocuments.length > 0 && (
+          <Section icon="fa-folder-open" iconColor="text-amber-600" title="Required Documents">
             <ul className="space-y-2 text-xs sm:text-sm text-slate-700">
               {activeDocuments.map((doc, idx) => (
                 <li key={idx} className="flex items-center gap-2">
@@ -409,30 +429,29 @@ export default function SchemeDetailContent({ scheme, onAskAi }) {
                 </li>
               ))}
             </ul>
-          ) : (
-            <EmptyNote>No specific documents listed.</EmptyNote>
-          )}
-        </Section>
+          </Section>
+        )}
 
-        {/* How to Apply */}
-        <Section icon="fa-list-check" iconColor="text-teal-600" title="How to Apply">
-          {isMeaningfulValue(activeApplicationMode) && (
-            <p className="text-xs sm:text-sm text-slate-700 mb-3">
-              <strong className="text-slate-800">Application Mode:</strong> {activeApplicationMode}
-            </p>
-          )}
-          {activeApplicationSteps.length > 0 ? (
-            <ol className="space-y-3 text-xs sm:text-sm text-slate-700 list-decimal pl-4">
-              {activeApplicationSteps.map((step, idx) => (
-                <li key={idx} className="pl-1 leading-relaxed">
-                  {step}
-                </li>
-              ))}
-            </ol>
-          ) : (
-            <EmptyNote>No step-by-step application process listed yet.</EmptyNote>
-          )}
-        </Section>
+        {/* How to Apply — hidden entirely (heading included) when there's
+            neither an application mode nor any steps to show. */}
+        {(isMeaningfulValue(activeApplicationMode) || activeApplicationSteps.length > 0) && (
+          <Section icon="fa-list-check" iconColor="text-teal-600" title="How to Apply">
+            {isMeaningfulValue(activeApplicationMode) && (
+              <p className="text-xs sm:text-sm text-slate-700 mb-3">
+                <strong className="text-slate-800">Application Mode:</strong> {activeApplicationMode}
+              </p>
+            )}
+            {activeApplicationSteps.length > 0 && (
+              <ol className="space-y-3 text-xs sm:text-sm text-slate-700 list-decimal pl-4">
+                {activeApplicationSteps.map((step, idx) => (
+                  <li key={idx} className="pl-1 leading-relaxed">
+                    {step}
+                  </li>
+                ))}
+              </ol>
+            )}
+          </Section>
+        )}
 
         {/* Payment / DBT */}
         {paymentItems.length > 0 && (
@@ -546,27 +565,57 @@ export default function SchemeDetailContent({ scheme, onAskAi }) {
           </div>
         </div>
 
-        {/* Verification */}
-        <div
-          className={`rounded-xl p-5 border shadow-2xs ${
-            verification.verified ? 'bg-emerald-50 border-emerald-200' : 'bg-amber-50 border-amber-200'
-          }`}
-        >
-          <h4
-            className={`text-xs font-bold uppercase tracking-wider mb-2 flex items-center gap-1.5 ${
-              verification.verified ? 'text-emerald-700' : 'text-amber-700'
+        {/* Government Verification — shown for database schemes, and for
+            any AI-generated scheme that has actually been verified.
+            For AI-generated schemes still pending verification, the
+            "verification pending" messaging lives in the AI Advisor
+            block below instead of duplicating a second panel here. */}
+        {(!aiAdvisor?.generated || verification.verified) && (
+          <div
+            className={`rounded-xl p-5 border shadow-2xs ${
+              verification.verified ? 'bg-emerald-50 border-emerald-200' : 'bg-amber-50 border-amber-200'
             }`}
           >
-            <i className={`fa-solid ${verification.verified ? 'fa-shield-check' : 'fa-triangle-exclamation'}`}></i>
-            {verification.verified ? 'Verified' : 'Verification Pending'}
-          </h4>
-          {isMeaningfulValue(verification.verification_note) && (
-            <p className="text-xs text-slate-700 leading-relaxed mb-2">{verification.verification_note}</p>
-          )}
-          <p className="text-[11px] text-slate-500 leading-relaxed">
-            Always verify details at the official source before applying or sharing personal documents.
-          </p>
-        </div>
+            <h4
+              className={`text-xs font-bold uppercase tracking-wider mb-2 flex items-center gap-1.5 ${
+                verification.verified ? 'text-emerald-700' : 'text-amber-700'
+              }`}
+            >
+              <i className={`fa-solid ${verification.verified ? 'fa-shield-check' : 'fa-triangle-exclamation'}`}></i>
+              {verification.verified ? 'Government Verified' : 'Verification Pending'}
+            </h4>
+            {isMeaningfulValue(verification.verification_note) && (
+              <p className="text-xs text-slate-700 leading-relaxed mb-2">{verification.verification_note}</p>
+            )}
+            <p className="text-[11px] text-slate-500 leading-relaxed">
+              Always verify details at the official source before applying or sharing personal documents.
+            </p>
+          </div>
+        )}
+
+        {/* AI Advisor Verification — only present for AI/Gemini-generated
+            schemes. This is intentionally separate from, and never a
+            substitute for, Government Verification above: a scheme can be
+            "AI Advisor Verified" (structured/reviewed by Scheme Sahayak AI)
+            while Government Verification remains Pending. For schemes
+            still pending government verification, that caveat is folded
+            into this block instead of showing a separate amber panel. */}
+        {aiAdvisor && (isMeaningfulValue(aiAdvisor.status) || aiAdvisor.generated) && (
+          <div className="rounded-xl p-5 border shadow-2xs bg-blue-50 border-blue-200">
+            <h4 className="text-xs font-bold uppercase tracking-wider mb-2 flex items-center gap-1.5 text-blue-700">
+              <i className="fa-solid fa-robot"></i>
+              {isMeaningfulValue(aiAdvisor.status) ? aiAdvisor.status : 'AI Advisor Verified'}
+            </h4>
+            {isMeaningfulValue(aiAdvisor.note) && (
+              <p className="text-xs text-slate-700 leading-relaxed mb-2">{aiAdvisor.note}</p>
+            )}
+            <p className="text-[11px] text-slate-500 leading-relaxed">
+              {verification.verified
+                ? 'This does not mean Government verification. Scheme Sahayak AI has reviewed and structured the scheme information.'
+                : 'Not yet been independently verified against the official Government source. Please confirm the latest details there before applying or sharing personal documents.'}
+            </p>
+          </div>
+        )}
 
         {/* Ask AI Box */}
         <div className="bg-slate-900 text-white rounded-xl p-5 border border-slate-800 shadow-2xs">
