@@ -7,7 +7,7 @@
 // Gemini-generated schemes are also cached in localStorage so a scheme
 // that does not exist in the database can still open on the detail page.
 
-export const API_BASE_URL = "http://localhost:5000";
+export const API_BASE_URL = "";
 
 // ---------------------------------------------------------------------
 // Low level request helper
