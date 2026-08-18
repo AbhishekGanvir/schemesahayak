@@ -1,0 +1,2217 @@
+[
+{
+"scheme_id": "MMMLBY",
+"scheme_name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+"scheme_name_local": "मुख्यमंत्री माझी लाडकी बहीण योजना",
+"identifiers": {
+"category": "Women",
+"sub_category": "Women Financial Assistance",
+"gender": "Female",
+"state": "Maharashtra",
+"sector": "Women & Child Development",
+"domains": [
+"women_welfare",
+"social_welfare",
+"banking"
+],
+"target_group": "Eligible women residing in Maharashtra",
+"benefit_type": "Cash Transfer",
+"scheme_type": "State Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+"scheme_id": "MMMLBY",
+"ministry_department": "Women and Child Development Department, Government of Maharashtra",
+"government_level": "State",
+"state": "Maharashtra"
+},
+"classification": {
+"category": "Women",
+"sub_category": "Women Financial Assistance",
+"sector": "Women & Child Development",
+"domains": [
+"women_welfare",
+"social_welfare",
+"banking"
+],
+"target_group": "Eligible women residing in Maharashtra",
+"benefit_type": "Cash Transfer",
+"scheme_type": "State Government Scheme"
+},
+"benefit": {
+"amount": 1500,
+"currency": "INR",
+"frequency": "Monthly",
+"annual_amount": 18000,
+"benefit_description": "Provides monthly financial assistance of Rs. 1,500 to eligible women through Direct Benefit Transfer."
+},
+"description": {
+"summary": "Provides monthly financial assistance to eligible women in Maharashtra to support their economic independence, health and nutrition.",
+"short": "Monthly financial assistance for eligible women in Maharashtra.",
+"full": "Mukhyamantri Majhi Ladki Bahin Yojana is a Maharashtra Government scheme introduced to strengthen women's economic independence and support their health, nutrition and role in household decision-making."
+},
+"eligibility": {
+"age": {
+"minimum": 21,
+"maximum": 65
+},
+"gender": [
+"Female"
+],
+"residency": {
+"required": true,
+"state": "Maharashtra"
+},
+"income": {
+"required": true,
+"maximum_annual_family_income": 250000,
+"currency": "INR"
+},
+"bank_account": {
+"required": true,
+"aadhaar_linked": true
+},
+"conditions": [
+"Applicant must be an eligible woman residing in Maharashtra under the scheme conditions.",
+"The scheme uses Direct Benefit Transfer for eligible beneficiaries.",
+"Family eligibility and other exclusions are governed by the applicable Maharashtra Government resolutions."
+],
+"exclusions": []
+},
+"documents_required": [
+"Aadhaar card",
+"Domicile or Maharashtra residence proof",
+"Income certificate or applicable income proof",
+"Bank account details",
+"Photograph"
+],
+"application": {
+"mode": [
+"Online",
+"Offline"
+],
+"steps": []
+},
+"payment": {
+"method": "Direct Benefit Transfer",
+"dbt": true,
+"bank_account_required": true,
+"aadhaar_linked": true
+},
+"faqs": [
+{
+"question": "How much assistance is provided under Majhi Ladki Bahin Yojana?",
+"answer": "Eligible women receive Rs. 1,500 per month through Direct Benefit Transfer."
+},
+{
+"question": "Who administers the scheme?",
+"answer": "The scheme is administered by the Women and Child Development Department of the Government of Maharashtra."
+}
+],
+"tags": [
+"ladki_bahin",
+"Maharashtra",
+"women_welfare",
+"DBT",
+"financial_assistance"
+],
+"identification_keywords": [
+"Mukhyamantri Majhi Ladki Bahin Yojana",
+"Majhi Ladki Bahin Yojana",
+"Ladki Bahin Yojana",
+"Mazi Ladki Bahin",
+"Maharashtra women scheme"
+],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Maharashtra Government Website",
+"official_website": "https://womenchild.maharashtra.gov.in/en/",
+"official_notification": "https://gr.maharashtra.gov.in/Site/Upload/Government%20Resolutions/Marathi/202407121401594230.pdf",
+"source_reference": "Women and Child Development Department, Government of Maharashtra, and Government Resolution dated 12 July 2024",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "The Maharashtra Women and Child Development Department currently lists Mukhyamantri Majhi Ladki Bahin Yojana among its schemes, and official Government Resolutions document its implementation and DBT framework."
+}
+},    
+{
+"scheme_id": "PM-KMY",
+"scheme_name": "Pradhan Mantri Kisan Maandhan Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Farmer",
+"sub_category": "Farmer Pension",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"farmer",
+"pension",
+"social_welfare"
+],
+"target_group": "Small and marginal farmers",
+"benefit_type": "Pension",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Kisan Maandhan Yojana",
+"scheme_id": "PM-KMY",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Farmer",
+"sub_category": "Farmer Pension",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"farmer",
+"pension",
+"social_welfare"
+],
+"target_group": "Small and marginal farmers",
+"benefit_type": "Pension",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 3000,
+"currency": "INR",
+"frequency": "Monthly",
+"annual_amount": null,
+"benefit_description": "Pension of Rs. 3,000 per month is payable after attaining the applicable pension age, subject to scheme conditions."
+},
+"description": {
+"summary": "Provides a voluntary contributory pension to eligible small and marginal farmers, with pension support after attaining the prescribed age.",
+"short": "Contributory pension for eligible small and marginal farmers.",
+"full": "Pradhan Mantri Kisan Maandhan Yojana provides social security through a voluntary and contributory pension arrangement for eligible small and marginal farmers."
+},
+"eligibility": {
+"age": {
+"minimum": 18,
+"maximum": 40
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": true,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must satisfy the scheme's small and marginal farmer eligibility conditions.",
+"Entry is available within the prescribed age range of 18 to 40 years."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Pension",
+"dbt": null,
+"bank_account_required": true,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is Pradhan Mantri Kisan Maandhan Yojana?",
+"answer": "It provides a voluntary contributory pension arrangement for eligible small and marginal farmers."
+}
+],
+"tags": [
+"farmer",
+"pension",
+"PM-KMY",
+"social_security"
+],
+"identification_keywords": [
+"PM Kisan Maandhan",
+"farmer pension",
+"Kisan Maandhan",
+"small marginal farmer pension"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": true,
+"education": false,
+"employment": false,
+"pension": true,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": true,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://maandhan.in/](https://maandhan.in/)",
+"official_notification": null,
+"source_reference": "Pradhan Mantri Kisan Maandhan official portal",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current official Government of India information and 2026 implementation records."
+}
+},
+{
+"scheme_id": "PM-DDKY",
+"scheme_name": "Pradhan Mantri Dhan-Dhaanya Krishi Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Farmer",
+"sub_category": "District Agriculture Development",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"rural_development"
+],
+"target_group": "Farmers and agricultural stakeholders in identified agriculture-aspirational districts",
+"benefit_type": "Integrated Agricultural Development Support",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Dhan-Dhaanya Krishi Yojana",
+"scheme_id": "PM-DDKY",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Farmer",
+"sub_category": "District Agriculture Development",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"rural_development"
+],
+"target_group": "Farmers and agricultural stakeholders in identified agriculture-aspirational districts",
+"benefit_type": "Integrated Agricultural Development Support",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports agricultural productivity, crop diversification, post-harvest storage, irrigation and access to agricultural credit in identified districts."
+},
+"description": {
+"summary": "Supports integrated agricultural development in 100 identified districts through productivity, diversification, storage, irrigation and credit-related interventions.",
+"short": "Integrated agricultural development in identified districts.",
+"full": "Pradhan Mantri Dhan-Dhaanya Krishi Yojana focuses on selected districts with low productivity, cropping intensity and credit parameters, using coordinated interventions to improve agricultural outcomes."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Coverage is focused on identified agriculture-aspirational districts.",
+"Interventions and beneficiary eligibility depend on the applicable programme components and State implementation."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Government Development Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does Pradhan Mantri Dhan-Dhaanya Krishi Yojana support?",
+"answer": "It supports agricultural productivity, diversification, post-harvest storage, irrigation and credit-related interventions in identified districts."
+}
+],
+"tags": [
+"PM-DDKY",
+"agriculture",
+"district_development",
+"farmer"
+],
+"identification_keywords": [
+"PM Dhan Dhaanya Krishi Yojana",
+"Dhan-Dhaanya Krishi Yojana",
+"agriculture aspirational districts"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": true,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2145147](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2145147)",
+"official_notification": null,
+"source_reference": "Press Information Bureau, Government of India, PM-DDKY launch and implementation information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current official Government of India information and 2026 implementation records."
+}
+},
+{
+"scheme_id": "MA-PULSES",
+"scheme_name": "Mission for Aatmanirbharta in Pulses",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Farmer",
+"sub_category": "Pulses Development",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"rural_development"
+],
+"target_group": "Pulse farmers and eligible value-chain stakeholders",
+"benefit_type": "Agricultural Production and Value-Chain Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Mission for Aatmanirbharta in Pulses",
+"scheme_id": "MA-PULSES",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Farmer",
+"sub_category": "Pulses Development",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"rural_development"
+],
+"target_group": "Pulse farmers and eligible value-chain stakeholders",
+"benefit_type": "Agricultural Production and Value-Chain Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports pulse production through quality seed, productivity, procurement and value-chain measures."
+},
+"description": {
+"summary": "Promotes self-reliance in pulses through productivity improvement, climate-resilient seed support, procurement and value-chain interventions.",
+"short": "Pulses production and value-chain support.",
+"full": "The Mission for Aatmanirbharta in Pulses is a six-year programme for Tur, Urad and Masoor that supports production, access to quality seed and related post-harvest and value-chain measures."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"The mission covers the specified pulses and operates under the approved programme guidelines.",
+"Farmer and value-chain support depends on State and programme implementation arrangements."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Agricultural Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What crops are covered by the Mission for Aatmanirbharta in Pulses?",
+"answer": "The mission gives special focus to Tur, Urad and Masoor."
+}
+],
+"tags": [
+"pulses",
+"farmer",
+"agriculture",
+"self_reliance"
+],
+"identification_keywords": [
+"Aatmanirbharta in Pulses",
+"pulse mission",
+"Tur Urad Masoor",
+"pulses government scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": true,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pmindia.gov.in/en/news_updates/union-cabinet-approves-mission-for-aatmanirbharta-in-pulses-for-2025-26-to-2030-31/](https://www.pmindia.gov.in/en/news_updates/union-cabinet-approves-mission-for-aatmanirbharta-in-pulses-for-2025-26-to-2030-31/)",
+"official_notification": null,
+"source_reference": "Prime Minister's Office, Government of India, Cabinet approval and implementation information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current official Government of India information and 2026 implementation records."
+}
+},
+{
+"scheme_id": "NFSNM",
+"scheme_name": "National Food Security and Nutrition Mission",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Foodgrain and Nutrition Crops",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer"
+],
+"target_group": "Farmers and agricultural stakeholders covered by State and UT interventions",
+"benefit_type": "Production Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Food Security and Nutrition Mission",
+"scheme_id": "NFSNM",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Foodgrain and Nutrition Crops",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer"
+],
+"target_group": "Farmers and agricultural stakeholders covered by State and UT interventions",
+"benefit_type": "Production Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides incentives and technical support for crop production, certified seed, nutrient and pest management and farmer training."
+},
+"description": {
+"summary": "Supports production and productivity of rice, wheat, pulses and nutri/coarse cereals through technology, seed, nutrient, pest-management and training interventions.",
+"short": "Production and productivity support for major food crops.",
+"full": "The National Food Security and Nutrition Mission, formerly the National Food Security Mission, supports higher production and productivity of major food crops through States and Union Territories."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Coverage and interventions depend on the crop, State or Union Territory and applicable guidelines."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Agricultural Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Which crops are supported under NFSNM?",
+"answer": "The mission supports pulses, nutri cereals, rice, wheat and coarse cereals."
+}
+],
+"tags": [
+"NFSNM",
+"food_security",
+"rice",
+"wheat",
+"pulses",
+"nutri_cereals"
+],
+"identification_keywords": [
+"National Food Security and Nutrition Mission",
+"NFSNM",
+"National Food Security Mission",
+"foodgrain production scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": true,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pib.gov.in/PressReleasePage.aspx?PRID=2114891](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2114891)",
+"official_notification": null,
+"source_reference": "Press Information Bureau, Government of India, NFSNM implementation information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current official Government of India information and current implementation records."
+}
+},
+{
+"scheme_id": "10K-FPO",
+"scheme_name": "Formation and Promotion of 10,000 Farmer Producer Organisations",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Farmer",
+"sub_category": "Farmer Producer Organisations",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"business",
+"rural_development"
+],
+"target_group": "Farmer Producer Organisations and their member farmers",
+"benefit_type": "Institutional and Financial Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Formation and Promotion of 10,000 Farmer Producer Organisations",
+"scheme_id": "10K-FPO",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Farmer",
+"sub_category": "Farmer Producer Organisations",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"business",
+"rural_development"
+],
+"target_group": "Farmer Producer Organisations and their member farmers",
+"benefit_type": "Institutional and Financial Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides formation, handholding, business and institutional support to eligible FPOs and farmer collectives."
+},
+"description": {
+"summary": "Supports the formation and promotion of 10,000 Farmer Producer Organisations to improve farmer aggregation, market access, input access and enterprise capacity.",
+"short": "Formation and promotion support for FPOs.",
+"full": "The Central Sector Scheme for Formation and Promotion of 10,000 FPOs supports organised farmer collectives through handholding, business development and access to finance and markets."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"The programme supports eligible Farmer Producer Organisations and their member farmers according to scheme guidelines.",
+"Implementation is carried out through designated implementing agencies and States."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Institutional and Financial Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the purpose of the 10,000 FPO scheme?",
+"answer": "It supports formation and promotion of Farmer Producer Organisations to strengthen farmer aggregation, markets, business capacity and access to finance."
+}
+],
+"tags": [
+"FPO",
+"farmer_producer_organisation",
+"farmer_collective",
+"agriculture"
+],
+"identification_keywords": [
+"Formation and Promotion of 10,000 Farmer Producer Organisations",
+"10,000 FPO scheme",
+"FPO scheme",
+"Farmer Producer Organisation"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": true,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://10kfpomis.dac.gov.in/](https://10kfpomis.dac.gov.in/)",
+"official_notification": null,
+"source_reference": "Official 10,000 FPO Scheme management portal",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current official Government of India information and 2026 implementation records."
+}
+},
+{
+"scheme_id": "NMNF",
+"scheme_name": "National Mission on Natural Farming",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Natural Farming",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"rural_development"
+],
+"target_group": "Farmers adopting natural farming practices",
+"benefit_type": "Natural Farming Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Mission on Natural Farming",
+"scheme_id": "NMNF",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Natural Farming",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"rural_development"
+],
+"target_group": "Farmers adopting natural farming practices",
+"benefit_type": "Natural Farming Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports farmer adoption, training and cluster-based promotion of natural farming practices."
+},
+"description": {
+"summary": "Promotes chemical-free natural farming through cluster-based implementation, farmer support, capacity building and on-farm ecosystem development.",
+"short": "Support for adoption of natural farming practices.",
+"full": "The National Mission on Natural Farming is a standalone government mission to expand natural farming through clusters, farmer training, support services and local implementation arrangements."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Benefits and implementation support depend on the approved natural-farming clusters and State action plans."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Natural Farming Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does the National Mission on Natural Farming promote?",
+"answer": "It promotes adoption of natural farming through clusters, farmer support, training and related implementation measures."
+}
+],
+"tags": [
+"natural_farming",
+"NMNF",
+"sustainable_agriculture",
+"farmer"
+],
+"identification_keywords": [
+"National Mission on Natural Farming",
+"natural farming scheme",
+"NMNF India"
+],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": true,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": false,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pmindia.gov.in/en/news_updates/launch-of-national-mission-on-natural-farming/](https://www.pmindia.gov.in/en/news_updates/launch-of-national-mission-on-natural-farming/)",
+"official_notification": null,
+"source_reference": "Prime Minister's Office, Government of India, National Mission on Natural Farming information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current official Government of India information and 2026 implementation records."
+}
+},
+{
+"scheme_id": "PMKSY",
+"scheme_name": "Pradhan Mantri Krishi Sinchayee Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Agriculture",
+"sub_category": "Irrigation",
+"gender": "All",
+"state": "India",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"rural_development"
+],
+"target_group": "Farmers and State/UT implementing agencies covered by irrigation interventions",
+"benefit_type": "Irrigation Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Krishi Sinchayee Yojana",
+"scheme_id": "PMKSY",
+"ministry_department": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Agriculture",
+"sub_category": "Irrigation",
+"sector": "Agriculture & Farmers Welfare",
+"domains": [
+"agriculture",
+"farmer",
+"rural_development"
+],
+"target_group": "Farmers and State/UT implementing agencies covered by irrigation interventions",
+"benefit_type": "Irrigation Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports irrigation potential, command-area development, on-farm water management and efficient water use."
+},
+"description": {
+"summary": "Supports irrigation development, efficient water use and expansion of irrigation potential through coordinated interventions with States and Union Territories.",
+"short": "Irrigation and water-use support for agriculture.",
+"full": "Pradhan Mantri Krishi Sinchayee Yojana supports irrigation potential, command-area and on-farm development, and more efficient agricultural water use through government assistance to States and Union Territories."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Coverage depends on the notified PMKSY interventions and State or Union Territory implementation."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Irrigation Development Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does PMKSY support?",
+"answer": "It supports irrigation potential, command-area development, on-farm development and efficient agricultural water use."
+}
+],
+"tags": [
+"PMKSY",
+"irrigation",
+"farm_irrigation",
+"water_use_efficiency"
+],
+"identification_keywords": [
+"Pradhan Mantri Krishi Sinchayee Yojana",
+"PM Krishi Sinchayee Yojana",
+"farm irrigation scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": true,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.india.gov.in/category/agriculture-rural-environment/subcategory/resources-for-agriculture/details/website-of-prime-minister-krishi-sinchayee-yojana](https://www.india.gov.in/category/agriculture-rural-environment/subcategory/resources-for-agriculture/details/website-of-prime-minister-krishi-sinchayee-yojana)",
+"official_notification": null,
+"source_reference": "National Portal of India, PMKSY official information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current official Government of India information and 2026 implementation records."
+}
+},
+{
+"scheme_id": "NATS",
+"scheme_name": "National Apprenticeship Training Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Employment",
+"sub_category": "Apprenticeship Training",
+"gender": "All",
+"state": "India",
+"sector": "Education",
+"domains": [
+"employment",
+"skill_development",
+"education"
+],
+"target_group": "Graduate, diploma and vocational candidates eligible for apprenticeship training",
+"benefit_type": "Apprenticeship Training",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Apprenticeship Training Scheme",
+"scheme_id": "NATS",
+"ministry_department": "Ministry of Education",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Employment",
+"sub_category": "Apprenticeship Training",
+"sector": "Education",
+"domains": [
+"employment",
+"skill_development",
+"education"
+],
+"target_group": "Graduate, diploma and vocational candidates eligible for apprenticeship training",
+"benefit_type": "Apprenticeship Training",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides practical workplace training and apprenticeship opportunities to eligible graduates, diploma holders and vocational candidates."
+},
+"description": {
+"summary": "Provides practical workplace training to eligible graduate, diploma and vocational candidates through apprenticeship opportunities.",
+"short": "Apprenticeship training for graduates and diploma holders.",
+"full": "The National Apprenticeship Training Scheme provides structured on-the-job training for eligible candidates in establishments across trade disciplines, helping bridge academic learning and workplace skills."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": true,
+"aadhaar_linked": true
+},
+"conditions": [
+"Candidate eligibility depends on the prescribed educational qualification and apprenticeship rules.",
+"Training duration is generally within the programme's applicable 6 to 12 month framework."
+],
+"exclusions": []
+},
+"documents_required": [
+"Aadhaar card",
+"Valid personal email ID",
+"Mobile number",
+"Passport size photograph",
+"Aadhaar-seeded or mapped bank account details",
+"Qualifying degree or provisional certificate",
+"Bank passbook or bank account statement"
+],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Apprenticeship Training",
+"dbt": null,
+"bank_account_required": true,
+"aadhaar_linked": true
+},
+"faqs": [
+{
+"question": "Who can use the National Apprenticeship Training Scheme?",
+"answer": "Eligible graduate, diploma and vocational candidates can register for apprenticeship training under the scheme."
+}
+],
+"tags": [
+"NATS",
+"apprenticeship",
+"graduate_training",
+"diploma_apprenticeship"
+],
+"identification_keywords": [
+"National Apprenticeship Training Scheme",
+"NATS apprenticeship",
+"graduate apprenticeship India"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://nats.education.gov.in/](https://nats.education.gov.in/)",
+"official_notification": null,
+"source_reference": "National Apprenticeship Training Scheme official portal",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the official NATS Government of India portal and current registration information."
+}
+},
+{
+"scheme_id": "PMBJP",
+"scheme_name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Health",
+"sub_category": "Affordable Medicines",
+"gender": "All",
+"state": "India",
+"sector": "Pharmaceuticals & Medical Devices",
+"domains": [
+"health",
+"social_welfare"
+],
+"target_group": "General public requiring affordable medicines and medical products",
+"benefit_type": "Affordable Generic Medicines",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+"scheme_id": "PMBJP",
+"ministry_department": "Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Health",
+"sub_category": "Affordable Medicines",
+"sector": "Pharmaceuticals & Medical Devices",
+"domains": [
+"health",
+"social_welfare"
+],
+"target_group": "General public requiring affordable medicines and medical products",
+"benefit_type": "Affordable Generic Medicines",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Enables purchase of quality generic medicines and selected medical products at affordable prices through Jan Aushadhi Kendras."
+},
+"description": {
+"summary": "Provides access to quality generic medicines and selected medical products through the network of Jan Aushadhi Kendras.",
+"short": "Affordable generic medicines through Jan Aushadhi Kendras.",
+"full": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana promotes affordable access to generic medicines by establishing and operating Jan Aushadhi Kendras across India."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": false,
+"aadhaar_linked": false
+},
+"conditions": [
+"Availability depends on the medicines and products stocked at participating Jan Aushadhi Kendras."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Jan Aushadhi Kendra"
+],
+"steps": []
+},
+"payment": {
+"method": "Affordable Medicines",
+"dbt": false,
+"bank_account_required": false,
+"aadhaar_linked": false
+},
+"faqs": [
+{
+"question": "What does PMBJP provide?",
+"answer": "It provides access to generic medicines and selected medical products through Jan Aushadhi Kendras at affordable prices."
+}
+],
+"tags": [
+"PMBJP",
+"Jan_Aushadhi",
+"generic_medicines",
+"affordable_medicines"
+],
+"identification_keywords": [
+"Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+"Jan Aushadhi scheme",
+"PMBJP",
+"affordable medicines"
+],
+"related_domains": {
+"health": true,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://janaushadhi.gov.in/about-pmbjb](https://janaushadhi.gov.in/about-pmbjb)",
+"official_notification": null,
+"source_reference": "Bureau of Pharma PSUs of India, official PMBJP information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against the official PMBJP portal, including current 2026 operational information."
+}
+},
+{
+"scheme_id": "NATIONAL-HANDLOOM-DEV",
+"scheme_name": "National Handloom Development Programme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Handloom Sector Development",
+"gender": "All",
+"state": "India",
+"sector": "Textiles",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"social_welfare"
+],
+"target_group": "Handloom weavers, weaver groups and eligible handloom organisations",
+"benefit_type": "Financial and Institutional Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Handloom Development Programme",
+"scheme_id": "NATIONAL-HANDLOOM-DEV",
+"ministry_department": "Ministry of Textiles",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Handloom Sector Development",
+"sector": "Textiles",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"social_welfare"
+],
+"target_group": "Handloom weavers, weaver groups and eligible handloom organisations",
+"benefit_type": "Financial and Institutional Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports handloom-sector development through technology, infrastructure, design, marketing and livelihood-oriented interventions."
+},
+"description": {
+"summary": "Supports handloom weavers and organisations through interventions for design, technology, marketing, infrastructure and livelihood strengthening.",
+"short": "Development support for handloom weavers.",
+"full": "The National Handloom Development Programme provides development assistance to strengthen the handloom sector, improve competitiveness and support weavers and eligible handloom organisations."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Assistance is provided through applicable programme components, implementing agencies and approved proposals."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Development Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is supported under the National Handloom Development Programme?",
+"answer": "The programme supports handloom weavers, weaver groups and eligible handloom organisations through approved interventions."
+}
+],
+"tags": [
+"handloom",
+"weaver",
+"textiles",
+"artisan"
+],
+"identification_keywords": [
+"National Handloom Development Programme",
+"NHDP handloom",
+"handloom government scheme",
+"weaver support"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://handlooms.nic.in/](https://handlooms.nic.in/)",
+"official_notification": null,
+"source_reference": "Office of the Development Commissioner (Handlooms), Ministry of Textiles",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Ministry of Textiles information and 2026 National Handloom Development Programme activity."
+}
+},
+{
+"scheme_id": "NATIONAL-HANDICRAFTS-DEV",
+"scheme_name": "National Handicrafts Development Programme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Handicrafts Sector Development",
+"gender": "All",
+"state": "India",
+"sector": "Textiles",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"social_welfare"
+],
+"target_group": "Handicraft artisans and eligible handicraft-sector organisations",
+"benefit_type": "Financial and Institutional Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Handicrafts Development Programme",
+"scheme_id": "NATIONAL-HANDICRAFTS-DEV",
+"ministry_department": "Ministry of Textiles",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Handicrafts Sector Development",
+"sector": "Textiles",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"social_welfare"
+],
+"target_group": "Handicraft artisans and eligible handicraft-sector organisations",
+"benefit_type": "Financial and Institutional Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports handicraft artisans and sector organisations through development, training, marketing and infrastructure interventions."
+},
+"description": {
+"summary": "Supports handicraft artisans through skill, design, technology, infrastructure, marketing and enterprise development interventions.",
+"short": "Development support for handicraft artisans.",
+"full": "The National Handicrafts Development Programme provides support for handicraft artisans and sector organisations through approved development, marketing, training and infrastructure interventions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Assistance depends on the applicable programme component, implementing agency and approved proposal."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Development Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is supported under the National Handicrafts Development Programme?",
+"answer": "The programme supports handicraft artisans and eligible handicraft-sector organisations through approved interventions."
+}
+],
+"tags": [
+"handicrafts",
+"artisan",
+"textiles",
+"crafts"
+],
+"identification_keywords": [
+"National Handicrafts Development Programme",
+"handicraft government scheme",
+"artisan support",
+"handicrafts development"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://handicrafts.nic.in/](https://handicrafts.nic.in/)",
+"official_notification": null,
+"source_reference": "Office of the Development Commissioner (Handicrafts), Ministry of Textiles",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Ministry of Textiles information and 2026 National Handicrafts Development Programme activity."
+}
+},
+{
+"scheme_id": "NTTM",
+"scheme_name": "National Technical Textiles Mission",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Technical Textiles",
+"gender": "All",
+"state": "India",
+"sector": "Textiles",
+"domains": [
+"business",
+"skill_development",
+"employment"
+],
+"target_group": "Technical-textile industry, researchers, startups, entrepreneurs and other eligible stakeholders",
+"benefit_type": "Research, Innovation and Market Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Technical Textiles Mission",
+"scheme_id": "NTTM",
+"ministry_department": "Ministry of Textiles",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Technical Textiles",
+"sector": "Textiles",
+"domains": [
+"business",
+"skill_development",
+"employment"
+],
+"target_group": "Technical-textile industry, researchers, startups, entrepreneurs and other eligible stakeholders",
+"benefit_type": "Research, Innovation and Market Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports research, innovation, commercialisation, skilling and market development in technical textiles."
+},
+"description": {
+"summary": "Promotes research, innovation, development, commercialisation and market growth in technical textiles.",
+"short": "Research and innovation support for technical textiles.",
+"full": "The National Technical Textiles Mission supports research and innovation, education and skilling, export promotion and market development for technical textiles."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Support is provided through approved mission components and eligible project or programme mechanisms."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Research and Development Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does the National Technical Textiles Mission support?",
+"answer": "It supports research, innovation, commercialisation, skilling and market development in technical textiles."
+}
+],
+"tags": [
+"technical_textiles",
+"NTTM",
+"textile_research",
+"textile_innovation"
+],
+"identification_keywords": [
+"National Technical Textiles Mission",
+"technical textile mission",
+"NTTM India",
+"technical textiles scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://texmin.gov.in/](https://texmin.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Textiles, Government of India, National Technical Textiles Mission",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Ministry of Textiles information and 2026 National Technical Textiles Mission activity."
+}
+},
+{
+"scheme_id": "PM-MITRA",
+"scheme_name": "PM Mega Integrated Textile Regions and Apparel (PM MITRA) Parks Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Textile Manufacturing Parks",
+"gender": "All",
+"state": "India",
+"sector": "Textiles",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"urban_development"
+],
+"target_group": "States, textile industry stakeholders and eligible park ecosystem participants",
+"benefit_type": "Infrastructure and Investment Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "PM Mega Integrated Textile Regions and Apparel (PM MITRA) Parks Scheme",
+"scheme_id": "PM-MITRA",
+"ministry_department": "Ministry of Textiles",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Textile Manufacturing Parks",
+"sector": "Textiles",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"urban_development"
+],
+"target_group": "States, textile industry stakeholders and eligible park ecosystem participants",
+"benefit_type": "Infrastructure and Investment Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports integrated textile and apparel park infrastructure, investment and manufacturing ecosystem development."
+},
+"description": {
+"summary": "Develops integrated textile and apparel parks with common infrastructure and production ecosystems to strengthen the textile value chain.",
+"short": "Integrated textile and apparel park development.",
+"full": "The PM MITRA Parks Scheme supports development of integrated textile and apparel parks with shared infrastructure and an enabling ecosystem for manufacturing and investment."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"The scheme operates through selected PM MITRA park sites and approved project arrangements.",
+"Participation and support depend on the applicable park and implementation framework."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Infrastructure and Investment Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the PM MITRA Parks Scheme?",
+"answer": "It develops integrated textile and apparel parks with shared infrastructure and an enabling manufacturing ecosystem."
+}
+],
+"tags": [
+"PM_MITRA",
+"textile_park",
+"apparel_park",
+"textile_manufacturing"
+],
+"identification_keywords": [
+"PM MITRA Parks Scheme",
+"Mega Integrated Textile Regions and Apparel Parks",
+"PM MITRA textile parks"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": true
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://texmin.gov.in/](https://texmin.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Textiles, Government of India, PM MITRA Parks information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current Ministry of Textiles and 2026 PM MITRA Parks implementation information."
+}
+},
+{
+"scheme_id": "SILK-SAMAGRA-2",
+"scheme_name": "Silk Samagra-2",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Sericulture Development",
+"gender": "All",
+"state": "India",
+"sector": "Textiles",
+"domains": [
+"agriculture",
+"farmer",
+"business",
+"employment",
+"skill_development"
+],
+"target_group": "Sericulture farmers, silk producers and eligible silk-sector stakeholders",
+"benefit_type": "Sericulture Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Silk Samagra-2",
+"scheme_id": "SILK-SAMAGRA-2",
+"ministry_department": "Ministry of Textiles",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Sericulture Development",
+"sector": "Textiles",
+"domains": [
+"agriculture",
+"farmer",
+"business",
+"employment",
+"skill_development"
+],
+"target_group": "Sericulture farmers, silk producers and eligible silk-sector stakeholders",
+"benefit_type": "Sericulture Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports silk and sericulture development through production, productivity, quality and value-chain interventions."
+},
+"description": {
+"summary": "Supports sericulture and silk-sector development by improving production, productivity, quality and value-chain capabilities.",
+"short": "Support for sericulture and silk production.",
+"full": "Silk Samagra-2 supports development of the silk sector through measures aimed at improving production, productivity, quality and related sericulture infrastructure and capabilities."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Support is provided through applicable programme components and implementing arrangements of the Central Silk Board."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Sericulture Development Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does Silk Samagra-2 support?",
+"answer": "It supports improvement of silk production, productivity, quality and related sericulture capabilities."
+}
+],
+"tags": [
+"Silk_Samagra-2",
+"sericulture",
+"silk",
+"silk_production"
+],
+"identification_keywords": [
+"Silk Samagra-2",
+"Silk Samagra 2",
+"sericulture government scheme",
+"silk farmers"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": true,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239558](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239558)",
+"official_notification": null,
+"source_reference": "Press Information Bureau, Government of India, Silk Samagra-2 implementation information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Verified against current official Government of India information and 2026 Silk Samagra-2 implementation records."
+}
+}
+]

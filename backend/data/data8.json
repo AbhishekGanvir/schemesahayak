@@ -1,0 +1,2913 @@
+[
+{
+"scheme_id": "SHP-2026",
+"scheme_name": "Small Hydro Power (SHP) Development Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Renewable Energy",
+"sub_category": "Small Hydro Power",
+"gender": "All",
+"state": "India",
+"sector": "New and Renewable Energy",
+"domains": [
+"employment",
+"rural_development"
+],
+"target_group": "Eligible small hydro project developers and implementing agencies",
+"benefit_type": "Central Financial Assistance",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Small Hydro Power (SHP) Development Scheme",
+"scheme_id": "SHP-2026",
+"ministry_department": "Ministry of New and Renewable Energy",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Renewable Energy",
+"sub_category": "Small Hydro Power",
+"sector": "New and Renewable Energy",
+"domains": [
+"employment",
+"rural_development"
+],
+"target_group": "Eligible small hydro project developers and implementing agencies",
+"benefit_type": "Central Financial Assistance",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 360000000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides central financial assistance for eligible small hydro power projects during FY 2026-27 to FY 2030-31. Assistance is project-specific and subject to the approved scheme ceilings."
+},
+"description": {
+"summary": "Supports development of small hydro power projects across India, with particular emphasis on hilly and North Eastern regions.",
+"short": "Financial support for small hydro power projects.",
+"full": "The Small Hydro Power Development Scheme supports small hydro projects of 1 MW to 25 MW capacity for the period FY 2026-27 to FY 2030-31."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Projects must fall within the eligible small hydro capacity range.",
+"Assistance is subject to applicable scheme guidelines and project approval."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Central Financial Assistance",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What capacity of projects does the scheme support?",
+"answer": "The scheme supports small hydro power projects with capacity between 1 MW and 25 MW."
+}
+],
+"tags": [
+"small_hydro",
+"renewable_energy",
+"SHP",
+"clean_energy"
+],
+"identification_keywords": [
+"Small Hydro Power Development Scheme",
+"SHP Development Scheme",
+"small hydro subsidy",
+"small hydro government scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pmindia.gov.in/en/news_updates/cabinet-approves-scheme-on-small-hydro-power-shp-development-scheme-for-the-period-fy-2026-27-to-fy-2030-31/](https://www.pmindia.gov.in/en/news_updates/cabinet-approves-scheme-on-small-hydro-power-shp-development-scheme-for-the-period-fy-2026-27-to-fy-2030-31/)",
+"official_notification": null,
+"source_reference": "Prime Minister's Office, Government of India, Cabinet approval dated 18 March 2026",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current scheme approved for FY 2026-27 to FY 2030-31 and confirmed through official Government of India information."
+}
+},
+{
+"scheme_id": "SISFS",
+"scheme_name": "Startup India Seed Fund Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Startup Funding",
+"gender": "All",
+"state": "India",
+"sector": "Industry Promotion",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "DPIIT-recognised eligible startups",
+"benefit_type": "Seed Funding",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Startup India Seed Fund Scheme",
+"scheme_id": "SISFS",
+"ministry_department": "Department for Promotion of Industry and Internal Trade, Ministry of Commerce and Industry",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Startup Funding",
+"sector": "Industry Promotion",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "DPIIT-recognised eligible startups",
+"benefit_type": "Seed Funding",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 5000000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial assistance up to Rs. 20 lakh as grant for proof of concept, prototype development or product trials and up to Rs. 50 lakh through debt or convertible instruments for market entry, commercialisation or scaling."
+},
+"description": {
+"summary": "Provides early-stage funding to eligible startups for validation, prototype development, product trials and market entry.",
+"short": "Seed funding for eligible early-stage startups.",
+"full": "The Startup India Seed Fund Scheme helps DPIIT-recognised startups bridge the early-stage funding gap and supports proof of concept, prototypes, trials, market entry and commercialisation."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Startup must be recognised by DPIIT.",
+"Startup must have been incorporated not more than two years before application.",
+"The last application window for startups closed on 31 May 2026; disbursals are ongoing."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Seed Funding",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the Startup India Seed Fund Scheme?",
+"answer": "It provides financial assistance to eligible startups for proof of concept, prototype development, product trials, market entry and commercialisation."
+}
+],
+"tags": [
+"startup",
+"SISFS",
+"seed_funding",
+"entrepreneurship"
+],
+"identification_keywords": [
+"Startup India Seed Fund Scheme",
+"SISFS",
+"startup seed fund",
+"startup government funding"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://seedfund.startupindia.gov.in/](https://seedfund.startupindia.gov.in/)",
+"official_notification": null,
+"source_reference": "Startup India Seed Fund Scheme official portal",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current scheme portal confirms ongoing disbursals and official scheme operation in 2026."
+}
+},
+{
+"scheme_id": "CGSS",
+"scheme_name": "Credit Guarantee Scheme for Startups",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Startup Credit Guarantee",
+"gender": "All",
+"state": "India",
+"sector": "Industry Promotion",
+"domains": [
+"business",
+"banking"
+],
+"target_group": "DPIIT-recognised eligible startups",
+"benefit_type": "Credit Guarantee",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Credit Guarantee Scheme for Startups",
+"scheme_id": "CGSS",
+"ministry_department": "Department for Promotion of Industry and Internal Trade, Ministry of Commerce and Industry",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Startup Credit Guarantee",
+"sector": "Industry Promotion",
+"domains": [
+"business",
+"banking"
+],
+"target_group": "DPIIT-recognised eligible startups",
+"benefit_type": "Credit Guarantee",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 200000000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides credit guarantee cover for eligible debt facilities extended to DPIIT-recognised startups, with the maximum amount eligible for guarantee cover revised to Rs. 20 crore per borrower."
+},
+"description": {
+"summary": "Helps eligible startups access collateral-free debt by providing credit guarantee cover to lending institutions.",
+"short": "Credit guarantee support for eligible startups.",
+"full": "The Credit Guarantee Scheme for Startups provides guarantee cover to eligible lending institutions for debt extended to DPIIT-recognised startups."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Startup must be eligible under the scheme framework and approach a participating lending institution.",
+"Guarantee cover is provided through the designated trustee structure to member institutions."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Bank"
+],
+"steps": []
+},
+"payment": {
+"method": "Credit Guarantee",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does the Credit Guarantee Scheme for Startups do?",
+"answer": "It provides guarantee cover to lending institutions for eligible debt extended to DPIIT-recognised startups."
+}
+],
+"tags": [
+"startup",
+"credit_guarantee",
+"CGSS",
+"business_loan"
+],
+"identification_keywords": [
+"Credit Guarantee Scheme for Startups",
+"CGSS startup",
+"startup credit guarantee",
+"collateral free startup loan"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.startupindia.gov.in/content/sih/en/credit-guarantee-scheme-for-startups.html](https://www.startupindia.gov.in/content/sih/en/credit-guarantee-scheme-for-startups.html)",
+"official_notification": null,
+"source_reference": "Startup India official Credit Guarantee Scheme for Startups information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current official Startup India information confirms the scheme and revised guarantee framework."
+}
+},
+{
+"scheme_id": "AIM",
+"scheme_name": "Atal Innovation Mission",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Innovation and Entrepreneurship",
+"gender": "All",
+"state": "India",
+"sector": "NITI Aayog",
+"domains": [
+"education",
+"business",
+"skill_development",
+"employment"
+],
+"target_group": "Students, schools, innovators, startups and entrepreneurs",
+"benefit_type": "Innovation and Entrepreneurship Support",
+"scheme_type": "Central Government Mission"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Atal Innovation Mission",
+"scheme_id": "AIM",
+"ministry_department": "NITI Aayog",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Innovation and Entrepreneurship",
+"sector": "NITI Aayog",
+"domains": [
+"education",
+"business",
+"skill_development",
+"employment"
+],
+"target_group": "Students, schools, innovators, startups and entrepreneurs",
+"benefit_type": "Innovation and Entrepreneurship Support",
+"scheme_type": "Central Government Mission"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides innovation and entrepreneurship ecosystem support through initiatives including Atal Tinkering Labs and Atal Incubation Centres."
+},
+"description": {
+"summary": "Builds innovation and entrepreneurship ecosystems for students, innovators and startups across India.",
+"short": "Government innovation and entrepreneurship mission.",
+"full": "Atal Innovation Mission is NITI Aayog's flagship initiative for promoting innovation and entrepreneurship through schools, incubators, mentors and related ecosystem programmes."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Innovation and Entrepreneurship Support",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is Atal Innovation Mission?",
+"answer": "It is NITI Aayog's flagship initiative for promoting innovation and entrepreneurship across schools, higher education and startup ecosystems."
+}
+],
+"tags": [
+"AIM",
+"innovation",
+"entrepreneurship",
+"startups"
+],
+"identification_keywords": [
+"Atal Innovation Mission",
+"AIM India",
+"Atal Tinkering Labs",
+"Atal Incubation Centres"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": true,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://aim.gov.in/](https://aim.gov.in/)",
+"official_notification": null,
+"source_reference": "Atal Innovation Mission official website and NITI Aayog records",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current AIM 2.0 continuation is approved through 31 March 2028 and current official activity is ongoing."
+}
+},
+{
+"scheme_id": "KSVY",
+"scheme_name": "Kala Sanskriti Vikas Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Culture",
+"sub_category": "Arts and Cultural Heritage",
+"gender": "All",
+"state": "India",
+"sector": "Culture",
+"domains": [
+"social_welfare",
+"employment"
+],
+"target_group": "Artists, cultural organisations, NGOs, researchers and eligible institutions",
+"benefit_type": "Financial Assistance",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Kala Sanskriti Vikas Yojana",
+"scheme_id": "KSVY",
+"ministry_department": "Ministry of Culture",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Culture",
+"sub_category": "Arts and Cultural Heritage",
+"sector": "Culture",
+"domains": [
+"social_welfare",
+"employment"
+],
+"target_group": "Artists, cultural organisations, NGOs, researchers and eligible institutions",
+"benefit_type": "Financial Assistance",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides financial assistance under eligible KSVY components for promotion and preservation of arts and cultural heritage."
+},
+"description": {
+"summary": "Provides financial assistance for preservation, promotion and strengthening of India's arts and cultural heritage.",
+"short": "Financial support for arts and cultural heritage.",
+"full": "Kala Sanskriti Vikas Yojana is administered by the Ministry of Culture and supports artists, cultural organisations, NGOs, researchers and institutions engaged in arts and cultural heritage activities."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility depends on the specific KSVY component and applicable guidelines."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Financial Assistance",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does Kala Sanskriti Vikas Yojana support?",
+"answer": "It provides financial assistance to eligible artists, organisations and institutions for promotion and preservation of arts and cultural heritage."
+}
+],
+"tags": [
+"KSVY",
+"culture",
+"artists",
+"heritage"
+],
+"identification_keywords": [
+"Kala Sanskriti Vikas Yojana",
+"KSVY",
+"culture grant scheme",
+"artist government scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://culture.gov.in/](https://culture.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Culture, Government of India, KSVY 2026-27 application announcement",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current 2026-27 applications and implementation are confirmed by the Ministry of Culture."
+}
+},
+{
+"scheme_id": "SYA",
+"scheme_name": "Scholarships to Young Artistes in Different Cultural Fields",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Arts Scholarship",
+"gender": "All",
+"state": "India",
+"sector": "Culture",
+"domains": [
+"education",
+"social_welfare"
+],
+"target_group": "Young Indian artistes aged 18 to 25 years with established training in specified cultural fields",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Scholarships to Young Artistes in Different Cultural Fields",
+"scheme_id": "SYA",
+"ministry_department": "Ministry of Culture",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Arts Scholarship",
+"sector": "Culture",
+"domains": [
+"education",
+"social_welfare"
+],
+"target_group": "Young Indian artistes aged 18 to 25 years with established training in specified cultural fields",
+"benefit_type": "Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 5000,
+"currency": "INR",
+"frequency": "Monthly",
+"annual_amount": null,
+"benefit_description": "Scholarship of Rs. 5,000 per month for two years to selected young artistes for advanced training."
+},
+"description": {
+"summary": "Supports advanced training of young artistes in Indian classical, folk, traditional and other specified cultural fields.",
+"short": "Scholarship for advanced training of young artistes.",
+"full": "The scheme provides scholarships to young artistes of outstanding promise for advanced training in specified cultural fields within India."
+},
+"eligibility": {
+"age": {
+"minimum": 18,
+"maximum": 25
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": false,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Candidate should be an Indian national.",
+"Candidate should have proficiency and prior training in the selected cultural field.",
+"Candidates should normally have undergone at least five years of training with a Guru or institution."
+],
+"exclusions": []
+},
+"documents_required": [
+"Educational qualification evidence",
+"Age proof",
+"Passport size photograph",
+"Training certificate or evidence of prior training"
+],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Scholarship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the scholarship amount?",
+"answer": "Selected young artistes receive Rs. 5,000 per month for two years."
+}
+],
+"tags": [
+"SYA",
+"artist",
+"scholarship",
+"culture"
+],
+"identification_keywords": [
+"Scholarship to Young Artistes",
+"SYA scheme",
+"young artist scholarship",
+"cultural scholarship"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": false,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://culture.gov.in/offering/schemes-services/award-scholarships-young-artists-different-cultural-fields](https://culture.gov.in/offering/schemes-services/award-scholarships-young-artists-different-cultural-fields)",
+"official_notification": null,
+"source_reference": "Ministry of Culture official scheme page and 2026-27 guidelines",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current 2026-27 scholarship guidelines and Ministry of Culture scheme information are available."
+}
+},
+{
+"scheme_id": "TNFCR",
+"scheme_name": "Tagore National Fellowship for Cultural Research",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Education",
+"sub_category": "Cultural Research Fellowship",
+"gender": "All",
+"state": "India",
+"sector": "Culture",
+"domains": [
+"education"
+],
+"target_group": "Eligible scholars and academicians undertaking approved cultural research",
+"benefit_type": "Fellowship and Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Tagore National Fellowship for Cultural Research",
+"scheme_id": "TNFCR",
+"ministry_department": "Ministry of Culture",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Education",
+"sub_category": "Cultural Research Fellowship",
+"sector": "Culture",
+"domains": [
+"education"
+],
+"target_group": "Eligible scholars and academicians undertaking approved cultural research",
+"benefit_type": "Fellowship and Scholarship",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": 80000,
+"currency": "INR",
+"frequency": "Monthly",
+"annual_amount": null,
+"benefit_description": "Provides fellowship and scholarship support for approved cultural research projects, with fellowship and scholarship levels specified by the scheme."
+},
+"description": {
+"summary": "Supports scholars and academicians undertaking research projects with Ministry of Culture and identified cultural institutions.",
+"short": "Fellowship for cultural research.",
+"full": "The Tagore National Fellowship for Cultural Research encourages scholars and academicians to affiliate with identified cultural institutions and undertake mutually relevant research projects."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Research project and institutional affiliation must satisfy the applicable fellowship guidelines."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Fellowship",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the purpose of the Tagore National Fellowship?",
+"answer": "It supports scholars and academicians working on approved research projects in culture and cultural institutions."
+}
+],
+"tags": [
+"Tagore_fellowship",
+"cultural_research",
+"fellowship",
+"culture"
+],
+"identification_keywords": [
+"Tagore National Fellowship",
+"Tagore Fellowship cultural research",
+"cultural research fellowship"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": false,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": false,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://culture.gov.in/offering/schemes-services/tagore-national-fellowship-cultural-research](https://culture.gov.in/offering/schemes-services/tagore-national-fellowship-cultural-research)",
+"official_notification": null,
+"source_reference": "Ministry of Culture 2026-27 Tagore National Fellowship announcement",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "The Ministry of Culture and Government cultural institutions published the 2026-27 fellowship call."
+}
+},
+{
+"scheme_id": "PM-VIKAS",
+"scheme_name": "Pradhan Mantri Virasat ka Samvardhan",
+"scheme_name_local": "प्रधानमंत्री विरासत का संवर्धन",
+"identifiers": {
+"category": "Social Welfare",
+"sub_category": "Minority Skill and Livelihood Development",
+"gender": "All",
+"state": "India",
+"sector": "Minority Affairs",
+"domains": [
+"social_welfare",
+"skill_development",
+"employment",
+"business",
+"education"
+],
+"target_group": "Eligible members of notified minority communities, including artisans, women and youth",
+"benefit_type": "Skill, Education and Livelihood Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Virasat ka Samvardhan",
+"scheme_id": "PM-VIKAS",
+"ministry_department": "Ministry of Minority Affairs",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Social Welfare",
+"sub_category": "Minority Skill and Livelihood Development",
+"sector": "Minority Affairs",
+"domains": [
+"social_welfare",
+"skill_development",
+"employment",
+"business",
+"education"
+],
+"target_group": "Eligible members of notified minority communities, including artisans, women and youth",
+"benefit_type": "Skill, Education and Livelihood Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides skill development, education support, women leadership and entrepreneurship support and related livelihood interventions for eligible minority beneficiaries."
+},
+"description": {
+"summary": "Supports minority communities through skill training, education, entrepreneurship, livelihood linkages and preservation of traditional arts and crafts.",
+"short": "Integrated skill and livelihood support for minority communities.",
+"full": "PM VIKAS is an integrated Central Sector Scheme designed to strengthen minority communities through skilling, education, women leadership and entrepreneurship and preservation of traditional arts and crafts."
+},
+"eligibility": {
+"age": {
+"minimum": 14,
+"maximum": 45
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": true,
+"aadhaar_linked": true
+},
+"conditions": [
+"Applicants must belong to an eligible minority community under the scheme.",
+"Different components have different age and qualification requirements.",
+"Specific provisions apply to women beneficiaries and persons with disabilities."
+],
+"exclusions": []
+},
+"documents_required": [
+"Aadhaar card",
+"Aadhaar-linked bank account details"
+],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Skill, Education and Livelihood Support",
+"dbt": null,
+"bank_account_required": true,
+"aadhaar_linked": true
+},
+"faqs": [
+{
+"question": "Who can benefit from PM VIKAS?",
+"answer": "Eligible members of notified minority communities can receive support through the scheme's skill, education, entrepreneurship and livelihood components."
+}
+],
+"tags": [
+"PM_VIKAS",
+"minority_welfare",
+"skill_development",
+"entrepreneurship"
+],
+"identification_keywords": [
+"Pradhan Mantri Virasat ka Samvardhan",
+"PM VIKAS",
+"minority skill scheme",
+"minority artisan scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": true,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Scheme Portal",
+"official_website": "[https://pmvikas.minorityaffairs.gov.in/](https://pmvikas.minorityaffairs.gov.in/)",
+"official_notification": null,
+"source_reference": "Ministry of Minority Affairs PM VIKAS official portal",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current PM VIKAS portal contains active programme components, registration functionality and 2026 implementation updates."
+}
+},
+{
+"scheme_id": "NGHM",
+"scheme_name": "National Green Hydrogen Mission",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Renewable Energy",
+"sub_category": "Green Hydrogen",
+"gender": "All",
+"state": "India",
+"sector": "New and Renewable Energy",
+"domains": [
+"business",
+"employment",
+"skill_development"
+],
+"target_group": "Green hydrogen producers, electrolyser manufacturers, researchers and eligible industry stakeholders",
+"benefit_type": "Incentive and Development Support",
+"scheme_type": "Central Sector Mission"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "National Green Hydrogen Mission",
+"scheme_id": "NGHM",
+"ministry_department": "Ministry of New and Renewable Energy",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Renewable Energy",
+"sub_category": "Green Hydrogen",
+"sector": "New and Renewable Energy",
+"domains": [
+"business",
+"employment",
+"skill_development"
+],
+"target_group": "Green hydrogen producers, electrolyser manufacturers, researchers and eligible industry stakeholders",
+"benefit_type": "Incentive and Development Support",
+"scheme_type": "Central Sector Mission"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides support through approved incentive schemes for electrolyser manufacturing, green hydrogen production, demand aggregation, innovation and skilling."
+},
+"description": {
+"summary": "Builds India's green hydrogen ecosystem through production incentives, electrolyser manufacturing, innovation, demand creation and skills development.",
+"short": "National mission for green hydrogen development.",
+"full": "The National Green Hydrogen Mission aims to make India a global hub for production, use and export of green hydrogen and its derivatives."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Participation depends on the specific approved scheme or component under the mission."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Incentive and Development Support",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the goal of the National Green Hydrogen Mission?",
+"answer": "The mission aims to make India a global hub for production, use and export of green hydrogen and its derivatives."
+}
+],
+"tags": [
+"green_hydrogen",
+"NGHM",
+"renewable_energy",
+"clean_energy"
+],
+"identification_keywords": [
+"National Green Hydrogen Mission",
+"green hydrogen scheme",
+"NGHM",
+"hydrogen mission India"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://mnre.gov.in/en/hydrogen-schemes-guidelines/](https://mnre.gov.in/en/hydrogen-schemes-guidelines/)",
+"official_notification": null,
+"source_reference": "Ministry of New and Renewable Energy current hydrogen schemes and guidelines",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current 2026 MNRE scheme guidelines, skilling call and implementation information confirm ongoing National Green Hydrogen Mission activity."
+}
+},
+{
+"scheme_id": "PMFME",
+"scheme_name": "Pradhan Mantri Formalisation of Micro Food Processing Enterprises Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Food Processing",
+"gender": "All",
+"state": "India",
+"sector": "Food Processing Industries",
+"domains": [
+"business",
+"employment",
+"agriculture"
+],
+"target_group": "Eligible micro food processing enterprises, SHGs, FPOs, cooperatives and entrepreneurs",
+"benefit_type": "Financial and Enterprise Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Pradhan Mantri Formalisation of Micro Food Processing Enterprises Scheme",
+"scheme_id": "PMFME",
+"ministry_department": "Ministry of Food Processing Industries",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Food Processing",
+"sector": "Food Processing Industries",
+"domains": [
+"business",
+"employment",
+"agriculture"
+],
+"target_group": "Eligible micro food processing enterprises, SHGs, FPOs, cooperatives and entrepreneurs",
+"benefit_type": "Financial and Enterprise Support",
+"scheme_type": "Centrally Sponsored Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports formalisation, credit access, common infrastructure, incubation and enterprise development in the micro food processing sector."
+},
+"description": {
+"summary": "Supports formalisation and upgrading of micro food processing enterprises and related producer organisations.",
+"short": "Support for micro food processing enterprises.",
+"full": "The PMFME Scheme supports micro food processing enterprises and associated organisations through formalisation, infrastructure, incubation, credit and entrepreneurship interventions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility depends on the enterprise or beneficiary category and applicable PMFME guidelines."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Financial and Enterprise Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who can be supported under PMFME?",
+"answer": "Eligible micro food processing enterprises, SHGs, FPOs, cooperatives and entrepreneurs can receive support under applicable components."
+}
+],
+"tags": [
+"PMFME",
+"food_processing",
+"micro_enterprise",
+"entrepreneurship"
+],
+"identification_keywords": [
+"PM Formalisation of Micro Food Processing Enterprises",
+"PMFME",
+"food processing scheme",
+"micro food processing loan"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": true,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239938](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239938)",
+"official_notification": null,
+"source_reference": "Press Information Bureau, Government of India, 2026 PMFME implementation update",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current 2026 PMFME implementation, including active incubation support and financial assistance, is officially documented."
+}
+},
+{
+"scheme_id": "SFURTI",
+"scheme_name": "Scheme of Fund for Regeneration of Traditional Industries",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Traditional Industries",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"rural_development"
+],
+"target_group": "Traditional artisans and traditional-industry clusters",
+"benefit_type": "Cluster Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Scheme of Fund for Regeneration of Traditional Industries",
+"scheme_id": "SFURTI",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Traditional Industries",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"rural_development"
+],
+"target_group": "Traditional artisans and traditional-industry clusters",
+"benefit_type": "Cluster Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides hard and soft interventions for cluster infrastructure, machinery, raw-material banks, training, exposure visits and marketing support."
+},
+"description": {
+"summary": "Organises traditional artisans into clusters to improve competitiveness, product development, market access and sustainable incomes.",
+"short": "Cluster development support for traditional artisans.",
+"full": "SFURTI supports traditional industries by developing clusters with common facilities, machinery, raw-material support, training and market-linkage interventions."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Support is organised through approved traditional-industry clusters and implementing agencies."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Cluster Development Support",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who benefits from SFURTI?",
+"answer": "The scheme supports traditional artisans organised into approved clusters across traditional industries."
+}
+],
+"tags": [
+"SFURTI",
+"traditional_artisans",
+"cluster_development",
+"MSME"
+],
+"identification_keywords": [
+"SFURTI",
+"Scheme of Fund for Regeneration of Traditional Industries",
+"traditional artisan scheme",
+"artisan cluster scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240587](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240587)",
+"official_notification": null,
+"source_reference": "Press Information Bureau, Government of India, SFURTI 2026 implementation information",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Official Government of India information confirms active SFURTI implementation and functional clusters in 2026."
+}
+},
+{
+"scheme_id": "KGVY",
+"scheme_name": "Khadi Gramodyog Vikas Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Khadi and Village Industries",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"rural_development"
+],
+"target_group": "Khadi institutions, village industries units, artisans and eligible beneficiaries",
+"benefit_type": "Enterprise and Infrastructure Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Khadi Gramodyog Vikas Yojana",
+"scheme_id": "KGVY",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Khadi and Village Industries",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"rural_development"
+],
+"target_group": "Khadi institutions, village industries units, artisans and eligible beneficiaries",
+"benefit_type": "Enterprise and Infrastructure Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides development support to Khadi and village industries through approved scheme components."
+},
+"description": {
+"summary": "Supports development of Khadi and village industries through enterprise, infrastructure, equipment and related livelihood interventions.",
+"short": "Development support for Khadi and village industries.",
+"full": "Khadi Gramodyog Vikas Yojana is a current Ministry of MSME programme comprising approved interventions for Khadi and Gramodyog development."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility depends on the applicable Khadi or Gramodyog component and implementing agency."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Enterprise and Infrastructure Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does Khadi Gramodyog Vikas Yojana support?",
+"answer": "It supports development of Khadi and village industries through approved enterprise and sector-development interventions."
+}
+],
+"tags": [
+"khadi",
+"gramodyog",
+"village_industry",
+"MSME"
+],
+"identification_keywords": [
+"Khadi Gramodyog Vikas Yojana",
+"Khadi Vikas Yojana",
+"Gramodyog Vikas Yojana",
+"Khadi government scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://e-utthaan.gov.in/](https://e-utthaan.gov.in/)",
+"official_notification": null,
+"source_reference": "Government of India 2026-27 scheme-wise financial records under Ministry of MSME",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current 2026-27 Ministry of MSME financial records list Khadi Gramodyog Vikas Yojana and its approved components."
+}
+},
+{
+"scheme_id": "CVY",
+"scheme_name": "Coir Vikas Yojana",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Coir Industry Development",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"rural_development"
+],
+"target_group": "Coir artisans, entrepreneurs and eligible coir-sector enterprises",
+"benefit_type": "Sector Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Coir Vikas Yojana",
+"scheme_id": "CVY",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Coir Industry Development",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"rural_development"
+],
+"target_group": "Coir artisans, entrepreneurs and eligible coir-sector enterprises",
+"benefit_type": "Sector Development Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports development of the coir sector through approved production, technology, skill and market-support interventions."
+},
+"description": {
+"summary": "Supports coir artisans and enterprises through development, technology, skill and market-oriented interventions.",
+"short": "Development support for the coir sector.",
+"full": "Coir Vikas Yojana supports development of coir and coir-based industries through approved schemes and interventions administered by the Coir Board."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility depends on the applicable Coir Vikas Yojana component and implementing arrangement."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Sector Development Support",
+"dbt": null,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is Coir Vikas Yojana?",
+"answer": "It is a Ministry of MSME programme supporting development of the coir sector through approved production, skill, technology and market interventions."
+}
+],
+"tags": [
+"coir",
+"coir_artisan",
+"MSME",
+"village_industry"
+],
+"identification_keywords": [
+"Coir Vikas Yojana",
+"coir government scheme",
+"coir artisan support",
+"coir industry scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": true,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://e-utthaan.gov.in/](https://e-utthaan.gov.in/)",
+"official_notification": null,
+"source_reference": "Government of India 2026-27 Ministry of MSME scheme-wise financial records",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current 2026-27 Ministry of MSME financial records list Coir Vikas Yojana."
+}
+},
+{
+"scheme_id": "ASPIRE",
+"scheme_name": "A Scheme for Promotion of Innovation, Rural Industry and Entrepreneurship",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Rural Entrepreneurship",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"rural_development"
+],
+"target_group": "Rural entrepreneurs, incubators and eligible institutions",
+"benefit_type": "Entrepreneurship and Incubation Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "A Scheme for Promotion of Innovation, Rural Industry and Entrepreneurship",
+"scheme_id": "ASPIRE",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Rural Entrepreneurship",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment",
+"skill_development",
+"rural_development"
+],
+"target_group": "Rural entrepreneurs, incubators and eligible institutions",
+"benefit_type": "Entrepreneurship and Incubation Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Promotes rural entrepreneurship, innovation and incubation through approved support mechanisms."
+},
+"description": {
+"summary": "Promotes innovation, incubation and entrepreneurship in rural areas to generate sustainable employment opportunities.",
+"short": "Rural innovation and entrepreneurship support.",
+"full": "ASPIRE promotes innovation and entrepreneurship in rural areas through incubation support and development of enterprises and livelihoods."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility depends on the applicable ASPIRE component and implementing arrangement."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Entrepreneurship and Incubation Support",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is ASPIRE?",
+"answer": "ASPIRE promotes innovation, rural industry and entrepreneurship through incubation and enterprise-development support."
+}
+],
+"tags": [
+"ASPIRE",
+"rural_industry",
+"entrepreneurship",
+"innovation"
+],
+"identification_keywords": [
+"ASPIRE scheme",
+"A Scheme for Promotion of Innovation Rural Industry and Entrepreneurship",
+"rural entrepreneurship scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": true,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": true,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": true,
+"minority_welfare": false,
+"rural_development": true,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://e-utthaan.gov.in/](https://e-utthaan.gov.in/)",
+"official_notification": null,
+"source_reference": "Government of India Ministry of MSME 2025-26 scheme-wise financial records",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current government financial records show ASPIRE implementation activity."
+}
+},
+{
+"scheme_id": "PMS",
+"scheme_name": "Procurement and Marketing Support Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "MSME Market Access",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Manufacturing and service-sector Micro and Small Enterprises with valid Udyam Registration",
+"benefit_type": "Market Access Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Procurement and Marketing Support Scheme",
+"scheme_id": "PMS",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "MSME Market Access",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Manufacturing and service-sector Micro and Small Enterprises with valid Udyam Registration",
+"benefit_type": "Market Access Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports participation in trade fairs, exhibitions and other market-access initiatives and provides awareness on packaging, GeM and market-development practices."
+},
+"description": {
+"summary": "Improves market access for Micro and Small Enterprises through trade fairs, exhibitions and market-development activities.",
+"short": "Market access support for Micro and Small Enterprises.",
+"full": "The Procurement and Marketing Support Scheme helps eligible Micro and Small Enterprises improve marketability and access markets through participation and awareness initiatives."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Manufacturing and service-sector MSEs must have valid Udyam Registration."
+],
+"exclusions": []
+},
+"documents_required": [
+"Udyam Registration Certificate"
+],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Market Access Support",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Who is eligible under the Procurement and Marketing Support Scheme?",
+"answer": "Manufacturing and service-sector Micro and Small Enterprises with valid Udyam Registration are eligible subject to the applicable scheme conditions."
+}
+],
+"tags": [
+"MSME",
+"PMS",
+"market_access",
+"trade_fair"
+],
+"identification_keywords": [
+"Procurement and Marketing Support Scheme",
+"PMS MSME",
+"MSME marketing support",
+"MSME trade fair scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": true,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://dcmsme.gov.in/CLCS_TUS_Scheme/PMS/Circular_Order.aspx](https://dcmsme.gov.in/CLCS_TUS_Scheme/PMS/Circular_Order.aspx)",
+"official_notification": null,
+"source_reference": "Development Commissioner, Ministry of MSME, current 2026 Procurement and Marketing Support circulars",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current July 2026 official circulars confirm ongoing implementation."
+}
+},
+{
+"scheme_id": "MSME-CHAMPIONS",
+"scheme_name": "MSME Champions Scheme",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "MSME Competitiveness",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"skill_development",
+"employment"
+],
+"target_group": "Eligible Micro, Small and Medium Enterprises",
+"benefit_type": "Competitiveness and Technology Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "MSME Champions Scheme",
+"scheme_id": "MSME-CHAMPIONS",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "MSME Competitiveness",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"skill_development",
+"employment"
+],
+"target_group": "Eligible Micro, Small and Medium Enterprises",
+"benefit_type": "Competitiveness and Technology Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Supports MSME competitiveness, technology improvement, quality, innovation and related capacity-building interventions through approved components."
+},
+"description": {
+"summary": "Supports MSMEs in improving competitiveness, quality, technology, innovation and operational performance.",
+"short": "Competitiveness and technology support for MSMEs.",
+"full": "MSME Champions is the Ministry of MSME framework for competitiveness-oriented interventions, including technology, quality and innovation support for eligible enterprises."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligibility depends on the relevant MSME Champions component and programme guidelines."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Competitiveness and Technology Support",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does MSME Champions support?",
+"answer": "It supports MSMEs through competitiveness, technology, quality and innovation-oriented interventions."
+}
+],
+"tags": [
+"MSME",
+"CHAMPIONS",
+"technology",
+"quality"
+],
+"identification_keywords": [
+"MSME Champions Scheme",
+"CHAMPIONS scheme",
+"MSME technology scheme",
+"MSME competitiveness scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://e-utthaan.gov.in/](https://e-utthaan.gov.in/)",
+"official_notification": null,
+"source_reference": "Government of India 2026-27 Ministry of MSME financial records",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current 2026-27 official Ministry of MSME financial records list MSME Champions Scheme."
+}
+},
+{
+"scheme_id": "RAMP",
+"scheme_name": "Raising and Accelerating MSME Performance",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "MSME Competitiveness",
+"gender": "All",
+"state": "India",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Micro, Small and Medium Enterprises and participating State Governments",
+"benefit_type": "Market, Finance and Technology Support",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Raising and Accelerating MSME Performance",
+"scheme_id": "RAMP",
+"ministry_department": "Ministry of Micro, Small & Medium Enterprises",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "MSME Competitiveness",
+"sector": "Micro, Small and Medium Enterprises",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Micro, Small and Medium Enterprises and participating State Governments",
+"benefit_type": "Market, Finance and Technology Support",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Improves MSME access to markets, finance, technology and institutional support through Centre-State collaboration and programme interventions."
+},
+"description": {
+"summary": "Improves MSME performance by strengthening access to finance, markets, technology and institutional support.",
+"short": "Competitiveness and market-access support for MSMEs.",
+"full": "RAMP is a World Bank-supported Central Sector Scheme focused on MSME competitiveness, Centre-State collaboration, technology upgradation, market access and finance."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Specific benefits depend on the RAMP intervention and participating State implementation."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online",
+"Department Office"
+],
+"steps": []
+},
+"payment": {
+"method": "Market, Finance and Technology Support",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is RAMP?",
+"answer": "RAMP is a World Bank-supported Central Sector Scheme aimed at improving MSME access to markets, finance and technology."
+}
+],
+"tags": [
+"RAMP",
+"MSME",
+"market_access",
+"technology"
+],
+"identification_keywords": [
+"Raising and Accelerating MSME Performance",
+"RAMP scheme",
+"MSME performance scheme",
+"World Bank MSME scheme"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": true,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": true,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": true,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.nimsme.gov.in/about-scheme/raising-and-accelerating-msme-performance-ramp-](https://www.nimsme.gov.in/about-scheme/raising-and-accelerating-msme-performance-ramp-)",
+"official_notification": null,
+"source_reference": "National Institute for Micro, Small and Medium Enterprises, Ministry of MSME",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Current official Ministry of MSME and RAMP programme information confirms implementation in 2026."
+}
+},
+{
+"scheme_id": "PLI-WG",
+"scheme_name": "Production Linked Incentive (PLI) Scheme for White Goods",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Manufacturing Incentive",
+"gender": "All",
+"state": "India",
+"sector": "Industry Promotion",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Eligible manufacturers of components and sub-assemblies for air conditioners and LED lights",
+"benefit_type": "Production Incentive",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Production Linked Incentive (PLI) Scheme for White Goods",
+"scheme_id": "PLI-WG",
+"ministry_department": "Department for Promotion of Industry and Internal Trade, Ministry of Commerce and Industry",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Manufacturing Incentive",
+"sector": "Industry Promotion",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Eligible manufacturers of components and sub-assemblies for air conditioners and LED lights",
+"benefit_type": "Production Incentive",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides incentives on incremental sales to eligible manufacturers in the white-goods manufacturing value chain."
+},
+"description": {
+"summary": "Promotes domestic manufacturing of air-conditioner and LED-light components through production-linked incentives.",
+"short": "Production incentive for white-goods manufacturing.",
+"full": "The PLI Scheme for White Goods supports domestic manufacturing of components and sub-assemblies for air conditioners and LED lights and is valid through FY 2028-29."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Applicant must be an eligible manufacturer covered by the scheme guidelines.",
+"Incentive is linked to eligible investment and incremental sales requirements."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Production Incentive",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "Which products are covered?",
+"answer": "The scheme covers eligible components and sub-assemblies for air conditioners and LED lights."
+}
+],
+"tags": [
+"PLI",
+"white_goods",
+"manufacturing",
+"air_conditioner",
+"LED"
+],
+"identification_keywords": [
+"PLI White Goods",
+"Production Linked Incentive White Goods",
+"AC component scheme",
+"LED manufacturing incentive"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://pliwg.dpiit.gov.in/](https://pliwg.dpiit.gov.in/)",
+"official_notification": null,
+"source_reference": "DPIIT official PLI White Goods portal",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "Official DPIIT portal confirms the scheme tenure through FY 2028-29 and 2026 beneficiary activity."
+}
+},
+{
+"scheme_id": "SPECS",
+"scheme_name": "Scheme for Promotion of Manufacturing of Electronic Components and Semiconductors",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Business",
+"sub_category": "Electronics Manufacturing",
+"gender": "All",
+"state": "India",
+"sector": "Electronics and Information Technology",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Eligible electronic component and semiconductor manufacturers",
+"benefit_type": "Capital Investment Incentive",
+"scheme_type": "Central Government Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Scheme for Promotion of Manufacturing of Electronic Components and Semiconductors",
+"scheme_id": "SPECS",
+"ministry_department": "Ministry of Electronics and Information Technology",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Business",
+"sub_category": "Electronics Manufacturing",
+"sector": "Electronics and Information Technology",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Eligible electronic component and semiconductor manufacturers",
+"benefit_type": "Capital Investment Incentive",
+"scheme_type": "Central Government Scheme"
+},
+"benefit": {
+"amount": null,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides support for eligible investments in new units and expansion of existing units involved in electronic components and semiconductor manufacturing."
+},
+"description": {
+"summary": "Supports domestic manufacturing of electronic components and semiconductors to strengthen India's electronics manufacturing ecosystem.",
+"short": "Manufacturing support for electronic components and semiconductors.",
+"full": "SPECS is designed to strengthen domestic electronics manufacturing by providing support for eligible new investments and expansions in electronic components and semiconductor manufacturing."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Investment must be in eligible manufacturing activities under the scheme."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Capital Investment Incentive",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What does SPECS promote?",
+"answer": "SPECS promotes domestic manufacturing of eligible electronic components and semiconductors."
+}
+],
+"tags": [
+"SPECS",
+"electronics",
+"semiconductors",
+"manufacturing"
+],
+"identification_keywords": [
+"SPECS",
+"electronic components scheme",
+"semiconductor manufacturing scheme",
+"electronics manufacturing incentive"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.meity.gov.in/offerings/schemes-and-services/details/scheme-for-promotion-of-manufacturing-of-electronic-components-and-semiconductors-specs-AMxIDOtQWa](https://www.meity.gov.in/offerings/schemes-and-services/details/scheme-for-promotion-of-manufacturing-of-electronic-components-and-semiconductors-specs-AMxIDOtQWa)",
+"official_notification": null,
+"source_reference": "Ministry of Electronics and Information Technology official SPECS scheme page",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "SPECS remains listed as an official Ministry of Electronics and Information Technology scheme."
+}
+},
+{
+"scheme_id": "PLI-SPV",
+"scheme_name": "Production Linked Incentive Scheme 'National Programme on High Efficiency Solar PV Modules'",
+"scheme_name_local": null,
+"identifiers": {
+"category": "Renewable Energy",
+"sub_category": "Solar Manufacturing",
+"gender": "All",
+"state": "India",
+"sector": "New and Renewable Energy",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Eligible solar photovoltaic manufacturing companies",
+"benefit_type": "Production Linked Incentive",
+"scheme_type": "Central Sector Scheme"
+},
+"status": {
+"active": true,
+"status_label": "Active"
+},
+"authority": {
+"scheme_name": "Production Linked Incentive Scheme 'National Programme on High Efficiency Solar PV Modules'",
+"scheme_id": "PLI-SPV",
+"ministry_department": "Ministry of New and Renewable Energy",
+"government_level": "Central",
+"state": "India"
+},
+"classification": {
+"category": "Renewable Energy",
+"sub_category": "Solar Manufacturing",
+"sector": "New and Renewable Energy",
+"domains": [
+"business",
+"employment"
+],
+"target_group": "Eligible solar photovoltaic manufacturing companies",
+"benefit_type": "Production Linked Incentive",
+"scheme_type": "Central Sector Scheme"
+},
+"benefit": {
+"amount": 45000000000,
+"currency": "INR",
+"frequency": null,
+"annual_amount": null,
+"benefit_description": "Provides production-linked incentives for eligible high-efficiency solar PV module manufacturing, with an approved outlay of Rs. 4,500 crore."
+},
+"description": {
+"summary": "Promotes domestic high-efficiency solar PV manufacturing and reduces dependence on imported solar modules and cells.",
+"short": "Production incentive for high-efficiency solar PV manufacturing.",
+"full": "The National Programme on High Efficiency Solar PV Modules is a production-linked incentive programme intended to build large-scale integrated domestic solar PV manufacturing capacity."
+},
+"eligibility": {
+"age": {
+"minimum": null,
+"maximum": null
+},
+"gender": [],
+"residency": {
+"required": true,
+"state": "India"
+},
+"income": {
+"required": null,
+"maximum_annual_family_income": null,
+"currency": "INR"
+},
+"bank_account": {
+"required": null,
+"aadhaar_linked": null
+},
+"conditions": [
+"Eligible solar PV manufacturers are selected through the prescribed competitive process.",
+"Incentive is linked to production and eligible project commissioning requirements."
+],
+"exclusions": []
+},
+"documents_required": [],
+"application": {
+"mode": [
+"Online"
+],
+"steps": []
+},
+"payment": {
+"method": "Production Linked Incentive",
+"dbt": false,
+"bank_account_required": null,
+"aadhaar_linked": null
+},
+"faqs": [
+{
+"question": "What is the objective of the solar PV PLI scheme?",
+"answer": "It aims to create large-scale domestic manufacturing capacity for high-efficiency solar PV modules and reduce import dependence."
+}
+],
+"tags": [
+"solar",
+"PV",
+"PLI",
+"manufacturing"
+],
+"identification_keywords": [
+"National Programme on High Efficiency Solar PV Modules",
+"solar PV PLI",
+"high efficiency solar module scheme",
+"solar manufacturing incentive"
+],
+"related_domains": {
+"health": false,
+"housing": false,
+"banking": false,
+"farmer": false,
+"education": false,
+"employment": true,
+"pension": false,
+"insurance": false,
+"post_office": false,
+"women_welfare": false,
+"child_welfare": false,
+"social_welfare": false,
+"agriculture": false,
+"business": true,
+"skill_development": false,
+"disability": false,
+"senior_citizen": false,
+"tribal_welfare": false,
+"minority_welfare": false,
+"rural_development": false,
+"urban_development": false
+},
+"source": {
+"source_type": "Official Government Website",
+"official_website": "[https://www.pmindia.gov.in/en/news_updates/cabinet-approves-production-linked-incentive-scheme-national-programme-on-high-efficiency-solar-pv-modules/](https://www.pmindia.gov.in/en/news_updates/cabinet-approves-production-linked-incentive-scheme-national-programme-on-high-efficiency-solar-pv-modules/)",
+"official_notification": null,
+"source_reference": "Prime Minister's Office, Government of India, Cabinet approval for High Efficiency Solar PV Modules PLI",
+"last_verified": "2026-08-18"
+},
+"verification": {
+"verified": true,
+"verification_note": "The scheme is an officially approved Government of India production-linked incentive programme with ongoing manufacturing implementation."
+}
+}
+]
