@@ -2542,8 +2542,8 @@ export const askGemini = async (
 
           summary:
             formattedSchemes.length === 1
-              ? `I found a government scheme matching "${query}" in the scheme database.`
-              : `I found government schemes matching "${query}" in the scheme database.`,
+              ? `I found a government scheme matching "${query}" in the scheme sahayak database.`
+              : `I found government schemes matching "${query}" in the scheme sahayak database.`,
 
           schemes:
             formattedSchemes,
