@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import SchemeDetailContent from '../components/scheme/SchemeDetailContent.jsx';
 import { downloadSchemePdf } from '../utils/pdfGenerator';
+import { isMeaningfulValue } from '../utils/isMeaningfulValue.js';
 
 function SchemeDetailSkeleton({ navigateTo }) {
   return (
@@ -101,36 +102,36 @@ export default function SchemeDetail({ scheme, loading, error, onRetry, navigate
             </div>
             <div>
               <div className="flex items-center gap-2.5 flex-wrap mb-2">
-                {authority.government_level && (
-                  <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-400/30">
-                    {authority.government_level}
-                  </span>
-                )}
-                {identifiers.category && (
-                  <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-500/20 text-slate-200 border border-slate-400/30">
-                    {identifiers.category}
-                  </span>
-                )}
-                {identifiers.state && (
-                  <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-500/20 text-slate-200 border border-slate-400/30">
-                    {identifiers.state}
-                  </span>
-                )}
-                {status.status_label && (
-                  <span
-                    className={`px-2.5 py-0.5 rounded-full text-[11px] font-bold border ${
-                      status.active === false
-                        ? 'bg-red-500/20 text-red-300 border-red-400/30'
-                        : 'bg-emerald-500/20 text-emerald-300 border-emerald-400/30'
-                    }`}
-                  >
-                    {status.status_label}
-                  </span>
-                )}
+                {isMeaningfulValue(authority.government_level) && (
+                   <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-400/30">
+                     {authority.government_level}
+                   </span>
+                 )}
+                {isMeaningfulValue(identifiers.category) && (
+                   <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-500/20 text-slate-200 border border-slate-400/30">
+                     {identifiers.category}
+                   </span>
+                 )}
+                {isMeaningfulValue(identifiers.state) && (
+                   <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-500/20 text-slate-200 border border-slate-400/30">
+                     {identifiers.state}
+                   </span>
+                 )}
+                {isMeaningfulValue(status.status_label) && (
+                   <span
+                     className={`px-2.5 py-0.5 rounded-full text-[11px] font-bold border ${
+                       status.active === false
+                         ? 'bg-red-500/20 text-red-300 border-red-400/30'
+                         : 'bg-emerald-500/20 text-emerald-300 border-emerald-400/30'
+                     }`}
+                   >
+                     {status.status_label}
+                   </span>
+                 )}
               </div>
               <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mb-1">{scheme.scheme_name}</h1>
-              {scheme.scheme_name_local && <p className="text-slate-400 text-xs sm:text-sm mb-2">{scheme.scheme_name_local}</p>}
-              {authority.ministry_department && (
+              {isMeaningfulValue(scheme.scheme_name_local) && <p className="text-slate-400 text-xs sm:text-sm mb-2">{scheme.scheme_name_local}</p>}
+              {isMeaningfulValue(authority.ministry_department) && (
                 <p className="text-slate-400 text-[11px] sm:text-xs mb-2">{authority.ministry_department}</p>
               )}
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-3xl">{summary}</p>

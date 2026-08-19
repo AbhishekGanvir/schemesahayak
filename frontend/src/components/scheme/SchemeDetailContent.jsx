@@ -582,7 +582,7 @@ export default function SchemeDetailContent({ scheme, onAskAi }) {
               }`}
             >
               <i className={`fa-solid ${verification.verified ? 'fa-shield-check' : 'fa-triangle-exclamation'}`}></i>
-              {verification.verified ? 'Government Verified' : 'Verification Pending'}
+              {verification.verified ? '✅ Government Verified' : 'Verification Pending'}
             </h4>
             {isMeaningfulValue(verification.verification_note) && (
               <p className="text-xs text-slate-700 leading-relaxed mb-2">{verification.verification_note}</p>

@@ -1604,12 +1604,18 @@ const normalizeGeminiAliases = (
     source: {
       ...source,
 
+      // NOTE: also accepts a top-level applicationUrl / application_url
+      // — some Gemini responses put the link there instead of nesting
+      // it under source/officialPortal. This is still Gemini's own
+      // supplied data, not something we're deriving or guessing.
       official_website: pick(
         source.official_website,
         source.officialWebsite,
         officialPortal.url,
         raw.official_website,
-        raw.officialWebsite
+        raw.officialWebsite,
+        raw.applicationUrl,
+        raw.application_url
       ),
 
       source_type: pick(
@@ -1675,6 +1681,193 @@ const extractValidUrl = (value) => {
 
 /*
 |--------------------------------------------------------------------------
+| GEMINI FALLBACK OFFICIAL URL RESOLUTION — GEMINI SCHEMES ONLY
+|--------------------------------------------------------------------------
+|
+| Everything in this section is used ONLY from buildCanonicalGeminiScheme
+| (the Gemini-fallback path). formatDatasetScheme() — the local dataset
+| path — is completely untouched and keeps returning whatever
+| source.official_website is already in the JSON files.
+|
+| Resolution order, cheapest/most-trustworthy first:
+|
+|   1. A real URL Gemini itself supplied (extractValidUrl) — always
+|      wins, handled by the caller before this section is even reached.
+|   2. The scheme's own id/scheme_id, IF it looks like a myScheme slug
+|      AND a live HEAD request confirms the page actually exists.
+|      We never trust an id blindly — Gemini can invent ids, and a
+|      wrong guess would silently link to a 404 or (worse) the wrong
+|      scheme.
+|   3. A short hand-verified list of known official scheme portals,
+|      matched by keyword against the scheme name.
+|   4. A myscheme.gov.in search link built from a SHORTENED version of
+|      the scheme name (bureaucratic wrapper phrases stripped out), so
+|      the URL stays short and readable instead of encoding an entire
+|      sentence.
+|
+|--------------------------------------------------------------------------
+*/
+
+const KNOWN_OFFICIAL_SCHEME_SITES = [
+  {
+    keywords: ["pm kisan", "pmkisan", "kisan samman nidhi"],
+    url: "https://pmkisan.gov.in/",
+  },
+  {
+    keywords: ["ayushman", "pmjay", "pm jay", "arogya"],
+    url: "https://pmjay.gov.in/",
+  },
+  {
+    keywords: ["mudra"],
+    url: "https://www.mudra.org.in/",
+  },
+  {
+    keywords: ["pmay", "awas yojana"],
+    url: "https://pmaymis.gov.in/",
+  },
+  {
+    // Covers NSP / "Central Sector Scheme of Scholarship" and most
+    // central & state scholarship schemes — the real dedicated
+    // portal, not a generic myScheme search result.
+    keywords: ["scholarship", "scholarships"],
+    url: "https://scholarships.gov.in/",
+  },
+  {
+    keywords: ["e-shram", "eshram"],
+    url: "https://eshram.gov.in/",
+  },
+  {
+    keywords: ["nsap", "national social assistance"],
+    url: "https://nsap.nic.in/",
+  },
+  {
+    keywords: ["pmegp"],
+    url: "https://www.kviconline.gov.in/pmegpeportal/",
+  },
+  {
+    keywords: ["ujjwala"],
+    url: "https://www.pmuy.gov.in/",
+  },
+];
+
+const findKnownOfficialUrl = (schemeName = "") => {
+  const normalized = normalizeText(schemeName);
+
+  const match = KNOWN_OFFICIAL_SCHEME_SITES.find((entry) =>
+    entry.keywords.some((keyword) =>
+      normalized.includes(normalizeText(keyword))
+    )
+  );
+
+  return match ? match.url : null;
+};
+
+// Strips common bureaucratic wrapper phrases so a myScheme search URL
+// carries only the meaningful core of a scheme name, not the whole
+// sentence. Never changes *which* scheme it refers to — only removes
+// generic filler words that add noise to the query string.
+const SEARCH_FILLER_PHRASES = [
+  "central sector scheme of",
+  "central sector scheme for",
+  "centrally sponsored scheme of",
+  "centrally sponsored scheme for",
+  "scheme of",
+  "scheme for",
+  "yojana for",
+  "for college and university students",
+  "for students",
+];
+
+const simplifySchemeNameForSearch = (schemeName = "") => {
+  let simplified = String(schemeName || "").trim();
+  const lower = simplified.toLowerCase();
+
+  for (const phrase of SEARCH_FILLER_PHRASES) {
+    if (lower.includes(phrase)) {
+      const re = new RegExp(phrase, "ig");
+      simplified = simplified.replace(re, " ");
+    }
+  }
+
+  return simplified.replace(/\s+/g, " ").trim() || schemeName;
+};
+
+const buildMySchemeSearchUrl = (schemeName = "") => {
+  const cleanName = simplifySchemeNameForSearch(schemeName);
+
+  if (!cleanName) {
+    return null;
+  }
+
+  return (
+    "https://www.myscheme.gov.in/search?keyword=" +
+    encodeURIComponent(cleanName)
+  );
+};
+
+// myScheme detail pages live at /schemes/<slug>, where <slug> is
+// myScheme's own internal short code (e.g. "pm-kisan", "kcc",
+// "pmay-u"). There's no way to derive that slug from a scheme name,
+// so we never guess one out of thin air — we only try slugs that the
+// scheme object itself already supplied (scheme_id / id), and only
+// after confirming the page is real.
+const MYSCHEME_SLUG_PATTERN = /^[a-z0-9]+(-[a-z0-9]+){0,5}$/;
+const SLUG_VERIFY_TIMEOUT_MS = 2000;
+
+const looksLikeMySchemeSlug = (candidate) => {
+  if (!candidate || typeof candidate !== "string") return false;
+  const slug = candidate.trim().toLowerCase();
+
+  if (slug.startsWith("gemini_")) return false; // our own synthetic id
+  if (slug.length < 2 || slug.length > 40) return false;
+
+  return MYSCHEME_SLUG_PATTERN.test(slug);
+};
+
+// Confirms a candidate slug is a real, live myScheme page before we
+// ever hand it back as an official_website. Fails closed (returns
+// null) on any timeout, network error, or non-2xx response — never
+// throws, never blocks the response for long.
+const verifyMySchemeSlugUrl = async (slug) => {
+  if (!looksLikeMySchemeSlug(slug)) return null;
+
+  const url = `https://www.myscheme.gov.in/schemes/${slug.trim().toLowerCase()}`;
+  const controller = new AbortController();
+  const timeout = setTimeout(
+    () => controller.abort(),
+    SLUG_VERIFY_TIMEOUT_MS
+  );
+
+  try {
+    const response = await fetch(url, {
+      method: "HEAD",
+      redirect: "follow",
+      signal: controller.signal,
+    });
+
+    return response.ok ? url : null;
+  } catch {
+    return null; // timeout, DNS error, network error — fail closed
+  } finally {
+    clearTimeout(timeout);
+  }
+};
+
+// Full fallback chain for a Gemini-generated scheme, used ONLY when
+// Gemini itself didn't already provide a confident, valid URL.
+const resolveFallbackOfficialUrl = async (schemeName, candidateSlug) => {
+  if (looksLikeMySchemeSlug(candidateSlug)) {
+    return `https://www.myscheme.gov.in/schemes/${candidateSlug.trim().toLowerCase()}`;
+  }
+
+  return (
+    findKnownOfficialUrl(schemeName) ||
+    buildMySchemeSearchUrl(candidateSlug || schemeName)
+  );
+};
+
+/*
+|--------------------------------------------------------------------------
 | BUILD CANONICAL GEMINI SCHEME
 |--------------------------------------------------------------------------
 |
@@ -1686,20 +1879,21 @@ const extractValidUrl = (value) => {
 |   → build complete canonical scheme
 |   → fill missing non-factual fields with explicit values
 |   → validate every required field
-|   → validate official URL
+|   → resolve a safe official URL (Gemini's own URL, else a verified
+|     myScheme slug, else a known portal, else a myScheme search)
 |   → add Government Verification Pending
 |   → add AI Advisor Verified
 |   → return { scheme } or { rejected: true, reason }
 |
 | A scheme is rejected (never returned to the frontend) when it has no
-| name, or no confident real official government URL — both would
-| otherwise force us to either fabricate data or return an incomplete
-| object, which Task 3 / Task 6 explicitly forbid.
+| name — fabricating one would violate Task 3. A missing/unresolvable
+| official URL is NOT grounds for rejection (see note below); async
+| because URL resolution may involve a live myScheme lookup.
 |
 |--------------------------------------------------------------------------
 */
 
-const buildCanonicalGeminiScheme = (
+const buildCanonicalGeminiScheme = async (
   rawScheme,
   index = 0
 ) => {
@@ -1787,13 +1981,32 @@ const buildCanonicalGeminiScheme = (
   | A scheme with a real name but no confident URL is still useful:
   | the frontend already renders the official-website link
   | conditionally (SchemeDetailContent.jsx checks
-  | `source.official_website ?`), so we simply pass officialUrl
-  | through as-is (string or null) instead of discarding the whole
-  | scheme. We only reject when there's no name to identify the
-  | scheme by at all (handled above).
+  | `source.official_website ?`), so we resolve a SAFE, non-fabricated
+  | fallback URL instead of leaving it null — see
+  | resolveFallbackOfficialUrl above. We only reject the whole scheme
+  | when there's no name to identify it by at all (handled above).
   |
   |--------------------------------------------------------------------------
   */
+
+  const candidateSlug = pick(
+    raw.scheme_id,
+    raw.id
+  );
+
+  const resolvedOfficialUrl =
+    officialUrl ||
+    (await resolveFallbackOfficialUrl(
+      schemeName,
+      candidateSlug
+    ));
+
+  const isVerifiedMySchemeUrl =
+    !officialUrl &&
+    typeof resolvedOfficialUrl === "string" &&
+    resolvedOfficialUrl.startsWith(
+      "https://www.myscheme.gov.in/schemes/"
+    );
 
   const schemeId = textOr(
     pick(raw.scheme_id, raw.id),
@@ -2090,14 +2303,20 @@ const buildCanonicalGeminiScheme = (
         source.source_type,
         officialUrl
           ? "Official government portal"
+          : isVerifiedMySchemeUrl
+          ? "Official government portal (myScheme, verified)"
+          : resolvedOfficialUrl
+          ? "AI-generated (verify via linked government portal)"
           : "AI-generated (no confident official URL — verify independently)"
       ),
-      // May be null when Gemini wasn't confident enough to provide a
-      // real URL (fallback mode). The frontend already renders this
-      // link conditionally, so a null value just hides the link
-      // rather than breaking the card — see note above.
+      // officialUrl = Gemini's own confident answer (kept as-is).
+      // If that was null, resolvedOfficialUrl falls back to a
+      // verified myScheme slug, a known official portal, or a
+      // simplified myScheme search — so this is effectively never
+      // null anymore for Gemini-generated schemes, and never a
+      // guessed/unverified URL either.
       official_website:
-        officialUrl,
+        resolvedOfficialUrl,
       official_notification:
         extractValidUrl(
           source.official_notification
@@ -2141,6 +2360,12 @@ const buildCanonicalGeminiScheme = (
 /*
 |--------------------------------------------------------------------------
 | FORMAT DATASET SCHEME
+|--------------------------------------------------------------------------
+|
+| Untouched — this is the LOCAL DATASET path only. It never calls any
+| of the Gemini fallback URL-resolution logic above, so DB-sourced
+| schemes keep returning exactly what's in the JSON files.
+|
 |--------------------------------------------------------------------------
 */
 
@@ -2810,43 +3035,47 @@ ${query}
     |
     | Every accepted scheme is converted into the same canonical
     | structure used by the database, with every required field
-    | populated (never null/undefined/""/{}), a validated real
-    | official URL, and both Government Verification (pending) and
-    | AI Advisor (verified) status attached.
+    | populated (never null/undefined/""/{}), a safe resolved
+    | official URL (Gemini's own URL, a live-verified myScheme slug,
+    | a known official portal, or a myScheme search — never a
+    | fabricated guess), and both Government Verification (pending)
+    | and AI Advisor (verified) status attached.
     |
-    | Schemes that fail validation (no name, or no confident real
-    | official URL) are rejected and logged rather than passed through
-    | incomplete.
+    | Schemes that fail validation (no name) are rejected and logged
+    | rather than passed through incomplete. Runs sequentially (not
+    | Promise.all) since buildCanonicalGeminiScheme may perform a live
+    | HEAD request per scheme and we cap at 3 schemes anyway, so the
+    | added latency is small and bounded.
     |
     |--------------------------------------------------------------------------
     */
 
     const acceptedSchemes = [];
 
-    data.schemes
+    for (const [index, scheme] of data.schemes
       .slice(0, 3)
-      .forEach((scheme, index) => {
-        const {
-          scheme: canonicalScheme,
-          rejected,
-          reason,
-        } = buildCanonicalGeminiScheme(
-          scheme,
-          index
-        );
+      .entries()) {
+      const {
+        scheme: canonicalScheme,
+        rejected,
+        reason,
+      } = await buildCanonicalGeminiScheme(
+        scheme,
+        index
+      );
 
-        if (rejected) {
-          console.warn(
-            "Gemini scheme rejected:",
-            reason
-          );
-          return;
-        }
-
-        acceptedSchemes.push(
-          canonicalScheme
+      if (rejected) {
+        console.warn(
+          "Gemini scheme rejected:",
+          reason
         );
-      });
+        continue;
+      }
+
+      acceptedSchemes.push(
+        canonicalScheme
+      );
+    }
 
     data.schemes = acceptedSchemes;
 

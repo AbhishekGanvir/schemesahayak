@@ -12,7 +12,7 @@ export default function DisclaimerGateModal({ onAccept, onClose }) {
         <div className="w-12 h-12 mx-auto rounded-full bg-amber-100 text-amber-600 flex items-center justify-center text-xl mb-4">
           <i className="fa-solid fa-triangle-exclamation"></i>
         </div>
-        <h3 className="text-sm font-bold text-slate-900 mb-2">Please accept the disclaimer before using the AI assistant.</h3>
+        <h3 className="text-sm font-bold text-slate-900 mb-2">Please accept the disclaimer before using the AI Scheme Advisor.</h3>
         <p className="text-xs text-slate-500 leading-relaxed mb-5">
           Scheme Sahayak is a open source information platform and is not affiliated with the Government of India.
         </p>
